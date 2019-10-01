@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for raiffeisen.ch</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://raiffeisen.ch" target="_blank">raiffeisen.ch</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-06-28 - 2017-08-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="ruz.ch
+gstatic.com
+googleapis.com
+adobedtm.com
+omtrdc.net
+adform.net"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *; <b>default-src</b> khms1.googleapis.com fonts.googleapis.com ruz.ch api.raiffeisen.ch csi.gstatic.com 'self' maps.googleapis.com fonts.gstatic.com dmp.adform.net statistics.raiffeisen.ch 'unsafe-inline' 'unsafe-eval' maps.gstatic.com khms0.googleapis.com assets.adobedtm.com raiffeisen.d3.sc.omtrdc.net; <b>frame-src</b> *; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-08-16 - 2017-12-10</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="adobedtm.com
+googleapis.com"><pre>2</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ connect-src 'self' api.raiffeisen.ch
++ font-src 'self' fonts.googleapis.com fonts.gstatic.com
++ media-src 'self' ruz.ch
++ img-src khms1.googleapis.com csi.gstatic.com 'self' maps.googleapis.com dmp.adform.net www.homegate.ch statistics.raiffeisen.ch khms0.googleapis.com maps.gstatic.com
++ style-src 'self' fonts.googleapis.com 'unsafe-inline'
++ script-src 'self' maps.googleapis.com 'unsafe-inline' 'unsafe-eval' assets.adobedtm.com
+default-src
+- khms1.googleapis.com
+- api.raiffeisen.ch
+- maps.googleapis.com
+- fonts.gstatic.com
+- dmp.adform.net
+- 'unsafe-eval'
+- maps.gstatic.com
+- assets.adobedtm.com
+- fonts.googleapis.com
+- ruz.ch
+- csi.gstatic.com
+- statistics.raiffeisen.ch
+- 'unsafe-inline'
+- khms0.googleapis.com
+- raiffeisen.d3.sc.omtrdc.net"><pre>39</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *; <b>connect-src</b> 'self' api.raiffeisen.ch; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>frame-src</b> *; <b>img-src</b> khms1.googleapis.com csi.gstatic.com 'self' maps.googleapis.com dmp.adform.net www.homegate.ch statistics.raiffeisen.ch khms0.googleapis.com maps.gstatic.com; <b>media-src</b> 'self' ruz.ch; <b>script-src</b> 'self' maps.googleapis.com 'unsafe-inline' 'unsafe-eval' assets.adobedtm.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-11 - 2018-02-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="adobedtm.com
+googleapis.com"><pre>2</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ prod1.solid.rolotec.ch
++ statistics.raiffeisen.ch
++ www.homegate.ch"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *; <b>connect-src</b> api.raiffeisen.ch 'self' prod1.solid.rolotec.ch statistics.raiffeisen.ch www.homegate.ch; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>frame-src</b> *; <b>img-src</b> khms1.googleapis.com csi.gstatic.com 'self' maps.googleapis.com dmp.adform.net www.homegate.ch statistics.raiffeisen.ch khms0.googleapis.com maps.gstatic.com; <b>media-src</b> 'self' ruz.ch; <b>script-src</b> 'self' maps.googleapis.com 'unsafe-inline' 'unsafe-eval' assets.adobedtm.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-09 - 2018-04-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="adobedtm.com
+googleapis.com"><pre>2</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ dpm.demdex.net
+img-src
++ dpm.demdex.net
++ raiffeisen.demdex.net"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *; <b>connect-src</b> dpm.demdex.net api.raiffeisen.ch 'self' prod1.solid.rolotec.ch statistics.raiffeisen.ch www.homegate.ch; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>frame-src</b> *; <b>img-src</b> khms1.googleapis.com dpm.demdex.net csi.gstatic.com 'self' maps.googleapis.com dmp.adform.net www.homegate.ch statistics.raiffeisen.ch khms0.googleapis.com maps.gstatic.com raiffeisen.demdex.net; <b>media-src</b> 'self' ruz.ch; <b>script-src</b> 'self' maps.googleapis.com 'unsafe-inline' 'unsafe-eval' assets.adobedtm.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-13 - 2018-08-11</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="adobedtm.com
+googleapis.com"><pre>2</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ login.raiffeisen.ch
+script-src
++ login.raiffeisen.ch"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *; <b>connect-src</b> dpm.demdex.net api.raiffeisen.ch 'self' prod1.solid.rolotec.ch statistics.raiffeisen.ch www.homegate.ch login.raiffeisen.ch; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>frame-src</b> *; <b>img-src</b> khms1.googleapis.com dpm.demdex.net csi.gstatic.com 'self' maps.googleapis.com dmp.adform.net www.homegate.ch statistics.raiffeisen.ch khms0.googleapis.com maps.gstatic.com raiffeisen.demdex.net; <b>media-src</b> 'self' ruz.ch; <b>script-src</b> 'self' maps.googleapis.com 'unsafe-inline' 'unsafe-eval' assets.adobedtm.com login.raiffeisen.ch; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-12 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="googleapis.com"><pre>1</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ block-all-mixed-content 
+- frame-src *
+connect-src
++ export.highcharts.com
++ raiffeisen.tt.omtrdc.net
+img-src
++ export.highcharts.com
+script-src
+- assets.adobedtm.com"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> *; <b>connect-src</b> export.highcharts.com dpm.demdex.net api.raiffeisen.ch raiffeisen.tt.omtrdc.net 'self' prod1.solid.rolotec.ch statistics.raiffeisen.ch www.homegate.ch login.raiffeisen.ch; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>img-src</b> export.highcharts.com khms1.googleapis.com dpm.demdex.net csi.gstatic.com 'self' maps.googleapis.com dmp.adform.net www.homegate.ch statistics.raiffeisen.ch khms0.googleapis.com maps.gstatic.com raiffeisen.demdex.net; <b>media-src</b> 'self' ruz.ch; <b>script-src</b> 'self' maps.googleapis.com 'unsafe-inline' 'unsafe-eval' login.raiffeisen.ch; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

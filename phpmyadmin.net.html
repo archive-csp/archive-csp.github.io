@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for phpmyadmin.net</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://phpmyadmin.net" target="_blank">phpmyadmin.net</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-07-27 - 2016-09-16</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com"><pre>1</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> 'none'; <b>default-src</b> 'self'; <b>img-src</b> 'self' https://www.paypalobjects.com/ https://www.google-analytics.com/; <b>object-src</b> 'none'; <b>script-src</b> 'self' https://www.google-analytics.com/ 'unsafe-inline'; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-09-17 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com"><pre>1</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://stats.g.doubleclick.net/"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> 'none'; <b>default-src</b> 'self'; <b>img-src</b> 'self' https://www.paypalobjects.com/ https://www.google-analytics.com/ https://stats.g.doubleclick.net/; <b>object-src</b> 'none'; <b>script-src</b> 'self' https://www.google-analytics.com/ 'unsafe-inline'; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

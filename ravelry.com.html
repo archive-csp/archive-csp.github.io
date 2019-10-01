@@ -1,0 +1,678 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for ravelry.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://ravelry.com" target="_blank">ravelry.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-05-13 - 2014-05-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="newrelic.com
+twitter.com
+pinterest.com
+gstatic.com
+googleapis.com
+google-analytics.com
+ravelrycache.com
+facebook.com
+facebook.net
+google.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com *.youtube.com *.pinterest.com *.facebook.com chromenull://* 'self' webviewprogressproxy://* vine.co *.twitter.com chromeinvoke://* *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> maps.google.com *.gstatic.com connect.facebook.net https://www.google.com *.pinterest.com *.facebook.com *.ravelry.com *.googleapis.com *.ravelrycache.com 'self' *.newrelic.com 'unsafe-inline' 'unsafe-eval' platform.twitter.com https://*.pinterest.com https://www.ravelry.com *.google-analytics.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-05-24 - 2014-08-24</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+pinterest.com
+googleapis.com
+gstatic.com
+google-analytics.com
+ravelrycache.com
+facebook.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://maps.gstatic.com
++ maps.googleapis.com
++ https://www.dropbox.com
++ https://*.googleapis.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com *.youtube.com *.pinterest.com *.facebook.com chromenull://* 'self' webviewprogressproxy://* vine.co *.twitter.com chromeinvoke://* *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net https://www.dropbox.com *.googleapis.com 'self' 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-08-25 - 2015-02-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+pinterest.com
+googleapis.com
+gstatic.com
+google-analytics.com
+ravelrycache.com
+facebook.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://*.facebook.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com *.youtube.com *.pinterest.com https://*.facebook.com *.facebook.com chromenull://* 'self' webviewprogressproxy://* vine.co *.twitter.com chromeinvoke://* *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net https://www.dropbox.com *.googleapis.com 'self' 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-03-01 - 2015-09-14</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+facebook.net
+google.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ bam.nr-data.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com *.youtube.com *.pinterest.com https://*.facebook.com *.facebook.com chromenull://* 'self' webviewprogressproxy://* vine.co *.twitter.com chromeinvoke://* *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-09-15 - 2015-10-22</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+facebook.net
+google.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://*.buffer.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com *.youtube.com *.pinterest.com https://*.facebook.com *.facebook.com https://*.buffer.com chromenull://* 'self' webviewprogressproxy://* vine.co *.twitter.com chromeinvoke://* *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-10-23 - 2016-02-14</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://www.amazon.com
+script-src
++ https://www.amazon.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com *.youtube.com *.pinterest.com https://*.facebook.com *.facebook.com https://*.buffer.com chromenull://* 'self' https://www.amazon.com vine.co webviewprogressproxy://* *.twitter.com chromeinvoke://* *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-02-15 - 2016-08-07</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://player.vimeo.com
++ https://*.vimeo.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com *.youtube.com https://*.vimeo.com *.pinterest.com https://*.facebook.com *.facebook.com https://*.buffer.com chromenull://* 'self' https://www.amazon.com vine.co webviewprogressproxy://* *.twitter.com https://player.vimeo.com chromeinvoke://* *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-08-08 - 2017-03-26</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://accounts.google.com
++ https://docs.google.com
+script-src
++ https://apis.google.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> https://accounts.google.com *.youtube.com *.vimeocdn.com https://*.vimeo.com https://*.facebook.com *.pinterest.com *.facebook.com https://*.buffer.com chromenull://* 'self' https://www.amazon.com vine.co webviewprogressproxy://* *.twitter.com https://player.vimeo.com chromeinvoke://* https://docs.google.com *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com https://apis.google.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-27 - 2017-04-27</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ ws://websocket2.ravelry.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> ws://websocket2.ravelry.com translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> https://accounts.google.com *.youtube.com *.vimeocdn.com https://*.vimeo.com https://*.facebook.com *.pinterest.com *.facebook.com https://*.buffer.com chromenull://* 'self' https://www.amazon.com vine.co webviewprogressproxy://* *.twitter.com https://player.vimeo.com chromeinvoke://* https://docs.google.com *.vimeo.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com https://apis.google.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-28 - 2017-09-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ ws://websocket3.ravelry.com
+frame-src
++ *.google.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> ws://websocket2.ravelry.com translate.googleapis.com *.ravelry.com ws://websocket.ravelry.com 'self' https://www.ravelry.com ws://websocket3.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.twitter.com *.youtube.com https://*.vimeo.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://*; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com *.ravelry.com 'self' *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com *.newrelic.com https://www.ravelry.com https://apis.google.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-09-22 - 2017-09-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- ws://websocket.ravelry.com
+- ws://websocket2.ravelry.com
+- ws://websocket3.ravelry.com
++ wss://*.ravelry.com
++ ws://*.ravelry.com
+frame-src
+- https://*.vimeo.com
++ https://*.youtube.com
+object-src
++ https://*.youtube.com
++ https://*.vimeo.com
+script-src
++ https://*.ravelrycache.com
++ https://*.newrelic.com"><pre>11</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> ws://*.ravelry.com translate.googleapis.com *.ravelry.com 'self' wss://*.ravelry.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.twitter.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://*; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://apis.google.com *.gstatic.com https://www.google.com *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-09-29 - 2017-09-30</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- report-uri report
+connect-src
+- wss://*.ravelry.com
+- ws://*.ravelry.com
++ wss://websocket2.ravelry.com
++ ws://websocket2.ravelry.com
+script-src
++ https://ban.nr-data.net"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://websocket2.ravelry.com ws://websocket2.ravelry.com translate.googleapis.com *.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.twitter.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://*; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-01 - 2017-11-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ wss://websocket.ravelry.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://websocket2.ravelry.com wss://websocket.ravelry.com ws://websocket2.ravelry.com translate.googleapis.com *.ravelry.com 'self' https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.twitter.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://*; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-11-20 - 2017-11-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+ravelrycache.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
+- *.twitter.com
++ https://*.twitter.com
+connect-src
++ https://syndication.twitter.com
++ syndication.twitter.com
+script-src
+- platform.twitter.com
++ https://*.twitter.com"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://websocket2.ravelry.com wss://websocket.ravelry.com ws://websocket2.ravelry.com translate.googleapis.com *.ravelry.com syndication.twitter.com 'self' https://syndication.twitter.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-11-24 - 2018-02-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+pusher.com
+ravelrycache.com
+chatlio.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>15</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- https://syndication.twitter.com
+- ws://websocket2.ravelry.com
++ https://*.chatlio.com
++ wss://*.pusherapp.com
++ https://*.pusher.com
+script-src
++ https://*.chatlio.com
++ https://*.pusher.com"><pre>7</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.chatlio.com wss://websocket2.ravelry.com wss://websocket.ravelry.com translate.googleapis.com *.ravelry.com syndication.twitter.com 'self' https://*.pusher.com wss://*.pusherapp.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com https://*.pusher.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://*.chatlio.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-24 - 2018-03-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="frontapp.com
+dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+pusher.com
+ravelrycache.com
+chatlio.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://*.frontapp.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.chatlio.com wss://websocket2.ravelry.com wss://websocket.ravelry.com translate.googleapis.com *.ravelry.com syndication.twitter.com 'self' https://*.pusher.com wss://*.pusherapp.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com https://*.pusher.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com https://*.frontapp.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://*.chatlio.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-06 - 2018-05-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="frontapp.com
+dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+pusher.com
+ravelrycache.com
+chatlio.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://www2.ravelry.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.chatlio.com wss://websocket2.ravelry.com wss://websocket.ravelry.com translate.googleapis.com *.ravelry.com https://www2.ravelry.com syndication.twitter.com 'self' https://*.pusher.com wss://*.pusherapp.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com https://*.pusher.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com https://*.frontapp.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://*.chatlio.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-05-22 - 2018-06-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="frontapp.com
+dropbox.com
+newrelic.com
+amazonaws.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+crazyegg.com
+pusher.com
+ravelrycache.com
+chatlio.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>18</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://*.amazonaws.com
++ https://*.crazyegg.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.chatlio.com wss://websocket2.ravelry.com wss://websocket.ravelry.com translate.googleapis.com *.ravelry.com https://www2.ravelry.com syndication.twitter.com 'self' https://*.pusher.com wss://*.pusherapp.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://*.amazonaws.com https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com https://*.pusher.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com https://*.frontapp.com https://*.crazyegg.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://*.chatlio.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-06-06 - 2018-11-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="frontapp.com
+dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+pusher.com
+ravelrycache.com
+chatlio.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://*.amazonaws.com
+- https://*.crazyegg.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.chatlio.com wss://websocket2.ravelry.com wss://websocket.ravelry.com translate.googleapis.com *.ravelry.com https://www2.ravelry.com syndication.twitter.com 'self' https://*.pusher.com wss://*.pusherapp.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com https://*.pusher.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com https://*.frontapp.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://*.chatlio.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>19</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-30 - 2018-12-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="frontapp.com
+dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+pusher.com
+ravelrycache.com
+chatlio.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ bam.nr-data.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.chatlio.com wss://websocket2.ravelry.com bam.nr-data.net wss://websocket.ravelry.com translate.googleapis.com *.ravelry.com https://www2.ravelry.com syndication.twitter.com 'self' https://*.pusher.com wss://*.pusherapp.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com https://*.pusher.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com https://*.frontapp.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://*.chatlio.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>20</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-26 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="frontapp.com
+dropbox.com
+newrelic.com
+twitter.com
+googleapis.com
+pinterest.com
+gstatic.com
+nr-data.net
+google-analytics.com
+pusher.com
+ravelrycache.com
+chatlio.com
+facebook.com
+amazon.com
+facebook.net
+google.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- bam.nr-data.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.chatlio.com wss://websocket2.ravelry.com wss://websocket.ravelry.com translate.googleapis.com *.ravelry.com https://www2.ravelry.com syndication.twitter.com 'self' https://*.pusher.com wss://*.pusherapp.com https://www.ravelry.com; <b>frame-src</b> *.vimeocdn.com https://*.facebook.com https://*.buffer.com 'self' https://www.amazon.com https://*.youtube.com https://player.vimeo.com https://accounts.google.com *.pinterest.com *.facebook.com *.google.com *.youtube.com chromenull://* https://docs.google.com *.vimeo.com webviewprogressproxy://* vine.co chromeinvoke://* https://*.twitter.com; <b>object-src</b> *.vimeocdn.com *.youtube.com *.gstatic.com https://*.vimeo.com *.ravelry.com 'self' https://*.youtube.com *.etsy.com *.macromedia.com *.vimeo.com; <b>script-src</b> connect.facebook.net bam.nr-data.net https://www.dropbox.com *.googleapis.com 'self' https://www.amazon.com 'unsafe-eval' maps.google.com *.pinterest.com *.facebook.com https://*.pusher.com 'unsafe-inline' https://maps.gstatic.com https://*.pinterest.com https://*.newrelic.com *.google-analytics.com https://*.googleapis.com https://*.frontapp.com maps.googleapis.com https://*.ravelrycache.com *.newrelic.com https://www.ravelry.com https://*.chatlio.com https://apis.google.com *.gstatic.com https://www.google.com https://ban.nr-data.net *.ravelry.com *.ravelrycache.com https://*.twitter.com; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

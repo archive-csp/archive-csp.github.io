@@ -1,0 +1,838 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for verkkokauppa.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://verkkokauppa.com" target="_blank">verkkokauppa.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-08 - 2017-09-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-06 - 2018-01-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>21</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ frame-ancestors 'none'
++ connect-src https://recs.richrelevance.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://www.google-analytics.com https://capture.trackjs.com
++ font-src 'self' fonts.googleapis.com fonts.gstatic.com
++ default-src *.verkkokauppa.com
++ report-uri report
++ frame-src www.youtube.com www.googletagmanager.com www.google.com *.doubleclick.net accounts.google.com staticxx.facebook.com www.facebook.com
++ img-src data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com
++ style-src 'self' fonts.googleapis.com 'unsafe-inline'
++ base-uri 'self'
++ script-src connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com *.google-analytics.com www.google.no www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net www.google.pl *.verkkokauppa.com
+- upgrade-insecure-requests "><pre>74</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://www.google-analytics.com https://capture.trackjs.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com www.googletagmanager.com www.google.com *.doubleclick.net accounts.google.com staticxx.facebook.com www.facebook.com; <b>img-src</b> data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com *.google-analytics.com www.google.no www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net www.google.pl *.verkkokauppa.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-10 - 2018-02-16</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>22</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ form-action 'self'
+connect-src
++ https://api.instagram.com
+frame-src
++ player.twitch.tv
++ https://view.24mags.com/schedule/verkkokauppa.com/
++ *.instagram.com
+img-src
++ *.instagram.com
+script-src
++ *.instagram.com"><pre>7</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://www.google-analytics.com https://capture.trackjs.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self'; <b>frame-ancestors</b> 'none'; <b>frame-src</b> player.twitch.tv www.youtube.com https://view.24mags.com/schedule/verkkokauppa.com/ www.googletagmanager.com www.google.com *.doubleclick.net accounts.google.com staticxx.facebook.com www.facebook.com *.instagram.com; <b>img-src</b> data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com *.google-analytics.com www.google.no www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-27 - 2018-03-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>22</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://www.google-analytics.com https://capture.trackjs.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self'; <b>frame-ancestors</b> 'none'; <b>frame-src</b> player.twitch.tv www.youtube.com https://view.24mags.com/schedule/verkkokauppa.com/ www.googletagmanager.com www.google.com *.doubleclick.net accounts.google.com staticxx.facebook.com www.facebook.com *.instagram.com; <b>img-src</b> data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com *.google-analytics.com www.google.no www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-06 - 2018-03-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>22</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="form-action
++ connect.facebook.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://www.google-analytics.com https://capture.trackjs.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> player.twitch.tv www.youtube.com https://view.24mags.com/schedule/verkkokauppa.com/ www.googletagmanager.com www.google.com *.doubleclick.net accounts.google.com staticxx.facebook.com www.facebook.com *.instagram.com; <b>img-src</b> data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com *.google-analytics.com www.google.no www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-06 - 2018-04-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+hotjar.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>24</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ object-src 'none'
+frame-ancestors
+- 'none'
++ 'self'
+connect-src
++ https://login.microsoftonline.com
++ https://*.facebook.com
++ *.hotjar.com
+font-src
++ static.hotjar.com
+frame-src
+- accounts.google.com
+- www.google.com
+- staticxx.facebook.com
+- www.facebook.com
++ login.live.com
++ connect.facebook.net
++ *.facebook.com
++ 'self'
++ login.microsoftonline.com
++ *.google.com
++ *.hotjar.com
+img-src
++ *.googletagmanager.com
++ *.hotjar.com
+script-src
++ secure.aadcdn.microsoftonline-p.com
++ *.hotjar.com"><pre>22</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://*.facebook.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com *.hotjar.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com static.hotjar.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.hotjar.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.hotjar.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' *.hotjar.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-11 - 2018-04-13</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+hotjar.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>24</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://*.facebook.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com *.hotjar.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com static.hotjar.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.hotjar.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.hotjar.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' *.hotjar.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-15 - 2018-04-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+hotjar.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>24</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://*.facebook.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com *.hotjar.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com static.hotjar.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.hotjar.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.hotjar.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' *.hotjar.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-30 - 2018-05-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+hotjar.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>24</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- *.hotjar.com
++ wss://*.hotjar.com
++ https://*.hotjar.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://*.facebook.com https://api.instagram.com wss://*.hotjar.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://*.hotjar.com https://capture.trackjs.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com static.hotjar.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.hotjar.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.hotjar.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' *.hotjar.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-05-06 - 2018-05-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+hotjar.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>24</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://*.facebook.com https://api.instagram.com wss://*.hotjar.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://*.hotjar.com https://capture.trackjs.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com static.hotjar.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.hotjar.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: ad.360yield.com *.hotjar.com *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' *.hotjar.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-05-15 - 2018-05-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>23</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- wss://*.hotjar.com
+- https://*.hotjar.com
+font-src
+- static.hotjar.com
+frame-src
+- *.hotjar.com
+img-src
+- ad.360yield.com
+- *.hotjar.com
+script-src
+- *.hotjar.com"><pre>7</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://recs.richrelevance.com https://*.facebook.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-06-18 - 2018-06-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>23</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- https://recs.richrelevance.com
++ https://*.richrelevance.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://*.facebook.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com https://*.richrelevance.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-07 - 2018-07-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>23</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://*.facebook.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com https://*.richrelevance.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-20 - 2018-07-22</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>23</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ blob:"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://*.facebook.com https://api.instagram.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com https://*.richrelevance.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com img.youtube.com www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' blob: www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-12 - 2018-08-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+doubleclick.net
+google.pl
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>23</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- https://api.instagram.com
++ https://*.instagram.com
+frame-src
++ livestream.com
+img-src
++ *.cdninstagram.com
+style-src
++ *.instagram.com"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://*.facebook.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com https://*.instagram.com https://*.richrelevance.com; <b>default-src</b> *.verkkokauppa.com; <b>font-src</b> 'self' fonts.googleapis.com fonts.gstatic.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net livestream.com login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com www.google.fi img.youtube.com *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.cdninstagram.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' blob: www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline' *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-15 - 2018-10-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="zdassets.com
+microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+verk.net
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+zopim.com
+doubleclick.net
+google.pl
+cloudflare.com
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>27</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://*.zopim.com
++ wss://*.zopim.com
++ https://*.zendesk.com
++ https://*.zdassets.com
+font-src
++ data:
++ v2.zopim.com
+default-src
++ https://*.verk.net
+img-src
++ https://*.verk.net
++ v2.zopim.com
+script-src
++ *.zopim.com
++ *.zdassets.com
++ https://*.verk.net
++ cdnjs.cloudflare.com"><pre>13</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://*.facebook.com https://*.zdassets.com https://*.zopim.com wss://*.zopim.com https://*.zendesk.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com https://*.instagram.com https://*.richrelevance.com; <b>default-src</b> https://*.verk.net *.verkkokauppa.com; <b>font-src</b> data: fonts.googleapis.com 'self' fonts.gstatic.com v2.zopim.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net livestream.com login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com www.google.fi img.youtube.com *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee v2.zopim.com www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.cdninstagram.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' blob: *.zopim.com *.zdassets.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru cdnjs.cloudflare.com www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline' *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-28 - 2018-10-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="zdassets.com
+microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+verk.net
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+zopim.com
+doubleclick.net
+google.pl
+cloudflare.com
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>27</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="style-src
++ https://*.verk.net
++ *.verkkokauppa.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://*.facebook.com https://*.zdassets.com https://*.zopim.com wss://*.zopim.com https://*.zendesk.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com https://*.instagram.com https://*.richrelevance.com; <b>default-src</b> https://*.verk.net *.verkkokauppa.com; <b>font-src</b> data: fonts.googleapis.com 'self' fonts.gstatic.com v2.zopim.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net livestream.com login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com www.google.fi img.youtube.com *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee v2.zopim.com www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.cdninstagram.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' blob: *.zopim.com *.zdassets.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru cdnjs.cloudflare.com www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com *.instagram.com; <b>style-src</b> fonts.googleapis.com 'self' 'unsafe-inline' *.verkkokauppa.com https://*.verk.net *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-19 - 2018-12-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="zdassets.com
+microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+verk.net
+polyfill.io
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+zopim.com
+doubleclick.net
+google.pl
+cloudflare.com
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>28</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://cdn.verk.net
+script-src
++ cdn.polyfill.io"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self'; <b>connect-src</b> https://*.facebook.com https://*.zdassets.com https://*.zopim.com wss://*.zopim.com https://*.zendesk.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://capture.trackjs.com https://*.instagram.com https://*.richrelevance.com https://cdn.verk.net; <b>default-src</b> https://*.verk.net *.verkkokauppa.com; <b>font-src</b> data: fonts.googleapis.com 'self' fonts.gstatic.com v2.zopim.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net livestream.com login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi usage.trackjs.com www.google.fi img.youtube.com *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee v2.zopim.com www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.cdninstagram.com *.instagram.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' blob: *.zopim.com *.zdassets.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru cdnjs.cloudflare.com www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com cdn.polyfill.io *.instagram.com; <b>style-src</b> fonts.googleapis.com 'self' 'unsafe-inline' *.verkkokauppa.com https://*.verk.net *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-31 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="zdassets.com
+microsoftonline-p.com
+google.ee
+google.se
+google.ru
+facebook.com
+google.fi
+google-analytics.com
+google.co.uk
+verk.net
+polyfill.io
+instagram.com
+googleapis.com
+cloudfront.net
+google.com
+freshrelevance.com
+zopim.com
+doubleclick.net
+google.pl
+cloudflare.com
+gstatic.com
+google.de
+ampproject.org
+googletagmanager.com
+google.nl
+googleadservices.com
+facebook.net
+google.no"><pre>28</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ media-src 'self' https://v2.zopim.com
+connect-src
++ https://translate.googleapis.com
+img-src
+- usage.trackjs.com
++ cx.atdmt.com
++ *.trackjs.com
+style-src
++ translate.googleapis.com
+base-uri
++ capture.trackjs.com"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>base-uri</b> 'self' capture.trackjs.com; <b>connect-src</b> https://*.facebook.com https://*.zdassets.com https://capture.trackjs.com https://*.zopim.com wss://*.zopim.com https://*.zendesk.com https://stats.g.doubleclick.net 'self' wss://am.freshrelevance.com https://am.freshrelevance.com https://login.microsoftonline.com https://www.google-analytics.com https://translate.googleapis.com https://*.instagram.com https://*.richrelevance.com https://cdn.verk.net; <b>default-src</b> https://*.verk.net *.verkkokauppa.com; <b>font-src</b> data: fonts.googleapis.com 'self' fonts.gstatic.com v2.zopim.com; <b>form-action</b> 'self' connect.facebook.net; <b>frame-ancestors</b> 'self'; <b>frame-src</b> player.twitch.tv connect.facebook.net www.youtube.com *.facebook.com https://view.24mags.com/schedule/verkkokauppa.com/ *.instagram.com 'self' www.googletagmanager.com *.doubleclick.net livestream.com login.microsoftonline.com *.google.com login.live.com; <b>img-src</b> *.googletagmanager.com data: www.google.de cx.atdmt.com *.googleapis.com 'self' i.ytimg.com *.doubleclick.net www.gstatic.com blob: *.facebook.com adsby.improveads.fi www.google.fi img.youtube.com *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru www.google.se www.google.ee v2.zopim.com *.trackjs.com www.google.nl www.google.co.uk www.google.pl *.verkkokauppa.com *.bazaarvoice.com *.cdninstagram.com *.instagram.com; <b>media-src</b> 'self' https://v2.zopim.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> connect.facebook.net graph.facebook.com www.google.de *.googleapis.com 'self' *.doubleclick.net am.freshrelevance.com www.gstatic.com 'unsafe-eval' blob: *.zopim.com *.zdassets.com www.googleadservices.com www.googletagmanager.com 'unsafe-inline' www.google.fi *.google.com https://*.verk.net www.google.no *.google-analytics.com www.google.ru cdnjs.cloudflare.com www.google.se www.google.ee www.google.nl cdn.ampproject.org www.google.co.uk *.cloudfront.net secure.aadcdn.microsoftonline-p.com www.google.pl *.verkkokauppa.com cdn.polyfill.io *.instagram.com; <b>style-src</b> translate.googleapis.com fonts.googleapis.com 'self' 'unsafe-inline' *.verkkokauppa.com https://*.verk.net *.instagram.com; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

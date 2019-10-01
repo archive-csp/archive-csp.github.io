@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for nrk.no</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://nrk.no" target="_blank">nrk.no</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-05-24 - 2017-06-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' wss://*.pusherapp.com; <b>default-src</b> 'self' https://*.nrk.no; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://www.google-analytics.com; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-06-09 - 2017-06-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://cookie.norstatsurveys.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' wss://*.pusherapp.com; <b>default-src</b> 'self' https://*.nrk.no; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://cookie.norstatsurveys.com https://www.google-analytics.com; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-06-21 - 2017-06-30</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ frame-src 'self' https://*.chartbeat.com https://chartbeat.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' wss://*.pusherapp.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://cookie.norstatsurveys.com https://www.google-analytics.com; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-07-01 - 2017-09-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ media-src https://pmd-nrk.akamaized.net
+img-src
++ https://pmd-nrk.akamaized.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' wss://*.pusherapp.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://cookie.norstatsurveys.com https://www.google-analytics.com https://pmd-nrk.akamaized.net; <b>media-src</b> https://pmd-nrk.akamaized.net; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-09-07 - 2017-09-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://*.akamaized.net
++ https://*.akamaihd.net
+media-src
+- https://pmd-nrk.akamaized.net
++ blob:
++ https://*.akamaized.net
++ https://*.akamaihd.net
+img-src
+- https://cookie.norstatsurveys.com
+- https://pmd-nrk.akamaized.net
++ https://*.akamaized.net
++ https://*.akamaihd.net"><pre>10</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' https://*.akamaihd.net wss://*.pusherapp.com https://*.akamaized.net; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://www.google-analytics.com https://*.akamaized.net; <b>media-src</b> blob: https://*.akamaihd.net https://*.akamaized.net; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-09-20 - 2017-10-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="azureedge.net
+chartbeat.net
+pusher.com
+chartbeat.com
+google-analytics.com
+lp4.io"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://pmd-nrk.akamaized.net
++ https://nrk-front-static.azureedge.net
+script-src
++ https://nrk-front-static.azureedge.net"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' https://*.akamaihd.net wss://*.pusherapp.com https://*.akamaized.net; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://nrk-front-static.azureedge.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://www.google-analytics.com https://*.akamaized.net https://pmd-nrk.akamaized.net; <b>media-src</b> blob: https://*.akamaihd.net https://*.akamaized.net; <b>script-src</b> https://*.google-analytics.com https://nrk-front-static.azureedge.net https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-02 - 2017-10-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
+- https://nrk-front-static.azureedge.net
+script-src
+- https://nrk-front-static.azureedge.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' https://*.akamaihd.net wss://*.pusherapp.com https://*.akamaized.net; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://www.google-analytics.com https://*.akamaized.net https://pmd-nrk.akamaized.net; <b>media-src</b> blob: https://*.akamaihd.net https://*.akamaized.net; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-07 - 2017-12-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://*.linkpulse.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' https://*.akamaihd.net wss://*.pusherapp.com https://*.akamaized.net; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://www.google-analytics.com https://*.akamaized.net https://pmd-nrk.akamaized.net; <b>media-src</b> blob: https://*.akamaihd.net https://*.akamaized.net; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-21 - 2018-01-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+scorecardresearch.com
+chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://*.scorecardresearch.com
+img-src
++ https://*.scorecardresearch.com
+script-src
++ https://*.scorecardresearch.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com wss://*.pusherapp.com https://*.akamaized.net; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com https://*.akamaized.net https://pmd-nrk.akamaized.net; <b>media-src</b> blob: https://*.akamaihd.net https://*.akamaized.net; <b>script-src</b> https://*.google-analytics.com https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-24 - 2018-04-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+scorecardresearch.com
+chartbeat.net
+google-analytics.com
+chartbeat.com
+pusher.com
+lp4.io"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://www.google-analytics.com
+script-src
+- https://*.google-analytics.com
++ https://www.google-analytics.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no wss://*.pusher.com https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com wss://*.pusherapp.com https://*.akamaized.net; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com https://*.akamaized.net https://pmd-nrk.akamaized.net; <b>media-src</b> blob: https://*.akamaihd.net https://*.akamaized.net; <b>script-src</b> https://*.chartbeat.com https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-19 - 2018-04-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+conviva.com
+scorecardresearch.com
+edgekey.net
+chartbeat.net
+gstatic.com
+google-analytics.com
+chartbeat.com
+tns-cs.net
+pusher.com
+lp4.io"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://*.telenorcdn.net
++ https://ssl-nrkstream.tns-cs.net
++ https://ma93-r.analytics.edgekey.net
++ https://*.qbrick.com
++ https://cws.conviva.com
+media-src
++ data:
++ https://*.telenorcdn.net
++ https://*.qbrick.com
++ https://*.nrk.no
+img-src
++ https://ssl-nrkstream.tns-cs.net
++ https://ma93-r.analytics.edgekey.net
+script-src
++ https://www.gstatic.com
++ https://ssl-nrkstream.tns-cs.net
++ blob:
++ https://ma93-r.analytics.edgekey.net
++ https://cws.conviva.com"><pre>16</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no https://*.telenorcdn.net https://*.qbrick.com wss://*.pusher.com https://ssl-nrkstream.tns-cs.net https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com wss://*.pusherapp.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://cws.conviva.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.tns-cs.net https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://pmd-nrk.akamaized.net; <b>media-src</b> data: https://*.telenorcdn.net https://*.nrk.no https://*.akamaihd.net blob: https://*.qbrick.com https://*.akamaized.net; <b>script-src</b> https://*.chartbeat.com https://www.gstatic.com https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com blob: https://ma93-r.analytics.edgekey.net https://cws.conviva.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-21 - 2018-05-10</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+conviva.com
+scorecardresearch.com
+edgekey.net
+chartbeat.net
+gstatic.com
+google-analytics.com
+chartbeat.com
+tns-cs.net
+pusher.com
+lp4.io"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://*.googleusercontent.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no https://*.telenorcdn.net https://*.qbrick.com wss://*.pusher.com https://ssl-nrkstream.tns-cs.net https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com wss://*.pusherapp.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://cws.conviva.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.googleusercontent.com https://*.tns-cs.net https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://pmd-nrk.akamaized.net; <b>media-src</b> data: https://*.telenorcdn.net https://*.nrk.no https://*.akamaihd.net blob: https://*.qbrick.com https://*.akamaized.net; <b>script-src</b> https://*.chartbeat.com https://www.gstatic.com https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com blob: https://ma93-r.analytics.edgekey.net https://cws.conviva.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-05-11 - 2018-05-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+conviva.com
+scorecardresearch.com
+edgekey.net
+chartbeat.net
+gstatic.com
+google-analytics.com
+chartbeat.com
+tns-cs.net
+pusher.com
+lp4.io"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
+- https://pmd-nrk.akamaized.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no https://*.telenorcdn.net https://*.qbrick.com wss://*.pusher.com https://ssl-nrkstream.tns-cs.net https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com wss://*.pusherapp.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://cws.conviva.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.googleusercontent.com https://*.tns-cs.net https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net *.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net; <b>media-src</b> data: https://*.telenorcdn.net https://*.nrk.no https://*.akamaihd.net blob: https://*.qbrick.com https://*.akamaized.net; <b>script-src</b> https://*.chartbeat.com https://www.gstatic.com https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com blob: https://ma93-r.analytics.edgekey.net https://cws.conviva.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-05-24 - 2018-07-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+conviva.com
+scorecardresearch.com
+edgekey.net
+chartbeat.net
+gstatic.com
+google-analytics.com
+chartbeat.com
+tns-cs.net
+pusher.com
+lp4.io"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
+- *.lp4.io
++ https://*.linkpulse.com
++ https://*.lp4.io"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no https://*.telenorcdn.net https://*.qbrick.com wss://*.pusher.com https://ssl-nrkstream.tns-cs.net https://*.nrk.no 'self' https://*.akamaihd.net https://*.scorecardresearch.com https://www.google-analytics.com wss://*.pusherapp.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://cws.conviva.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.googleusercontent.com https://*.tns-cs.net https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net; <b>media-src</b> data: https://*.telenorcdn.net https://*.nrk.no https://*.akamaihd.net blob: https://*.qbrick.com https://*.akamaized.net; <b>script-src</b> https://*.chartbeat.com https://www.gstatic.com https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com blob: https://ma93-r.analytics.edgekey.net https://cws.conviva.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-06 - 2018-12-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+conviva.com
+scorecardresearch.com
+edgekey.net
+chartbeat.net
+gstatic.com
+google-analytics.com
+chartbeat.com
+tns-cs.net
+pusher.com
+lp4.io"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://*.linkpulse.com
++ https://*.lp4.io"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no https://*.telenorcdn.net https://*.qbrick.com wss://*.pusher.com https://ssl-nrkstream.tns-cs.net https://*.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com wss://*.pusherapp.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://cws.conviva.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.googleusercontent.com https://*.tns-cs.net https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net; <b>media-src</b> data: https://*.telenorcdn.net https://*.nrk.no https://*.akamaihd.net blob: https://*.qbrick.com https://*.akamaized.net; <b>script-src</b> https://*.chartbeat.com https://www.gstatic.com https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com blob: https://ma93-r.analytics.edgekey.net https://cws.conviva.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-06 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="linkpulse.com
+conviva.com
+scorecardresearch.com
+edgekey.net
+chartbeat.net
+gstatic.com
+google-analytics.com
+chartbeat.com
+tns-cs.net
+pusher.com
+lp4.io"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://nrk-datahub.appspot.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.nrk.no https://*.telenorcdn.net https://*.qbrick.com wss://*.pusher.com https://ssl-nrkstream.tns-cs.net https://nrk-datahub.appspot.com https://*.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com wss://*.pusherapp.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net https://cws.conviva.com; <b>default-src</b> 'self' https://*.nrk.no; <b>frame-src</b> 'self' https://*.chartbeat.com https://chartbeat.com; <b>img-src</b> data: https://*.googleusercontent.com https://*.tns-cs.net https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.akamaihd.net https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com https://ma93-r.analytics.edgekey.net https://*.akamaized.net; <b>media-src</b> data: https://*.telenorcdn.net https://*.nrk.no https://*.akamaihd.net blob: https://*.qbrick.com https://*.akamaized.net; <b>script-src</b> https://*.chartbeat.com https://www.gstatic.com https://ssl-nrkstream.tns-cs.net https://*.chartbeat.net https://*.lp4.io https://*.nrk.no 'self' https://*.pusher.com https://*.linkpulse.com https://*.scorecardresearch.com https://www.google-analytics.com blob: https://ma93-r.analytics.edgekey.net https://cws.conviva.com; <b>style-src</b> 'self' https: 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

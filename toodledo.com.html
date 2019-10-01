@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for toodledo.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://toodledo.com" target="_blank">toodledo.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-05-03 - 2014-10-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+twitter.com
+gstatic.com
+googleapis.com
+filepicker.io
+cloudfront.net
+googleadservices.com
+google-analytics.com
+stripe.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com http://*.toodledo.com http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-10-06 - 2015-07-11</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="twitter.com
+gstatic.com
+googleapis.com
+filepicker.io
+google-analytics.com
+cloudfront.net
+googleadservices.com
+google.com
+stripe.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://*.google.com
++ http://*.google.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://*.google.com http://*.toodledo.com http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-07-12 - 2015-08-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="hotjar.com
+twitter.com
+gstatic.com
+googleapis.com
+filepicker.io
+google-analytics.com
+cloudfront.net
+googleadservices.com
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ http://static.hotjar.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> http://static.hotjar.com https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://*.google.com http://*.toodledo.com http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-08-13 - 2016-09-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="twitter.com
+gstatic.com
+googleapis.com
+filepicker.io
+google-analytics.com
+cloudfront.net
+googleadservices.com
+facebook.net
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- http://static.hotjar.com
++ http://connect.facebook.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://*.google.com http://*.toodledo.com http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-09-16 - 2018-07-16</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="twitter.com
+gstatic.com
+googleapis.com
+filepicker.io
+pinterest.com
+google-analytics.com
+cloudfront.net
+googleadservices.com
+facebook.net
+google.com
+stripe.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ http://assets.pinterest.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://assets.pinterest.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://*.google.com http://*.toodledo.com http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-17 - 2018-08-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+twitter.com
+gstatic.com
+googleapis.com
+filepicker.io
+pinterest.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+googleadservices.com
+facebook.net
+google.com
+stripe.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://www.googletagmanager.com
++ https://googleads.g.doubleclick.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net https://www.googletagmanager.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://assets.pinterest.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://*.google.com http://*.toodledo.com http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-13 - 2018-08-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+twitter.com
+optimizely.com
+gstatic.com
+googleapis.com
+filepicker.io
+pinterest.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+googleadservices.com
+facebook.net
+google.com
+stripe.com"><pre>14</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://cdn.optimizely.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net https://www.googletagmanager.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://assets.pinterest.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://cdn.optimizely.com https://*.google.com http://*.toodledo.com http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-20 - 2018-10-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+twitter.com
+optimizely.com
+gstatic.com
+googleapis.com
+filepicker.io
+pinterest.com
+google-analytics.com
+firstpromoter.com
+googletagmanager.com
+cloudfront.net
+googleadservices.com
+facebook.net
+google.com
+stripe.com"><pre>15</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://cdn.firstpromoter.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net https://cdn.firstpromoter.com https://www.googletagmanager.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://assets.pinterest.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://cdn.optimizely.com https://*.google.com http://*.toodledo.com http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-02 - 2018-10-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+twitter.com
+optimizely.com
+gstatic.com
+googleapis.com
+filepicker.io
+pinterest.com
+google-analytics.com
+firstpromoter.com
+googletagmanager.com
+cloudfront.net
+canny.io
+googleadservices.com
+facebook.net
+google.com
+stripe.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://canny.io"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net https://cdn.firstpromoter.com https://www.googletagmanager.com 'unsafe-inline' https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://assets.pinterest.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://cdn.optimizely.com https://*.google.com http://*.toodledo.com https://canny.io http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-29 - 2018-11-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+twitter.com
+optimizely.com
+facebook.net
+gstatic.com
+googleapis.com
+filepicker.io
+pinterest.com
+google-analytics.com
+cookielaw.org
+firstpromoter.com
+googletagmanager.com
+cloudfront.net
+canny.io
+googleadservices.com
+onetrust.com
+google.com
+stripe.com"><pre>18</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://*.onetrust.com
++ https://*.cookielaw.org"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net https://cdn.firstpromoter.com https://www.googletagmanager.com 'unsafe-inline' https://*.onetrust.com https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://assets.pinterest.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://cdn.optimizely.com https://*.cookielaw.org https://*.google.com http://*.toodledo.com https://canny.io http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-19 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+twitter.com
+facebook.net
+gstatic.com
+googleapis.com
+filepicker.io
+pinterest.com
+google-analytics.com
+cookielaw.org
+firstpromoter.com
+googletagmanager.com
+cloudfront.net
+canny.io
+googleadservices.com
+heapanalytics.com
+onetrust.com
+google.com
+stripe.com"><pre>18</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://cdn.optimizely.com
++ http://*.heapanalytics.com
++ https://*.heapanalytics.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com http://*.google.com http://*.filepicker.io https://*.stripe.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net https://cdn.firstpromoter.com https://www.googletagmanager.com http://*.heapanalytics.com 'unsafe-inline' https://*.onetrust.com https://maps.gstatic.com https://*.googleapis.com http://maps.gstatic.com http://*.twitter.com http://www.google-analytics.com https://*.toodledo.com http://assets.pinterest.com http://*.googleapis.com https://apis.google.com http://d1h9d4exwfthxc.cloudfront.net http://apis.google.com https://*.heapanalytics.com https://*.cookielaw.org https://*.google.com http://*.toodledo.com https://canny.io http://connect.facebook.net http://www.googleadservices.com https://*.twitter.com https://*.filepicker.io; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

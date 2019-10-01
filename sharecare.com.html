@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for sharecare.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://sharecare.com" target="_blank">sharecare.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-02-02 - 2015-08-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> 'self' http://*.cnn.com http://*.droz.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-08-21 - 2015-09-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-ancestors
+- http://*.droz.com
++ http://*.doctoroz.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> 'self' http://*.cnn.com http://*.doctoroz.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-09-22 - 2016-01-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-ancestors
+- http://*.cnn.com
+- http://*.doctoroz.com
++ http://*.sharecare.com
++ https://*.sharecare.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> 'self' http://*.sharecare.com https://*.sharecare.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-01-12 - 2016-02-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> 'self' http://*.sharecare.com https://*.sharecare.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-02-03 - 2016-03-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> 'self' http://*.sharecare.com https://*.sharecare.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-03-09 - 2016-03-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> 'self' http://*.sharecare.com https://*.sharecare.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-03-31 - 2016-07-07</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> 'self' http://*.sharecare.com https://*.sharecare.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-07-08 - 2016-09-30</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-ancestors
++ https://*.qualityhealth.com
++ http://*.qualityhealth.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-10-04 - 2016-10-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-10-17 - 2016-10-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-06 - 2016-11-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-29 - 2017-01-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-01-31 - 2017-05-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-05-24 - 2017-06-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-06-22 - 2017-07-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-07-19 - 2017-10-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-12 - 2017-10-31</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-11-27 - 2017-12-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-16 - 2018-02-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>19</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-21 - 2018-03-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>20</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-18 - 2018-03-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>21</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-02 - 2018-05-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>22</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-05-20 - 2018-06-16</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>23</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-06-22 - 2018-07-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>24</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-08 - 2018-07-16</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>25</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-19 - 2018-07-27</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>26</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-29 - 2018-07-31</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>27</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-05 - 2018-10-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>28</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-04 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>frame-ancestors</b> https://*.qualityhealth.com http://*.sharecare.com http://*.qualityhealth.com https://*.sharecare.com 'self'; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

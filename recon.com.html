@@ -1,0 +1,550 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for recon.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://recon.com" target="_blank">recon.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-14 - 2017-03-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+mybannereffect.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+adtech.de
+luckyorange.net
+cloudfront.net
+trackies.com
+googleadservices.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>18</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> ads2.contentabc.com; <b>connect-src</b> 'self' tlsversiontest.t101api.com cs.luckyorange.net *.t101api.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com static.trackies.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> ads2.contentabc.com d10lpsik1i8c69.cloudfront.net www.youtube.com; <b>img-src</b> data: cdnimages.trackies.com *.r.bat.bing.com *.adtech.jp.com static.trackies.com 'self' dvrt.t101.com blob: www.adobe.com *.adtech.us.com www.googleadservices.com www.google.com d3fjw55wjy1v8a.cloudfront.net *.r.msn.com recon-static.t101cdn.net images.trackies.com recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk www.mybannereffect.com *.g.doubleclick.net cdnimages.recon.com *.adtech.de; <b>media-src</b> 'self' static.trackies.com recon-static.t101cdn.net; <b>object-src</b> 'self' www.mybannereffect.com cs.luckyorange.net; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com static.trackies.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com d10lpsik1i8c69.cloudfront.net bat.bing.com www.google-analytics.com *.luckyorange.net www.mybannereffect.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com static.trackies.com 'self' d10lpsik1i8c69.cloudfront.net 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-13 - 2017-06-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="inspectlet.com
+msn.com
+unpkg.com
+google-analytics.com
+googleapis.com
+adtech.de
+cloudfront.net
+t101cdn.net
+us.com
+t101.com
+mybannereffect.com
+youtube.com
+cloudflare.com
+jp.com
+bing.com
+aspnetcdn.com
+trackies.com
+googleadservices.com
+ytimg.com"><pre>19</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- cs.luckyorange.net
++ wss://*.inspectlet.com
++ *.inspectlet.com
+object-src
+- cs.luckyorange.net
+frame-src
+- d10lpsik1i8c69.cloudfront.net
+img-src
++ *.inspectlet.com
+style-src
+- d10lpsik1i8c69.cloudfront.net
+script-src
+- *.luckyorange.net
++ unpkg.com
++ *.inspectlet.com"><pre>10</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> ads2.contentabc.com; <b>connect-src</b> *.inspectlet.com 'self' *.t101api.com tlsversiontest.t101api.com wss://*.inspectlet.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com static.trackies.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> ads2.contentabc.com www.youtube.com; <b>img-src</b> data: cdnimages.trackies.com *.r.bat.bing.com *.adtech.jp.com static.trackies.com 'self' dvrt.t101.com blob: www.adobe.com *.adtech.us.com www.googleadservices.com www.google.com d3fjw55wjy1v8a.cloudfront.net *.r.msn.com recon-static.t101cdn.net images.trackies.com recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk www.mybannereffect.com *.g.doubleclick.net *.inspectlet.com cdnimages.recon.com *.adtech.de; <b>media-src</b> 'self' static.trackies.com recon-static.t101cdn.net; <b>object-src</b> 'self' www.mybannereffect.com; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com static.trackies.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com d10lpsik1i8c69.cloudfront.net bat.bing.com www.google-analytics.com www.mybannereffect.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com static.trackies.com 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-06-03 - 2017-08-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+trackies.com
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>17</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- child-src ads2.contentabc.com
+object-src
+- www.mybannereffect.com
+frame-src
+- ads2.contentabc.com
+img-src
+- www.mybannereffect.com
+- www.adobe.com
++ www.gstatic.com
+script-src
+- www.mybannereffect.com
+- d10lpsik1i8c69.cloudfront.net"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.inspectlet.com 'self' *.t101api.com tlsversiontest.t101api.com wss://*.inspectlet.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com static.trackies.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: cdnimages.trackies.com *.r.bat.bing.com *.adtech.jp.com static.trackies.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com d3fjw55wjy1v8a.cloudfront.net *.r.msn.com recon-static.t101cdn.net images.trackies.com recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.g.doubleclick.net *.inspectlet.com cdnimages.recon.com *.adtech.de; <b>media-src</b> 'self' static.trackies.com recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com static.trackies.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com static.trackies.com 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-08-29 - 2017-10-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+trackies.com
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>17</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ static.trackies.com
++ recon-static.t101cdn.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> recon-static.t101cdn.net static.trackies.com *.inspectlet.com 'self' *.t101api.com tlsversiontest.t101api.com wss://*.inspectlet.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com static.trackies.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: cdnimages.trackies.com *.r.bat.bing.com *.adtech.jp.com static.trackies.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com d3fjw55wjy1v8a.cloudfront.net *.r.msn.com recon-static.t101cdn.net images.trackies.com recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.g.doubleclick.net *.inspectlet.com cdnimages.recon.com *.adtech.de; <b>media-src</b> 'self' static.trackies.com recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com static.trackies.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com static.trackies.com 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-26 - 2018-01-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+trackies.com
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>17</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ *.t101api.dev.test
+img-src
++ images.recon.dev.test
++ images.trackies.dev.test"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> recon-static.t101cdn.net static.trackies.com *.inspectlet.com 'self' *.t101api.com tlsversiontest.t101api.com wss://*.inspectlet.com *.t101api.dev.test; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com static.trackies.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: cdnimages.trackies.com *.r.bat.bing.com *.adtech.jp.com static.trackies.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com images.recon.dev.test www.google.com d3fjw55wjy1v8a.cloudfront.net *.r.msn.com recon-static.t101cdn.net images.trackies.com recon-images.t101cdn.net bat.bing.com images.trackies.dev.test www.google-analytics.com www.google.co.uk *.g.doubleclick.net *.inspectlet.com cdnimages.recon.com *.adtech.de; <b>media-src</b> 'self' static.trackies.com recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com static.trackies.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com static.trackies.com 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-30 - 2018-02-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- static.trackies.com
+- *.t101api.dev.test
+font-src
+- static.trackies.com
++ sxt.cdn.skype.com
+media-src
+- static.trackies.com
+img-src
+- cdnimages.trackies.com
+- images.trackies.com
+- static.trackies.com
+- images.recon.dev.test
+- d3fjw55wjy1v8a.cloudfront.net
+- images.trackies.dev.test
+style-src
+- static.trackies.com
+script-src
+- static.trackies.com"><pre>13</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> recon-static.t101cdn.net *.inspectlet.com 'self' *.t101api.com tlsversiontest.t101api.com wss://*.inspectlet.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com sxt.cdn.skype.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com *.r.msn.com recon-static.t101cdn.net recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.g.doubleclick.net *.inspectlet.com cdnimages.recon.com *.adtech.de; <b>media-src</b> 'self' recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.inspectlet.com *.adtech.de; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline' recon-static.t101cdn.net; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-16 - 2018-04-10</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ www.google-analytics.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> recon-static.t101cdn.net *.inspectlet.com 'self' *.t101api.com tlsversiontest.t101api.com wss://*.inspectlet.com www.google-analytics.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com sxt.cdn.skype.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com *.r.msn.com recon-static.t101cdn.net recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.g.doubleclick.net *.inspectlet.com cdnimages.recon.com *.adtech.de; <b>media-src</b> 'self' recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.inspectlet.com *.adtech.de; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline' recon-static.t101cdn.net; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-11 - 2018-04-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+advertising.com
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>17</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ stats.g.doubleclick.net
+img-src
+- cdnimages.recon.com
++ *.adtech.advertising.com
+script-src
++ *.adtech.advertising.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.inspectlet.com recon-static.t101cdn.net stats.g.doubleclick.net 'self' *.t101api.com tlsversiontest.t101api.com *.inspectlet.com www.google-analytics.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com sxt.cdn.skype.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com *.r.msn.com recon-static.t101cdn.net recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.adtech.advertising.com *.g.doubleclick.net *.inspectlet.com *.adtech.de; <b>media-src</b> 'self' recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com ads.t101.com *.adtech.jp.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.adtech.advertising.com *.inspectlet.com *.adtech.de; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline' recon-static.t101cdn.net; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-13 - 2018-06-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="t101cdn.net
+t101.com
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+advertising.com
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>17</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- ads.t101.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.inspectlet.com recon-static.t101cdn.net stats.g.doubleclick.net 'self' *.t101api.com tlsversiontest.t101api.com *.inspectlet.com www.google-analytics.com; <b>default-src</b> 'self'; <b>font-src</b> 'self' fonts.gstatic.com sxt.cdn.skype.com recon-static.t101cdn.net; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com *.r.msn.com recon-static.t101cdn.net recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.adtech.advertising.com *.g.doubleclick.net *.inspectlet.com *.adtech.de; <b>media-src</b> 'self' recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com *.adtech.jp.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.adtech.advertising.com *.inspectlet.com *.adtech.de; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline' recon-static.t101cdn.net; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-06-10 - 2018-07-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="
+t101.com
+t101cdn.net
+bing.com
+youtube.com
+cloudflare.com
+aspnetcdn.com
+googleapis.com
+msn.com
+inspectlet.com
+googleadservices.com
+adtech.de
+advertising.com
+unpkg.com
+jp.com
+ytimg.com
+google-analytics.com
+us.com"><pre>18</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ *.recon.dev.test
+font-src
++ *.recon.dev.test
+img-src
++ images.email.recon.com
++ *.recon.dev.test
+style-src
++ *.recon.dev.test
+script-src
++ *.recon.dev.test"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.inspectlet.com recon-static.t101cdn.net stats.g.doubleclick.net 'self' *.recon.dev.test *.t101api.com tlsversiontest.t101api.com *.inspectlet.com www.google-analytics.com; <b>default-src</b> 'self'; <b>font-src</b> recon-static.t101cdn.net sxt.cdn.skype.com 'self' fonts.gstatic.com *.recon.dev.test; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com *.recon.dev.test *.r.msn.com recon-static.t101cdn.net images.email.recon.com recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.adtech.advertising.com *.g.doubleclick.net *.inspectlet.com *.adtech.de; <b>media-src</b> 'self' recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com *.adtech.jp.com 'self' s.ytimg.com 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com *.recon.dev.test 'unsafe-inline' flex.msn.com recon-static.t101cdn.net cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.adtech.advertising.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com 'self' *.recon.dev.test 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-19 - 2018-10-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="
+inspectlet.com
+msn.com
+unpkg.com
+google-analytics.com
+googleapis.com
+adtech.de
+t101cdn.net
+us.com
+t101.com
+doubleclick.net
+youtube.com
+cloudflare.com
+advertising.com
+jp.com
+bing.com
+aspnetcdn.com
+googletagmanager.com
+googleadservices.com
+ytimg.com"><pre>20</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ www.recon.com
+font-src
++ www.recon.com
+media-src
++ www.recon.com
+img-src
++ www.recon.com
+style-src
++ www.recon.com
+script-src
++ www.googletagmanager.com
++ *.doubleclick.net
++ www.recon.com"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.inspectlet.com recon-static.t101cdn.net stats.g.doubleclick.net www.recon.com 'self' *.recon.dev.test *.t101api.com tlsversiontest.t101api.com *.inspectlet.com www.google-analytics.com; <b>default-src</b> 'self'; <b>font-src</b> recon-static.t101cdn.net sxt.cdn.skype.com www.recon.com 'self' fonts.gstatic.com *.recon.dev.test; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com *.recon.dev.test *.r.msn.com recon-static.t101cdn.net www.recon.com images.email.recon.com recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.adtech.advertising.com *.g.doubleclick.net *.inspectlet.com *.adtech.de; <b>media-src</b> 'self' www.recon.com recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com *.adtech.jp.com 'self' s.ytimg.com *.doubleclick.net 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com www.googletagmanager.com *.recon.dev.test 'unsafe-inline' flex.msn.com recon-static.t101cdn.net www.recon.com cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.adtech.advertising.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com www.recon.com 'self' *.recon.dev.test 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-03 - 2018-11-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="inspectlet.com
+msn.com
+unpkg.com
+google-analytics.com
+googleapis.com
+adtech.de
+t101cdn.net
+us.com
+t101.com
+doubleclick.net
+youtube.com
+cloudflare.com
+advertising.com
+jp.com
+bing.com
+aspnetcdn.com
+googletagmanager.com
+googleadservices.com
+ytimg.com"><pre>19</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- *.recon.dev.test
+font-src
+- *.recon.dev.test
+img-src
+- *.recon.dev.test
+style-src
+- *.recon.dev.test
+script-src
+- *.recon.dev.test"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.inspectlet.com recon-static.t101cdn.net stats.g.doubleclick.net www.recon.com 'self' *.t101api.com tlsversiontest.t101api.com *.inspectlet.com www.google-analytics.com; <b>default-src</b> 'self'; <b>font-src</b> recon-static.t101cdn.net sxt.cdn.skype.com www.recon.com 'self' fonts.gstatic.com; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: *.adtech.us.com www.googleadservices.com www.google.com *.r.msn.com recon-static.t101cdn.net www.recon.com images.email.recon.com recon-images.t101cdn.net bat.bing.com www.google-analytics.com www.google.co.uk *.adtech.advertising.com *.g.doubleclick.net *.inspectlet.com *.adtech.de; <b>media-src</b> 'self' www.recon.com recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com *.adtech.jp.com 'self' s.ytimg.com *.doubleclick.net 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com www.googletagmanager.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net www.recon.com cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.adtech.advertising.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com www.recon.com 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-21 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="inspectlet.com
+msn.com
+unpkg.com
+google-analytics.com
+googleapis.com
+adtech.de
+t101cdn.net
+us.com
+t101.com
+doubleclick.net
+youtube.com
+cloudflare.com
+advertising.com
+jp.com
+bing.com
+aspnetcdn.com
+googletagmanager.com
+googleadservices.com
+ytimg.com"><pre>19</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ www.google.com.es
++ www.google.ie
++ www.google.com.fr
++ www.google.com.au
++ www.google.com.nl
++ www.google.com.de
++ www.google.com.ie
++ www.google.com.ca"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.inspectlet.com recon-static.t101cdn.net stats.g.doubleclick.net www.recon.com 'self' *.t101api.com tlsversiontest.t101api.com *.inspectlet.com www.google-analytics.com; <b>default-src</b> 'self'; <b>font-src</b> recon-static.t101cdn.net sxt.cdn.skype.com www.recon.com 'self' fonts.gstatic.com; <b>frame-ancestors</b> 'none'; <b>frame-src</b> www.youtube.com; <b>img-src</b> data: *.r.bat.bing.com www.google.ie *.adtech.jp.com 'self' www.gstatic.com dvrt.t101.com blob: www.google.com.de *.adtech.us.com www.google.com.ca www.google.com.es www.googleadservices.com www.google.com.fr www.google.com www.google.com.nl *.r.msn.com recon-static.t101cdn.net www.recon.com www.google.com.au images.email.recon.com recon-images.t101cdn.net www.google.com.ie bat.bing.com www.google-analytics.com www.google.co.uk *.adtech.advertising.com *.g.doubleclick.net *.inspectlet.com *.adtech.de; <b>media-src</b> 'self' www.recon.com recon-static.t101cdn.net; <b>object-src</b> 'self'; <b>report-uri</b> report; <b>script-src</b> www.youtube.com ajax.aspnetcdn.com *.adtech.jp.com 'self' s.ytimg.com *.doubleclick.net 'unsafe-eval' dvrt.t101.com unpkg.com *.adtech.us.com www.googleadservices.com ajax.googleapis.com www.googletagmanager.com 'unsafe-inline' flex.msn.com recon-static.t101cdn.net www.recon.com cdnjs.cloudflare.com bat.bing.com www.google-analytics.com *.adtech.advertising.com *.inspectlet.com *.adtech.de; <b>style-src</b> recon-static.t101cdn.net fonts.googleapis.com www.recon.com 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

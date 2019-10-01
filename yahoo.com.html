@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for yahoo.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://yahoo.com" target="_blank">yahoo.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-29 - 2017-10-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="btrll.com
+yimg.com"><pre>2</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> https://*.yahoo.com data: https://*.yimg.com 'self' * blob:; <b>font-src</b> 'self' https://*.yimg.com data: https://*.yahoo.com; <b>frame-ancestors</b> https://*.aol.com https://*.huffingtonpost.com https://*.yahoo.com https://*.techcrunch.com; <b>media-src</b> blob: 'self' https://*.yahoo.com https://*.yimg.com; <b>object-src</b> https://*.yimg.com; <b>report-uri</b> report; <b>script-src</b> https://*.yahoo.com https://*.yimg.com https://*.btrll.com 'self' 'unsafe-inline' 'unsafe-eval'; <b>style-src</b> https://*.yahoo.com https://*.yimg.com 'self' 'unsafe-inline' https://platform.twitter.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-30 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ sandbox allow-popups-to-escape-sandbox allow-forms allow-popups allow-same-origin allow-scripts allow-presentation
+- frame-ancestors https://*.aol.com https://*.huffingtonpost.com https://*.yahoo.com https://*.techcrunch.com
+- font-src 'self' https://*.yimg.com data: https://*.yahoo.com
+- default-src https://*.yahoo.com data: https://*.yimg.com 'self' * blob:
+- media-src blob: 'self' https://*.yahoo.com https://*.yimg.com
+- object-src https://*.yimg.com
+- style-src https://*.yahoo.com https://*.yimg.com 'self' 'unsafe-inline' https://platform.twitter.com
+- script-src https://*.yahoo.com https://*.yimg.com https://*.btrll.com 'self' 'unsafe-inline' 'unsafe-eval'"><pre>36</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>report-uri</b> report; <b>sandbox</b> allow-popups-to-escape-sandbox allow-forms allow-popups allow-same-origin allow-scripts allow-presentation; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for recreativ.ru</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://recreativ.ru" target="_blank">recreativ.ru</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-16 - 2018-02-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="googleadservices.com
+google-analytics.com"><pre>2</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self'; <b>font-src</b> 'self' https://fonts.gstatic.com; <b>frame-src</b> https://www.google.com https://googleads.g.doubleclick.net https://www.google.lv https://www.google.ru 'self' https://www.google.com.ua; <b>img-src</b> data: *.recreativ.ru 'self' https://www.google-analytics.com blob:; <b>report-uri</b> report; <b>script-src</b> https://www.googleadservices.com 'self' 'unsafe-eval' https://www.google-analytics.com 'unsafe-inline'; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-03 - 2018-07-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="googleadservices.com
+google-analytics.com
+google.com
+gstatic.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ *.recreativ.ru
+img-src
++ https://via.placeholder.com/200x200
+script-src
++ https://www.gstatic.com
++ *.recreativ.ru
++ https://www.google.com"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self'; <b>font-src</b> 'self' https://fonts.gstatic.com; <b>frame-src</b> *.recreativ.ru https://www.google.com https://googleads.g.doubleclick.net https://www.google.lv https://www.google.ru 'self' https://www.google.com.ua; <b>img-src</b> data: *.recreativ.ru https://via.placeholder.com/200x200 'self' https://www.google-analytics.com blob:; <b>report-uri</b> report; <b>script-src</b> *.recreativ.ru https://www.google.com https://www.gstatic.com https://www.googleadservices.com 'self' 'unsafe-inline' https://www.google-analytics.com 'unsafe-eval'; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-07-02 - 2018-11-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+doubleclick.net
+gstatic.com
+googleadservices.com
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
+- https://googleads.g.doubleclick.net
++ *.doubleclick.net
+script-src
+- https://www.gstatic.com
+- https://www.google.com
+- https://www.googleadservices.com
+- https://www.google-analytics.com
++ *.gstatic.com
++ *.googleadservices.com
++ *.doubleclick.net
++ *.google.com
++ *.google-analytics.com"><pre>11</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self'; <b>font-src</b> 'self' https://fonts.gstatic.com; <b>frame-src</b> *.recreativ.ru https://www.google.com https://www.google.lv https://www.google.ru 'self' *.doubleclick.net https://www.google.com.ua; <b>img-src</b> data: *.recreativ.ru https://via.placeholder.com/200x200 'self' https://www.google-analytics.com blob:; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.recreativ.ru *.googleadservices.com 'self' *.doubleclick.net 'unsafe-inline' 'unsafe-eval' *.google.com *.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-03 - 2018-12-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+doubleclick.net
+gstatic.com
+googleadservices.com
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="font-src
++ data:"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self'; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-src</b> *.recreativ.ru https://www.google.com https://www.google.lv https://www.google.ru 'self' *.doubleclick.net https://www.google.com.ua; <b>img-src</b> data: *.recreativ.ru https://via.placeholder.com/200x200 'self' https://www.google-analytics.com blob:; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.recreativ.ru *.googleadservices.com 'self' *.doubleclick.net 'unsafe-inline' 'unsafe-eval' *.google.com *.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-07 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google.com.ua
+gstatic.com
+googleapis.com
+google-analytics.com
+googletagmanager.com
+googleadservices.com
+google.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="font-src
+- https://fonts.gstatic.com
++ *.gstatic.com
++ *.googletagmanager.com
++ *.googleadservices.com
++ *.googleapis.com
++ *.google.com.ua
++ *.doubleclick.net
++ *.google.com
++ *.google-analytics.com
+frame-src
+- https://www.google.com
+- https://www.google.ru
+- https://www.google.com.ua
++ *.gstatic.com
++ *.googletagmanager.com
++ *.googleadservices.com
++ recreativ.ru
++ *.googleapis.com
++ *.google.com.ua
++ *.google.com
++ *.google-analytics.com
+img-src
+- https://www.google-analytics.com
++ *.gstatic.com
++ *.googletagmanager.com
++ *.googleadservices.com
++ *.googleapis.com
++ *.google.com.ua
++ *.doubleclick.net
++ *.google.com
++ *.google-analytics.com
+style-src
+- https://fonts.googleapis.com
++ *.gstatic.com
++ *.googletagmanager.com
++ *.googleadservices.com
++ *.googleapis.com
++ *.google.com.ua
++ *.doubleclick.net
++ *.google.com
++ *.google-analytics.com
+script-src
++ *.googletagmanager.com
++ *.googleapis.com
++ *.google.com.ua"><pre>41</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self'; <b>font-src</b> *.gstatic.com data: *.googletagmanager.com *.googleadservices.com *.googleapis.com *.google.com.ua 'self' *.doubleclick.net *.google.com *.google-analytics.com; <b>frame-src</b> *.gstatic.com *.googletagmanager.com *.recreativ.ru *.googleadservices.com recreativ.ru https://www.google.lv *.googleapis.com *.google.com.ua 'self' *.doubleclick.net *.google.com *.google-analytics.com; <b>img-src</b> *.gstatic.com data: *.recreativ.ru *.googleadservices.com https://via.placeholder.com/200x200 *.googletagmanager.com *.googleapis.com *.google.com.ua 'self' *.doubleclick.net blob: *.google.com *.google-analytics.com; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googletagmanager.com *.recreativ.ru *.googleadservices.com *.googleapis.com *.google.com.ua 'self' *.doubleclick.net 'unsafe-inline' 'unsafe-eval' *.google.com *.google-analytics.com; <b>style-src</b> *.gstatic.com *.googletagmanager.com *.googleadservices.com *.googleapis.com *.google.com.ua 'self' *.doubleclick.net 'unsafe-inline' *.google.com *.google-analytics.com; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for flipboard.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://flipboard.com" target="_blank">flipboard.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-12 - 2017-12-13</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="facebook.net
+google-analytics.com
+optimizely.com"><pre>3</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://jira.flipboard.com https://cdn.optimizely.com http://ue.flipboard.com http://www.google-analytics.com http://connect.facebook.net 'self' 'unsafe-inline' 'unsafe-eval' https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-14 - 2018-02-07</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+twitter.com
+optimizely.com
+facebook.net
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://twitter.com
++ https://apis.google.com
++ https://connect.facebook.net
++ https://ue.flipboard.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com https://cdn.optimizely.com http://ue.flipboard.com http://www.google-analytics.com http://connect.facebook.net 'self' https://twitter.com 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-08 - 2018-09-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+optimizely.com
+twitter.com
+gstatic.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://www.gstatic.com
++ https://www.google.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com https://www.google.com https://cdn.optimizely.com http://ue.flipboard.com https://www.gstatic.com http://www.google-analytics.com http://connect.facebook.net 'self' https://twitter.com 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-05 - 2018-09-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com
+googletagmanager.com
+google.com
+ampproject.org"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.google.com
+- https://cdn.optimizely.com
+- https://www.gstatic.com
+- http://connect.facebook.net
+- https://twitter.com
+- https://connect.facebook.net
++ https://www.googletagmanager.com
++ https://cdn.ampproject.org"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com http://ue.flipboard.com https://www.googletagmanager.com http://www.google-analytics.com https://cdn.ampproject.org 'self' 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-06 - 2018-09-13</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+optimizely.com
+twitter.com
+gstatic.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.googletagmanager.com
+- https://cdn.ampproject.org
++ https://www.google.com
++ https://cdn.optimizely.com
++ https://www.gstatic.com
++ http://connect.facebook.net
++ https://twitter.com
++ https://connect.facebook.net"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com https://www.google.com https://cdn.optimizely.com http://ue.flipboard.com https://www.gstatic.com http://www.google-analytics.com http://connect.facebook.net 'self' https://twitter.com 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-14 - 2018-09-14</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com
+googletagmanager.com
+google.com
+ampproject.org"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.google.com
+- https://cdn.optimizely.com
+- https://www.gstatic.com
+- http://connect.facebook.net
+- https://twitter.com
+- https://connect.facebook.net
++ https://www.googletagmanager.com
++ https://cdn.ampproject.org"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com http://ue.flipboard.com https://www.googletagmanager.com http://www.google-analytics.com https://cdn.ampproject.org 'self' 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-15 - 2018-09-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+optimizely.com
+twitter.com
+gstatic.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.googletagmanager.com
+- https://cdn.ampproject.org
++ https://www.google.com
++ https://cdn.optimizely.com
++ https://www.gstatic.com
++ http://connect.facebook.net
++ https://twitter.com
++ https://connect.facebook.net"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com https://www.google.com https://cdn.optimizely.com http://ue.flipboard.com https://www.gstatic.com http://www.google-analytics.com http://connect.facebook.net 'self' https://twitter.com 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-19 - 2018-09-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com
+googletagmanager.com
+google.com
+ampproject.org"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.google.com
+- https://cdn.optimizely.com
+- https://www.gstatic.com
+- http://connect.facebook.net
+- https://twitter.com
+- https://connect.facebook.net
++ https://www.googletagmanager.com
++ https://cdn.ampproject.org"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com http://ue.flipboard.com https://www.googletagmanager.com http://www.google-analytics.com https://cdn.ampproject.org 'self' 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-20 - 2018-09-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+optimizely.com
+twitter.com
+gstatic.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.googletagmanager.com
+- https://cdn.ampproject.org
++ https://www.google.com
++ https://cdn.optimizely.com
++ https://www.gstatic.com
++ http://connect.facebook.net
++ https://twitter.com
++ https://connect.facebook.net"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com https://www.google.com https://cdn.optimizely.com http://ue.flipboard.com https://www.gstatic.com http://www.google-analytics.com http://connect.facebook.net 'self' https://twitter.com 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-21 - 2018-09-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com
+googletagmanager.com
+google.com
+ampproject.org"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.google.com
+- https://cdn.optimizely.com
+- https://www.gstatic.com
+- http://connect.facebook.net
+- https://twitter.com
+- https://connect.facebook.net
++ https://www.googletagmanager.com
++ https://cdn.ampproject.org"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com http://ue.flipboard.com https://www.googletagmanager.com http://www.google-analytics.com https://cdn.ampproject.org 'self' 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-22 - 2018-09-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+optimizely.com
+twitter.com
+gstatic.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.googletagmanager.com
+- https://cdn.ampproject.org
++ https://www.google.com
++ https://cdn.optimizely.com
++ https://www.gstatic.com
++ http://connect.facebook.net
++ https://twitter.com
++ https://connect.facebook.net"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com https://www.google.com https://cdn.optimizely.com http://ue.flipboard.com https://www.gstatic.com http://www.google-analytics.com http://connect.facebook.net 'self' https://twitter.com 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-26 - 2018-11-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+ampproject.org
+googletagmanager.com
+facebook.net
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://www.google.com
+- https://cdn.optimizely.com
+- https://www.gstatic.com
+- http://connect.facebook.net
+- https://twitter.com
++ https://www.googletagmanager.com
++ https://cdn.ampproject.org"><pre>7</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com http://ue.flipboard.com https://www.googletagmanager.com http://www.google-analytics.com https://cdn.ampproject.org 'self' 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-22 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+ampproject.org
+googletagmanager.com
+facebook.net
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://flapi.flipboard.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>script-src</b> https://apis.google.com https://jira.flipboard.com http://ue.flipboard.com https://www.googletagmanager.com http://www.google-analytics.com https://cdn.ampproject.org 'self' 'unsafe-inline' 'unsafe-eval' https://ue.flipboard.com https://flapi.flipboard.com https://connect.facebook.net https://s.flipboard.com https://cdn.flipboard.com; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for via.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://via.com" target="_blank">via.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-09-03 - 2017-10-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+wzrkt.com
+googleapis.com
+clevertap.com
+googletagmanager.com
+cloudfront.net
+googleadservices.com
+facebook.net
+google-analytics.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.facebook.com *.google.com/; <b>img-src</b> data: *.google.co.in/ *.google.com/ *.facebook.com www.google-analytics.com/ 'self' googleads.g.doubleclick.net/ www.googleadservices.com/ stats.g.doubleclick.net/ *.via.com/; <b>script-src</b> *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-05 - 2017-10-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+wzrkt.com
+googleapis.com
+clevertap.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google-analytics.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ ads-feeder.appspot.com/
++ *.olark.com
+img-src
++ *.gstatic.com
++ https://cdn.via.com
++ *.googleapis.com
++ https://www.tripadvisor.com
++ https://images.via.com
++ www.tripadvisor.com/
++ https://images4.via.com/
+style-src
++ *.olark.com
+script-src
++ *.olark.com"><pre>11</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.facebook.com ads-feeder.appspot.com/ *.olark.com *.google.com/; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-22 - 2017-10-22</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ *.webchat.helpshift.com/
+script-src
++ webchat.helpshift.com/"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-23 - 2017-11-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ default-src 'self' *.olark.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self' *.olark.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-11-02 - 2017-11-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- default-src 'self' *.olark.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-11-22 - 2017-12-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ default-src 'self' *.olark.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self' *.olark.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-06 - 2017-12-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- default-src 'self' *.olark.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-10 - 2017-12-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ default-src 'self' *.olark.com
+frame-src
++ *.youtube.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self' *.olark.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-16 - 2017-12-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>11</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ flightraja.helpshift.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self' *.olark.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ 'unsafe-eval' 'unsafe-inline' *.facebook.net/ *.via.com/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-24 - 2018-01-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- default-src 'self' *.olark.com
+script-src
++ googleads.g.doubleclick.net/
++ bid.g.doubleclick.net/"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-06 - 2018-01-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ default-src 'self' *.olark.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> 'self' *.olark.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-24 - 2018-01-31</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ connect-src *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/
+- default-src 'self' *.olark.com
+frame-src
++ *.firebaseio.com
+img-src
++ *.firebaseio.com
+script-src
++ *.firebaseio.com"><pre>17</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ *.firebaseio.com stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-01 - 2018-02-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ default-src 'self' *.olark.com *.firebaseio.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>default-src</b> 'self' *.olark.com *.firebaseio.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ *.firebaseio.com stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-02 - 2018-02-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- default-src 'self' *.olark.com *.firebaseio.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ *.firebaseio.com stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ 'self' 'unsafe-eval' 'unsafe-inline' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-06 - 2018-02-14</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ default-src 'self' *.olark.com *.firebaseio.com
+style-src
++ *.google.com/"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>default-src</b> 'self' *.olark.com *.firebaseio.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ *.firebaseio.com stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ *.google.com/ 'self' 'unsafe-inline' 'unsafe-eval' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-15 - 2018-02-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- default-src 'self' *.olark.com *.firebaseio.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> *.gstatic.com data: *.google.co.in/ *.google.com/ *.facebook.com https://cdn.via.com *.googleapis.com www.google-analytics.com/ 'self' https://images.via.com https://www.tripadvisor.com googleads.g.doubleclick.net/ www.googleadservices.com/ www.tripadvisor.com/ *.firebaseio.com stats.g.doubleclick.net/ *.via.com/ https://images4.via.com/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ *.google.com/ 'self' 'unsafe-inline' 'unsafe-eval' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-24 - 2018-04-10</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ *.cloudfront.net/js/ct_logo.svg"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> data: *.googleapis.com 'self' www.tripadvisor.com/ https://www.tripadvisor.com *.firebaseio.com https://images4.via.com/ *.facebook.com www.google-analytics.com/ stats.g.doubleclick.net/ *.via.com/ *.google.co.in/ https://cdn.via.com https://images.via.com *.gstatic.com *.google.com/ *.cloudfront.net/js/ct_logo.svg www.googleadservices.com/ googleads.g.doubleclick.net/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ *.google.com/ 'self' 'unsafe-inline' 'unsafe-eval' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-11 - 2018-04-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ *.googletraveladservices.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> data: *.googleapis.com 'self' www.tripadvisor.com/ https://www.tripadvisor.com *.firebaseio.com https://images4.via.com/ *.facebook.com www.google-analytics.com/ stats.g.doubleclick.net/ *.via.com/ *.google.co.in/ https://cdn.via.com https://images.via.com *.googletraveladservices.com *.gstatic.com *.google.com/ *.cloudfront.net/js/ct_logo.svg www.googleadservices.com/ googleads.g.doubleclick.net/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ *.google.com/ 'self' 'unsafe-inline' 'unsafe-eval' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-13 - 2018-04-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ default-src 'self' *.olark.com *.firebaseio.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net wss://s-usc1c-nss-*.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>default-src</b> 'self' *.olark.com *.firebaseio.com; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com; <b>img-src</b> data: *.googleapis.com 'self' www.tripadvisor.com/ https://www.tripadvisor.com *.firebaseio.com https://images4.via.com/ *.facebook.com www.google-analytics.com/ stats.g.doubleclick.net/ *.via.com/ *.google.co.in/ https://cdn.via.com https://images.via.com *.googletraveladservices.com *.gstatic.com *.google.com/ *.cloudfront.net/js/ct_logo.svg www.googleadservices.com/ googleads.g.doubleclick.net/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ *.google.com/ 'self' 'unsafe-inline' 'unsafe-eval' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>19</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-18 - 2018-12-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+google-analytics.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- default-src 'self' *.olark.com *.firebaseio.com
+connect-src
+- wss://s-usc1c-nss-*.firebaseio.com/
++ *.firebaseio.com/
+frame-src
++ https://bid.g.doubleclick.net/
+img-src
++ www.googletagmanager.com/"><pre>7</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ *.cloudfront.net *.firebaseio.com/ *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com flightraja.helpshift.com *.olark.com https://bid.g.doubleclick.net/; <b>img-src</b> data: *.googleapis.com www.googletagmanager.com/ 'self' https://www.tripadvisor.com www.tripadvisor.com/ *.firebaseio.com https://images4.via.com/ *.facebook.com www.google-analytics.com/ stats.g.doubleclick.net/ *.via.com/ *.google.co.in/ https://cdn.via.com https://images.via.com *.googletraveladservices.com *.gstatic.com *.google.com/ *.cloudfront.net/js/ct_logo.svg www.googleadservices.com/ googleads.g.doubleclick.net/; <b>script-src</b> *.via.com/ webchat.helpshift.com/ *.google.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ googleads.g.doubleclick.net/ *.firebaseio.com 'unsafe-eval' 'unsafe-inline' bid.g.doubleclick.net/ *.facebook.net/ *.clevertap.com/ *.olark.com; <b>style-src</b> *.googleapis.com/ *.google.com/ 'self' 'unsafe-inline' 'unsafe-eval' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>20</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-16 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+amazonaws.com
+helpshift.com
+wzrkt.com
+doubleclick.net
+googleapis.com
+clevertap.com
+firebaseio.com
+googletagmanager.com
+cloudfront.net
+olark.com
+googleadservices.com
+facebook.net
+google-analytics.com"><pre>14</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ *.itzcash.com/
++ instacred.me/v1/smartuserdetect
+frame-src
+- https://bid.g.doubleclick.net/
++ bid.g.doubleclick.net/
+script-src
++ s3.ap-south-1.amazonaws.com/flexmoney-public/smart-detect/sud-kit/production/"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.google.com/ instacred.me/v1/smartuserdetect *.firebaseio.com/ *.cloudfront.net *.googleapis.com www.googletagmanager.com/ www.google-analytics.com/ wzrkt.com/ 'self' www.googleadservices.com/ *.itzcash.com/ *.facebook.net/ *.via.com/ *.clevertap.com/; <b>font-src</b> 'self' *.via.com/ *.facebook.com fonts.gstatic.com/; <b>frame-src</b> *.youtube.com *.webchat.helpshift.com/ *.google.com/ *.facebook.com ads-feeder.appspot.com/ *.firebaseio.com bid.g.doubleclick.net/ flightraja.helpshift.com *.olark.com; <b>img-src</b> data: *.googleapis.com www.googletagmanager.com/ 'self' https://www.tripadvisor.com www.tripadvisor.com/ *.firebaseio.com https://images4.via.com/ *.facebook.com www.google-analytics.com/ stats.g.doubleclick.net/ *.via.com/ *.google.co.in/ https://cdn.via.com https://images.via.com *.googletraveladservices.com *.gstatic.com *.google.com/ *.cloudfront.net/js/ct_logo.svg www.googleadservices.com/ googleads.g.doubleclick.net/; <b>script-src</b> *.googleapis.com www.googletagmanager.com/ wzrkt.com/ 'self' *.firebaseio.com 'unsafe-eval' *.facebook.net/ *.clevertap.com/ www.google-analytics.com/ 'unsafe-inline' *.via.com/ webchat.helpshift.com/ bid.g.doubleclick.net/ *.olark.com s3.ap-south-1.amazonaws.com/flexmoney-public/smart-detect/sud-kit/production/ *.google.com/ *.cloudfront.net www.googleadservices.com/ googleads.g.doubleclick.net/; <b>style-src</b> *.googleapis.com/ *.google.com/ 'self' 'unsafe-inline' 'unsafe-eval' *.via.com/ *.olark.com; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

@@ -1,0 +1,1344 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for tesco.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://tesco.com" target="_blank">tesco.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-06-09 - 2016-06-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="omtrdc.net
+adobedtm.com
+google-analytics.com
+optimizely.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> 'self' *.optimizely.com *.log.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>img-src</b> data: 'self' *.doubleclick.net *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net *.adobedtm.com 'self' *.tesco.com 'unsafe-eval' 'unsafe-inline' *.google-analytics.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-06-13 - 2016-06-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="omtrdc.net
+adobedtm.com
+google-analytics.com
+optimizely.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ frame-src *.doubleclick.net
++ child-src *.doubleclick.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> 'self' *.optimizely.com *.log.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net; <b>img-src</b> data: 'self' *.doubleclick.net *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net *.adobedtm.com 'self' *.tesco.com 'unsafe-eval' 'unsafe-inline' *.google-analytics.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-06-16 - 2016-06-24</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="omtrdc.net
+adobedtm.com
+google-analytics.com
+optimizely.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ *.google.*"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> 'self' *.optimizely.com *.log.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net; <b>img-src</b> data: 'self' *.doubleclick.net *.google.* *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net *.adobedtm.com 'self' *.tesco.com 'unsafe-eval' 'unsafe-inline' *.google-analytics.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-06-25 - 2016-07-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="omtrdc.net
+adobedtm.com
+google-analytics.com
+optimizely.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
+- *.google.*
++ *.google.com
++ *.google.co.uk"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> 'self' *.optimizely.com *.log.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net; <b>img-src</b> data: *.google.co.uk 'self' *.doubleclick.net *.google.com *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net *.adobedtm.com 'self' *.tesco.com 'unsafe-eval' 'unsafe-inline' *.google-analytics.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-07-16 - 2016-09-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="omtrdc.net
+adobedtm.com
+google-analytics.com
+optimizely.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://cdn.optimizely.com
++ https://5974661041.log.optimizely.com/
+img-src
++ https://5035317.fls.doubleclick.net/
+script-src
++ https://cdn.optimizely.com
++ https://5974661041.log.optimizely.com/"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' https://5974661041.log.optimizely.com/ *.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net; <b>img-src</b> data: *.google.co.uk https://5035317.fls.doubleclick.net/ 'self' *.doubleclick.net *.google.com *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net https://cdn.optimizely.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' https://5974661041.log.optimizely.com/ *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-09-22 - 2016-10-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="omtrdc.net
+adobedtm.com
+google-analytics.com
+optimizely.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ *.google.co.in"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' https://5974661041.log.optimizely.com/ *.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net; <b>img-src</b> data: *.google.co.uk https://5035317.fls.doubleclick.net/ 'self' *.google.co.in *.doubleclick.net *.google.com *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net https://cdn.optimizely.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' https://5974661041.log.optimizely.com/ *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-10-30 - 2016-11-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ report-uri report
+child-src
+- *.doubleclick.net
++ http://*.doubleclick.net
+frame-ancestors
++ *.ce-homepage.com
++ *.ngp-dc.com
++ ngp-dc.com
+frame-src
+- *.doubleclick.net
++ https://*.doubleclick.net
+img-src
+- *.google.co.in
+- *.doubleclick.net
++ https://*.tesco.com
++ https://*.doubleclick.net
++ https://www.google-analytics.com
+script-src
++ *.ce-homepage.com
++ https://www.google-analytics.com"><pre>15</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> http://*.doubleclick.net; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' https://5974661041.log.optimizely.com/ *.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> *.ce-homepage.com ngp-dc.com 'self' optimizelyedit.com *.ngp-dc.com app.optimizely.com; <b>frame-src</b> https://*.doubleclick.net; <b>img-src</b> data: *.google.co.uk https://5035317.fls.doubleclick.net/ 'self' https://*.tesco.com https://*.doubleclick.net https://www.google-analytics.com *.google.com *.google-analytics.com *.tesco.com; <b>report-uri</b> report; <b>script-src</b> *.tt.omtrdc.net https://cdn.optimizely.com *.ce-homepage.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' https://www.google-analytics.com https://5974661041.log.optimizely.com/ *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-16 - 2016-12-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="omtrdc.net
+adobedtm.com
+google-analytics.com
+optimizely.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- report-uri report
+child-src
+- http://*.doubleclick.net
++ *.doubleclick.net
+frame-ancestors
+- *.ce-homepage.com
+- *.ngp-dc.com
+- ngp-dc.com
+frame-src
+- https://*.doubleclick.net
++ *.doubleclick.net
+img-src
+- https://*.tesco.com
+- https://*.doubleclick.net
+- https://www.google-analytics.com
++ *.google.co.in
++ *.doubleclick.net
+script-src
+- *.ce-homepage.com
+- https://www.google-analytics.com"><pre>15</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' https://5974661041.log.optimizely.com/ *.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net; <b>img-src</b> data: *.google.co.uk https://5035317.fls.doubleclick.net/ 'self' *.google.co.in *.doubleclick.net *.google.com *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net https://cdn.optimizely.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' https://5974661041.log.optimizely.com/ *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-12-09 - 2016-12-26</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="virtualearth.net
+optimizely.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ *.tesco.com
+img-src
++ *.virtualearth.net
+style-src
++ *.virtualearth.net
+script-src
++ *.virtualearth.net"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' https://5974661041.log.optimizely.com/ *.optimizely.com; <b>default-src</b> 'self' *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net *.tesco.com; <b>img-src</b> data: *.google.co.uk *.virtualearth.net https://5035317.fls.doubleclick.net/ 'self' *.google.co.in *.doubleclick.net *.google.com *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net *.virtualearth.net https://cdn.optimizely.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' https://5974661041.log.optimizely.com/ *.tesco.com *.optimizely.com; <b>style-src</b> 'self' *.virtualearth.net 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-12-27 - 2017-01-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="virtualearth.net
+optimizely.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>5</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="default-src
++ cdn.optimizely.com
+img-src
++ cdn.optimizely.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' https://5974661041.log.optimizely.com/ *.optimizely.com; <b>default-src</b> 'self' cdn.optimizely.com *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net *.tesco.com; <b>img-src</b> data: *.google.co.uk *.virtualearth.net https://5035317.fls.doubleclick.net/ 'self' cdn.optimizely.com *.google.co.in *.doubleclick.net *.google.com *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net *.virtualearth.net https://cdn.optimizely.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' https://5974661041.log.optimizely.com/ *.tesco.com *.optimizely.com; <b>style-src</b> 'self' *.virtualearth.net 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-01-24 - 2017-01-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="virtualearth.net
+hotjar.com
+optimizely.com
+jsdelivr.net
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ *.hotjar.com:12080/gelf
+frame-src
++ *.hotjar.com
+script-src
++ *.hotjar.com
++ http://dev.virtualearth.net
++ http://ecn.dev.virtualearth.net
++ https://cdn.jsdelivr.net/stacktrace.js/1.0.1/stacktrace-with-polyfills.min.js"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.doubleclick.net; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com *.hotjar.com:12080/gelf 'self' *.optimizely.com https://5974661041.log.optimizely.com/; <b>default-src</b> 'self' cdn.optimizely.com *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com optimizelyedit.com; <b>frame-src</b> *.doubleclick.net *.tesco.com *.hotjar.com; <b>img-src</b> data: *.google.co.uk *.virtualearth.net https://5035317.fls.doubleclick.net/ 'self' cdn.optimizely.com *.google.co.in *.doubleclick.net *.google.com *.google-analytics.com *.tesco.com; <b>script-src</b> *.tt.omtrdc.net *.virtualearth.net https://cdn.optimizely.com http://ecn.dev.virtualearth.net *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net/stacktrace.js/1.0.1/stacktrace-with-polyfills.min.js https://5974661041.log.optimizely.com/ http://dev.virtualearth.net *.tesco.com *.optimizely.com *.hotjar.com; <b>style-src</b> 'self' *.virtualearth.net 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-01-26 - 2017-03-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="virtualearth.net
+hotjar.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ report-uri report
+- frame-src *.doubleclick.net *.tesco.com *.hotjar.com
+child-src
+- *.doubleclick.net
++ http://*.doubleclick.net
++ https://*.doubleclick.net
++ *.hotjar.com:*
++ *.hotjar.com
+frame-ancestors
+- optimizelyedit.com
++ *.hotjar.com
+connect-src
+- *.hotjar.com:12080/gelf
++ *.hotjar.com:*
++ *.hotjar.com
+font-src
++ *.hotjar.com
+default-src
+- cdn.optimizely.com
++ *.optimizely.com
++ *.hotjar.com
+img-src
+- cdn.optimizely.com
+- *.google.co.in
+- *.doubleclick.net
++ https://*.tesco.com
++ https://*.doubleclick.net
++ https://www.google-analytics.com
++ *.hotjar.com:*
++ *.hotjar.com
+style-src
++ *.hotjar.com
+script-src
+- http://dev.virtualearth.net
+- http://ecn.dev.virtualearth.net
+- https://cdn.jsdelivr.net/stacktrace.js/1.0.1/stacktrace-with-polyfills.min.js
++ *.ce-homepage.com
++ https://www.google-analytics.com
++ *.hotjar.com:*"><pre>33</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> http://*.doubleclick.net https://*.doubleclick.net *.hotjar.com:* *.hotjar.com; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' *.optimizely.com *.hotjar.com:* https://5974661041.log.optimizely.com/ *.hotjar.com; <b>default-src</b> 'self' *.optimizely.com *.tesco.com *.hotjar.com; <b>font-src</b> 'self' data: *.tesco.com *.hotjar.com; <b>frame-ancestors</b> 'self' app.optimizely.com *.hotjar.com; <b>img-src</b> data: *.google.co.uk *.virtualearth.net https://5035317.fls.doubleclick.net/ 'self' https://*.tesco.com https://*.doubleclick.net *.hotjar.com:* https://www.google-analytics.com *.google.com *.google-analytics.com *.tesco.com *.hotjar.com; <b>report-uri</b> report; <b>script-src</b> *.tt.omtrdc.net *.virtualearth.net https://cdn.optimizely.com *.ce-homepage.com *.adobedtm.com 'self' *.optimizely.com 'unsafe-inline' 'unsafe-eval' *.hotjar.com:* https://5974661041.log.optimizely.com/ https://www.google-analytics.com *.google-analytics.com *.tesco.com *.hotjar.com; <b>style-src</b> 'self' 'unsafe-inline' *.virtualearth.net *.hotjar.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-10 - 2017-03-14</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="virtualearth.net
+hotjar.com
+optimizely.com
+googleapis.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="font-src
++ https://fonts.gstatic.com
+img-src
++ https://maps.gstatic.com
++ https://csi.gstatic.com
++ https://maps.googleapis.com
+style-src
++ https://fonts.googleapis.com
+script-src
++ https://maps.googleapis.com"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> http://*.doubleclick.net https://*.doubleclick.net *.hotjar.com:* *.hotjar.com; <b>connect-src</b> https://cdn.optimizely.com *.log.optimizely.com 'self' *.optimizely.com *.hotjar.com:* https://5974661041.log.optimizely.com/ *.hotjar.com; <b>default-src</b> 'self' *.optimizely.com *.tesco.com *.hotjar.com; <b>font-src</b> data: https://fonts.gstatic.com 'self' *.tesco.com *.hotjar.com; <b>frame-ancestors</b> 'self' app.optimizely.com *.hotjar.com; <b>img-src</b> data: https://maps.googleapis.com *.google.co.uk *.virtualearth.net https://5035317.fls.doubleclick.net/ 'self' https://csi.gstatic.com https://*.tesco.com https://*.doubleclick.net *.hotjar.com:* https://www.google-analytics.com https://maps.gstatic.com *.google.com *.google-analytics.com *.tesco.com *.hotjar.com; <b>report-uri</b> report; <b>script-src</b> https://maps.googleapis.com *.tt.omtrdc.net *.virtualearth.net https://cdn.optimizely.com *.ce-homepage.com *.adobedtm.com 'self' *.optimizely.com 'unsafe-inline' 'unsafe-eval' *.hotjar.com:* https://5974661041.log.optimizely.com/ https://www.google-analytics.com *.google-analytics.com *.tesco.com *.hotjar.com; <b>style-src</b> https://fonts.googleapis.com *.virtualearth.net 'self' 'unsafe-inline' *.hotjar.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-15 - 2017-04-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="hotjar.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ frame-src https://*.optimizely.com https://5035317.fls.doubleclick.net https://*.hotjar.com https://*.doubleclick.net https://*.cdn.optimizely.com
+child-src
+- https://*.doubleclick.net
+- *.hotjar.com:*
+- *.hotjar.com
++ https://5035317.fls.doubleclick.net
+frame-ancestors
+- *.hotjar.com
+connect-src
+- https://cdn.optimizely.com
+- *.log.optimizely.com
+- *.hotjar.com:*
+- https://5974661041.log.optimizely.com/
+- *.optimizely.com
+- *.hotjar.com
++ https://*.adobedtm.com
++ http://*.tesco.com
++ http://*.optimizely.com
++ https://*.optimizely.com
++ http://*.tt.omtrdc.net
++ https://*.tt.omtrdc.net
++ https://*.tesco.com
++ https://*.hotjar.com
++ http://*.hotjar.com
++ http://*.adobedtm.com
+font-src
+- https://fonts.gstatic.com
+- *.hotjar.com
+default-src
+- *.optimizely.com
+- *.tesco.com
+- *.hotjar.com
++ https://*.tesco.com
++ http://*.tesco.com
++ http://*.optimizely.com
++ https://*.optimizely.com
+img-src
+- *.google.co.uk
+- https://maps.googleapis.com
+- *.virtualearth.net
+- https://csi.gstatic.com
+- *.hotjar.com:*
+- https://www.google-analytics.com
+- https://maps.gstatic.com
+- *.google.com
+- *.google-analytics.com
+- *.tesco.com
+- *.hotjar.com
++ https://*.google-analytics.com
++ http://*.google-analytics.com
++ http://*.tesco.com
++ http://*.optimizely.com
++ https://*.optimizely.com
++ https://*.google.com
++ https://*.hotjar.com
++ https://*.google.co.uk
++ http://*.hotjar.com
+style-src
+- https://fonts.googleapis.com
+- *.virtualearth.net
+- *.hotjar.com
+script-src
+- https://maps.googleapis.com
+- *.tt.omtrdc.net
+- *.virtualearth.net
+- https://cdn.optimizely.com
+- *.ce-homepage.com
+- *.adobedtm.com
+- *.optimizely.com
+- *.hotjar.com:*
+- https://5974661041.log.optimizely.com/
+- https://www.google-analytics.com
+- *.google-analytics.com
+- *.tesco.com
+- *.hotjar.com
++ https://*.google-analytics.com
++ http://*.google-analytics.com
++ http://*.tesco.com
++ http://*.optimizely.com
++ https://*.optimizely.com
++ https://*.adobedtm.com
++ http://*.ce-homepage.com
++ http://*.tt.omtrdc.net
++ https://*.tt.omtrdc.net
++ https://*.tesco.com
++ https://*.hotjar.com
++ https://*.ce-homepage.com
++ http://*.hotjar.com
++ http://*.adobedtm.com"><pre>85</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> http://*.doubleclick.net https://5035317.fls.doubleclick.net; <b>connect-src</b> http://*.tesco.com https://*.adobedtm.com http://*.optimizely.com https://*.optimizely.com 'self' http://*.tt.omtrdc.net https://*.tt.omtrdc.net https://*.tesco.com https://*.hotjar.com http://*.hotjar.com http://*.adobedtm.com; <b>default-src</b> http://*.tesco.com http://*.optimizely.com https://*.optimizely.com 'self' https://*.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> https://*.optimizely.com https://5035317.fls.doubleclick.net https://*.hotjar.com https://*.doubleclick.net https://*.cdn.optimizely.com; <b>img-src</b> https://*.google-analytics.com http://*.google-analytics.com data: http://*.tesco.com http://*.optimizely.com https://*.optimizely.com https://*.google.com https://5035317.fls.doubleclick.net/ 'self' https://*.tesco.com https://*.hotjar.com https://*.doubleclick.net https://*.google.co.uk http://*.hotjar.com; <b>report-uri</b> report; <b>script-src</b> https://*.google-analytics.com http://*.google-analytics.com http://*.tesco.com http://*.optimizely.com https://*.optimizely.com https://*.adobedtm.com 'self' http://*.ce-homepage.com http://*.tt.omtrdc.net https://*.tesco.com https://*.hotjar.com 'unsafe-eval' 'unsafe-inline' http://*.hotjar.com https://*.ce-homepage.com https://*.tt.omtrdc.net http://*.adobedtm.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-03 - 2017-04-16</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="hotjar.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="child-src
++ https://vars.hotjar.com
+connect-src
+- https://*.hotjar.com
+- http://*.hotjar.com
++ http://*.hotjar.com:*
++ wss://*.hotjar.com
++ ws://*.hotjar.com
++ https://*.hotjar.com:*
+frame-src
+- https://*.hotjar.com
++ https://vars.hotjar.com
+img-src
+- https://*.hotjar.com
+- http://*.hotjar.com
++ https://static.hotjar.com
++ http://static.hotjar.com
++ https://insights.hotjar.com
+script-src
+- https://*.hotjar.com
+- http://*.hotjar.com
++ https://static.hotjar.com
++ http://static.hotjar.com
++ https://script.hotjar.com"><pre>19</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> http://*.doubleclick.net https://vars.hotjar.com https://5035317.fls.doubleclick.net; <b>connect-src</b> http://*.hotjar.com:* http://*.tesco.com https://*.adobedtm.com http://*.optimizely.com https://*.optimizely.com wss://*.hotjar.com 'self' http://*.tt.omtrdc.net https://*.tt.omtrdc.net https://*.tesco.com ws://*.hotjar.com https://*.hotjar.com:* http://*.adobedtm.com; <b>default-src</b> http://*.tesco.com http://*.optimizely.com https://*.optimizely.com 'self' https://*.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.cdn.optimizely.com; <b>img-src</b> https://*.google-analytics.com http://*.google-analytics.com data: http://*.tesco.com http://*.optimizely.com https://*.optimizely.com http://static.hotjar.com https://*.google.com https://5035317.fls.doubleclick.net/ 'self' https://static.hotjar.com https://*.tesco.com https://*.doubleclick.net https://*.google.co.uk https://insights.hotjar.com; <b>report-uri</b> report; <b>script-src</b> https://*.google-analytics.com http://*.google-analytics.com http://static.hotjar.com http://*.tesco.com http://*.optimizely.com https://*.optimizely.com https://*.adobedtm.com 'self' http://*.ce-homepage.com https://static.hotjar.com https://*.tesco.com http://*.tt.omtrdc.net 'unsafe-eval' 'unsafe-inline' https://script.hotjar.com https://*.ce-homepage.com https://*.tt.omtrdc.net http://*.adobedtm.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-17 - 2017-05-24</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="hotjar.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ object-src 'none'
+child-src
+- http://*.doubleclick.net
+- https://vars.hotjar.com
+- https://5035317.fls.doubleclick.net
++ *.cdn.optimizely.com
++ 5035317.fls.doubleclick.net
++ vars.hotjar.com
++ *.doubleclick.net
++ *.optimizely.com
+connect-src
+- http://*.hotjar.com:*
+- http://*.tesco.com
+- https://*.adobedtm.com
+- http://*.optimizely.com
+- https://*.optimizely.com
+- http://*.tt.omtrdc.net
+- https://*.tt.omtrdc.net
+- https://*.tesco.com
+- ws://*.hotjar.com
+- https://*.hotjar.com:*
+- http://*.adobedtm.com
++ *.tt.omtrdc.net
++ *.adobedtm.com
++ *.hotjar.com:*
++ *.tesco.com
++ *.optimizely.com
+default-src
+- https://*.tesco.com
+- http://*.tesco.com
+- http://*.optimizely.com
+- https://*.optimizely.com
++ https:
++ *.tesco.com
+frame-src
+- https://*.optimizely.com
+- https://vars.hotjar.com
+- https://5035317.fls.doubleclick.net
+- https://*.doubleclick.net
+- https://*.cdn.optimizely.com
++ *.cdn.optimizely.com
++ 5035317.fls.doubleclick.net
++ vars.hotjar.com
++ *.doubleclick.net
++ *.optimizely.com
+img-src
+- https://*.google-analytics.com
+- http://*.google-analytics.com
+- http://static.hotjar.com
+- http://*.tesco.com
+- http://*.optimizely.com
+- https://*.optimizely.com
+- https://*.google.com
+- https://5035317.fls.doubleclick.net/
+- https://static.hotjar.com
+- https://*.tesco.com
+- https://*.doubleclick.net
+- https://*.google.co.uk
+- https://insights.hotjar.com
++ *.google.co.uk
++ insights.hotjar.com
++ 5035317.fls.doubleclick.net
++ *.doubleclick.net
++ *.optimizely.com
++ static.hotjar.com
++ *.google.com
++ *.google-analytics.com
++ *.tesco.com
+script-src
+- https://*.google-analytics.com
+- http://*.google-analytics.com
+- http://static.hotjar.com
+- http://*.tesco.com
+- http://*.optimizely.com
+- https://*.optimizely.com
+- https://*.adobedtm.com
+- http://*.ce-homepage.com
+- http://*.tt.omtrdc.net
+- https://static.hotjar.com
+- https://*.tesco.com
+- https://*.tt.omtrdc.net
+- https://*.ce-homepage.com
+- https://script.hotjar.com
+- http://*.adobedtm.com
++ *.tt.omtrdc.net
++ *.ce-homepage.com
++ *.adobedtm.com
++ *.optimizely.com
++ *.tesco.com
++ static.hotjar.com
++ *.google-analytics.com
++ script.hotjar.com"><pre>86</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> *.tt.omtrdc.net wss://*.hotjar.com *.adobedtm.com 'self' *.hotjar.com:* *.tesco.com *.optimizely.com; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>img-src</b> data: *.google.co.uk insights.hotjar.com 'self' 5035317.fls.doubleclick.net *.doubleclick.net *.tesco.com static.hotjar.com *.google.com *.google-analytics.com *.optimizely.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> *.tt.omtrdc.net *.ce-homepage.com script.hotjar.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' static.hotjar.com *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-05-25 - 2017-06-13</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="hotjar.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="child-src
++ 'self'
+connect-src
++ *.doubleclick.net
++ www.google-analytics.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> *.tt.omtrdc.net wss://*.hotjar.com *.adobedtm.com 'self' *.doubleclick.net *.tesco.com *.hotjar.com:* www.google-analytics.com *.optimizely.com; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>img-src</b> data: *.google.co.uk insights.hotjar.com 'self' 5035317.fls.doubleclick.net *.doubleclick.net *.tesco.com static.hotjar.com *.google.com *.google-analytics.com *.optimizely.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> *.tt.omtrdc.net *.ce-homepage.com script.hotjar.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' static.hotjar.com *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-06-14 - 2017-09-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="hotjar.com
+amazonaws.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ optimizely.s3.amazonaws.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> *.tt.omtrdc.net wss://*.hotjar.com *.adobedtm.com 'self' *.doubleclick.net *.tesco.com *.hotjar.com:* www.google-analytics.com *.optimizely.com; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>img-src</b> data: *.google.co.uk insights.hotjar.com 'self' 5035317.fls.doubleclick.net *.doubleclick.net *.tesco.com static.hotjar.com *.google.com *.google-analytics.com *.optimizely.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> *.tt.omtrdc.net *.ce-homepage.com script.hotjar.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' static.hotjar.com optimizely.s3.amazonaws.com *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-09-20 - 2017-10-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+amazonaws.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ ds-aksb-a.akamaihd.net
+script-src
++ ds-aksb-a.akamaihd.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net wss://*.hotjar.com *.adobedtm.com 'self' *.doubleclick.net *.tesco.com *.hotjar.com:* www.google-analytics.com *.optimizely.com; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>img-src</b> data: *.google.co.uk insights.hotjar.com 'self' 5035317.fls.doubleclick.net *.doubleclick.net *.tesco.com static.hotjar.com *.google.com *.google-analytics.com *.optimizely.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net *.ce-homepage.com script.hotjar.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' static.hotjar.com optimizely.s3.amazonaws.com *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>19</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-05 - 2017-10-30</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+amazonaws.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ ds-aksb-a.akamaihd.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net wss://*.hotjar.com *.adobedtm.com 'self' *.doubleclick.net *.tesco.com *.hotjar.com:* www.google-analytics.com *.optimizely.com; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: *.tesco.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>img-src</b> ds-aksb-a.akamaihd.net *.google.co.uk data: insights.hotjar.com 'self' 5035317.fls.doubleclick.net *.doubleclick.net *.tesco.com static.hotjar.com *.google.com *.google-analytics.com *.optimizely.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net *.ce-homepage.com script.hotjar.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' static.hotjar.com optimizely.s3.amazonaws.com *.tesco.com *.optimizely.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>20</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-31 - 2017-11-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+amazonaws.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- www.google-analytics.com
++ *.google-analytics.com
+font-src
+- *.tesco.com
++ https://*
+frame-src
++ *.googleadservices.com
++ *.googlesyndication.com
+img-src
+- ds-aksb-a.akamaihd.net
+- *.google.co.uk
+- insights.hotjar.com
+- 5035317.fls.doubleclick.net
+- *.doubleclick.net
+- *.tesco.com
+- static.hotjar.com
+- *.google.com
+- *.google-analytics.com
+- *.optimizely.com
++ https://*
+style-src
++ fonts.googleapis.com"><pre>18</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net wss://*.hotjar.com *.adobedtm.com 'self' *.doubleclick.net *.tesco.com *.hotjar.com:* *.google-analytics.com *.optimizely.com; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: https://*; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com *.googleadservices.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.googlesyndication.com *.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net *.ce-homepage.com script.hotjar.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' static.hotjar.com optimizely.s3.amazonaws.com *.tesco.com *.optimizely.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>21</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-11-18 - 2017-11-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+amazonaws.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- ds-aksb-a.akamaihd.net
+- *.tt.omtrdc.net
+- *.adobedtm.com
+- *.doubleclick.net
+- *.tesco.com
+- *.hotjar.com:*
+- *.google-analytics.com
+- *.optimizely.com
++ https://*.google-analytics.com
++ https://*.adobedtm.com
++ https://*.optimizely.com
++ https://*.tt.omtrdc.net
++ https://*.tesco.com
++ https://*.doubleclick.net
++ https://*.hotjar.com:*
++ https://ds-aksb-a.akamaihd.net
+script-src
+- ds-aksb-a.akamaihd.net
+- *.tt.omtrdc.net
+- *.ce-homepage.com
+- script.hotjar.com
+- *.adobedtm.com
+- *.google-analytics.com
+- static.hotjar.com
+- optimizely.s3.amazonaws.com
+- *.tesco.com
+- *.optimizely.com
++ https://*.google-analytics.com
++ https://*.adobedtm.com
++ https://optimizely.s3.amazonaws.com
++ https://*.optimizely.com
++ https://static.hotjar.com
++ https://*.tesco.com
++ https://*.tt.omtrdc.net
++ https://*.ce-homepage.com
++ https://script.hotjar.com
++ https://ds-aksb-a.akamaihd.net"><pre>36</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com 'self' https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: https://*; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com *.googleadservices.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.googlesyndication.com *.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://*.google-analytics.com https://*.adobedtm.com https://optimizely.s3.amazonaws.com https://*.optimizely.com 'self' https://static.hotjar.com https://*.tesco.com https://*.tt.omtrdc.net 'unsafe-eval' 'unsafe-inline' https://script.hotjar.com https://*.ce-homepage.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>22</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-11-26 - 2017-12-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+amazonaws.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- https://*.google-analytics.com
+- https://*.adobedtm.com
+- https://*.optimizely.com
+- https://*.tt.omtrdc.net
+- https://*.tesco.com
+- https://*.doubleclick.net
+- https://*.hotjar.com:*
+- https://ds-aksb-a.akamaihd.net
++ ds-aksb-a.akamaihd.net
++ *.tt.omtrdc.net
++ *.adobedtm.com
++ *.optimizely.com
++ *.doubleclick.net
++ *.hotjar.com:*
++ *.google-analytics.com
++ *.tesco.com
+script-src
+- https://*.google-analytics.com
+- https://*.adobedtm.com
+- https://optimizely.s3.amazonaws.com
+- https://*.optimizely.com
+- https://static.hotjar.com
+- https://*.tesco.com
+- https://*.tt.omtrdc.net
+- https://*.ce-homepage.com
+- https://script.hotjar.com
+- https://ds-aksb-a.akamaihd.net
++ ds-aksb-a.akamaihd.net
++ *.tt.omtrdc.net
++ *.ce-homepage.com
++ *.adobedtm.com
++ *.optimizely.com
++ *.tesco.com
++ static.hotjar.com
++ optimizely.s3.amazonaws.com
++ *.google-analytics.com
++ script.hotjar.com"><pre>36</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net wss://*.hotjar.com *.adobedtm.com 'self' *.doubleclick.net *.tesco.com *.hotjar.com:* *.google-analytics.com *.optimizely.com; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: https://*; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com *.googleadservices.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.googlesyndication.com *.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> ds-aksb-a.akamaihd.net *.tt.omtrdc.net *.ce-homepage.com script.hotjar.com *.adobedtm.com 'self' *.google-analytics.com 'unsafe-eval' 'unsafe-inline' static.hotjar.com optimizely.s3.amazonaws.com *.tesco.com *.optimizely.com; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>23</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-05 - 2017-12-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+amazonaws.com
+optimizely.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- ds-aksb-a.akamaihd.net
+- *.tt.omtrdc.net
+- *.adobedtm.com
+- *.doubleclick.net
+- *.tesco.com
+- *.hotjar.com:*
+- *.google-analytics.com
+- *.optimizely.com
++ https://*.google-analytics.com
++ https://*.adobedtm.com
++ https://*.optimizely.com
++ https://*.tt.omtrdc.net
++ https://*.tesco.com
++ https://*.doubleclick.net
++ https://*.hotjar.com:*
++ https://ds-aksb-a.akamaihd.net
+script-src
+- ds-aksb-a.akamaihd.net
+- *.tt.omtrdc.net
+- *.ce-homepage.com
+- script.hotjar.com
+- *.adobedtm.com
+- *.google-analytics.com
+- static.hotjar.com
+- optimizely.s3.amazonaws.com
+- *.tesco.com
+- *.optimizely.com
++ https://*.google-analytics.com
++ https://*.adobedtm.com
++ https://optimizely.s3.amazonaws.com
++ https://*.optimizely.com
++ https://static.hotjar.com
++ https://*.tesco.com
++ https://*.tt.omtrdc.net
++ https://*.ce-homepage.com
++ https://script.hotjar.com
++ https://ds-aksb-a.akamaihd.net"><pre>36</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com 'self' https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: https://*; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com *.googleadservices.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.googlesyndication.com *.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://*.google-analytics.com https://*.adobedtm.com https://optimizely.s3.amazonaws.com https://*.optimizely.com 'self' https://static.hotjar.com https://*.tesco.com https://*.tt.omtrdc.net 'unsafe-eval' 'unsafe-inline' https://script.hotjar.com https://*.ce-homepage.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>24</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-29 - 2018-02-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+amazonaws.com
+optimizely.com
+hotjar.com
+googleapis.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="font-src
++ https://fonts.gstatic.com
+img-src
++ https://www.gstatic.com
++ https://csi.gstatic.com
++ https://maps.gstatic.com
++ https://maps.googleapis.com
+script-src
++ https://maps.googleapis.com"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com 'self' https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: https://* https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com *.googleadservices.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.googlesyndication.com *.optimizely.com; <b>img-src</b> data: https://maps.googleapis.com https://www.gstatic.com https://* 'self' https://csi.gstatic.com https://maps.gstatic.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://*.google-analytics.com https://maps.googleapis.com https://*.adobedtm.com https://optimizely.s3.amazonaws.com https://*.optimizely.com 'self' https://static.hotjar.com https://*.tesco.com https://*.tt.omtrdc.net 'unsafe-eval' 'unsafe-inline' https://script.hotjar.com https://*.ce-homepage.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>25</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-01 - 2018-03-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+amazonaws.com
+optimizely.com
+hotjar.com
+googleapis.com
+appdynamics.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://eum-col.appdynamics.com
++ http://eum-col.appdynamics.com
++ https://cdn.appdynamics.com
++ http://cdn.appdynamics.com
+script-src
++ https://eum-col.appdynamics.com
++ http://eum-col.appdynamics.com
++ https://cdn.appdynamics.com
++ http://cdn.appdynamics.com"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.cdn.optimizely.com 'self' 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>default-src</b> 'self' https: *.tesco.com; <b>font-src</b> 'self' data: https://* https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' app.optimizely.com; <b>frame-src</b> *.cdn.optimizely.com *.googleadservices.com 5035317.fls.doubleclick.net vars.hotjar.com *.doubleclick.net *.googlesyndication.com *.optimizely.com; <b>img-src</b> data: https://maps.googleapis.com https://www.gstatic.com https://* 'self' https://csi.gstatic.com https://maps.gstatic.com; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://*.google-analytics.com https://maps.googleapis.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://eum-col.appdynamics.com 'self' https://static.hotjar.com https://*.tesco.com https://*.tt.omtrdc.net 'unsafe-eval' 'unsafe-inline' http://cdn.appdynamics.com https://script.hotjar.com https://*.ce-homepage.com http://eum-col.appdynamics.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>26</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-02 - 2018-03-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+optimizely.com
+amazonaws.com
+googleapis.com
+appdynamics.com
+ce-homepage.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- default-src 'self' https: *.tesco.com
+child-src
+- *.cdn.optimizely.com
+- 5035317.fls.doubleclick.net
+- vars.hotjar.com
+- *.doubleclick.net
+- *.optimizely.com
++ https://*.optimizely.com
++ https://vars.hotjar.com
++ https://5035317.fls.doubleclick.net
++ https://*.doubleclick.net
++ https://*.cdn.optimizely.com
+frame-ancestors
+- app.optimizely.com
++ https://app.optimizely.com
+font-src
+- https://*
+frame-src
+- *.cdn.optimizely.com
+- *.googleadservices.com
+- 5035317.fls.doubleclick.net
+- vars.hotjar.com
+- *.doubleclick.net
+- *.googlesyndication.com
+- *.optimizely.com
++ https://*.optimizely.com
++ https://vars.hotjar.com
++ https://*.googlesyndication.com
++ https://5035317.fls.doubleclick.net
++ https://*.doubleclick.net
++ https://*.googleadservices.com
++ https://*.cdn.optimizely.com
+img-src
+- https://www.gstatic.com
+- https://csi.gstatic.com
+- https://maps.gstatic.com
+- https://maps.googleapis.com
+style-src
+- fonts.googleapis.com
++ https://fonts.googleapis.com
+script-src
++ 'sha256-b97igg3+scjpvxtrujzdt1rka+/fh+rydycyosi9j4q='"><pre>37</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com 'self' https://*.tt.omtrdc.net 'unsafe-eval' https://script.hotjar.com http://cdn.appdynamics.com 'sha256-b97igg3+scjpvxtrujzdt1rka+/fh+rydycyosi9j4q=' https://maps.googleapis.com https://optimizely.s3.amazonaws.com https://static.hotjar.com http://eum-col.appdynamics.com 'unsafe-inline' https://*.ce-homepage.com https://*.google-analytics.com https://eum-col.appdynamics.com https://*.tesco.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>27</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-22 - 2018-04-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+amazonaws.com
+optimizely.com
+hotjar.com
+googleapis.com
+appdynamics.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://*.ce-homepage.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> 'sha256-b97igg3+scjpvxtrujzdt1rka+/fh+rydycyosi9j4q=' https://*.google-analytics.com https://maps.googleapis.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://eum-col.appdynamics.com 'self' https://static.hotjar.com https://*.tesco.com https://*.tt.omtrdc.net 'unsafe-eval' 'unsafe-inline' http://cdn.appdynamics.com https://script.hotjar.com http://eum-col.appdynamics.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>28</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-06 - 2018-08-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+amazonaws.com
+optimizely.com
+hotjar.com
+googleapis.com
+appdynamics.com
+omtrdc.net
+adobedtm.com
+google-analytics.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- 'sha256-b97igg3+scjpvxtrujzdt1rka+/fh+rydycyosi9j4q='
++ 'sha256-jcsnnhgve+ibnchdxfxsmytmh+bbfamjme9vg1u5si8='"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://*.google-analytics.com https://maps.googleapis.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com https://optimizely.s3.amazonaws.com 'sha256-jcsnnhgve+ibnchdxfxsmytmh+bbfamjme9vg1u5si8=' https://eum-col.appdynamics.com 'self' https://static.hotjar.com https://*.tesco.com https://*.tt.omtrdc.net 'unsafe-eval' 'unsafe-inline' http://cdn.appdynamics.com https://script.hotjar.com http://eum-col.appdynamics.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>29</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-10 - 2018-09-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+doubleclick.net
+optimizely.com
+amazonaws.com
+googleapis.com
+googletagservices.com
+googlesyndication.com
+google-analytics.com
+appdynamics.com
+google.co.in
+omtrdc.net
+adobedtm.com
+google.com
+google.ie
+google.co.uk"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-ancestors
++ https://*.doubleclick.net
+connect-src
++ https://*.googletagservices.com
+frame-src
++ https://*.googletagservices.com
+script-src
+- 'sha256-jcsnnhgve+ibnchdxfxsmytmh+bbfamjme9vg1u5si8='
++ https://adservice.google.com/adsid/integrator.js
++ https://adservice.google.co.uk/adsid/integrator.js
++ https://adservice.google.co.in/adsid/integrator.js
++ 'sha256-t9lc8xsesklpj91j+7/+x+j30meiwizmdxibeefn4rg='
++ https://*.doubleclick.net
++ https://*.googletagservices.com
++ https://adservice.google.ie/adsid/integrator.js
++ https://pagead2.googlesyndication.com/pagead/osd.js"><pre>12</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.googletagservices.com https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com https://*.doubleclick.net; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.googletagservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com 'self' https://*.tt.omtrdc.net https://*.doubleclick.net 'unsafe-eval' https://script.hotjar.com http://cdn.appdynamics.com https://adservice.google.com/adsid/integrator.js https://adservice.google.co.uk/adsid/integrator.js https://maps.googleapis.com https://adservice.google.co.in/adsid/integrator.js https://optimizely.s3.amazonaws.com https://static.hotjar.com http://eum-col.appdynamics.com 'unsafe-inline' https://*.google-analytics.com https://pagead2.googlesyndication.com/pagead/osd.js https://*.googletagservices.com https://adservice.google.ie/adsid/integrator.js 'sha256-t9lc8xsesklpj91j+7/+x+j30meiwizmdxibeefn4rg=' https://eum-col.appdynamics.com https://*.tesco.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>30</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-13 - 2018-09-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+doubleclick.net
+optimizely.com
+googleapis.com
+googletagservices.com
+googlesyndication.com
+google-analytics.com
+appdynamics.com
+google.co.in
+omtrdc.net
+adobedtm.com
+google.com
+google.ie
+google.co.uk"><pre>15</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://search.api.tesco.com/suggestion/
+script-src
+- https://optimizely.s3.amazonaws.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.googletagservices.com https://*.hotjar.com:* https://search.api.tesco.com/suggestion/ https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com https://*.doubleclick.net; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.googletagservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com 'self' https://*.tt.omtrdc.net https://*.doubleclick.net 'unsafe-eval' https://script.hotjar.com http://cdn.appdynamics.com https://adservice.google.com/adsid/integrator.js https://adservice.google.co.uk/adsid/integrator.js https://maps.googleapis.com https://adservice.google.co.in/adsid/integrator.js https://static.hotjar.com http://eum-col.appdynamics.com 'unsafe-inline' https://*.google-analytics.com https://pagead2.googlesyndication.com/pagead/osd.js https://*.googletagservices.com https://adservice.google.ie/adsid/integrator.js 'sha256-t9lc8xsesklpj91j+7/+x+j30meiwizmdxibeefn4rg=' https://eum-col.appdynamics.com https://*.tesco.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>31</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-16 - 2018-09-26</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+doubleclick.net
+optimizely.com
+amazonaws.com
+googleapis.com
+googletagservices.com
+googlesyndication.com
+google-analytics.com
+appdynamics.com
+google.co.in
+omtrdc.net
+adobedtm.com
+google.com
+google.ie
+google.co.uk"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- https://search.api.tesco.com/suggestion/
+script-src
++ https://optimizely.s3.amazonaws.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.googletagservices.com https://*.hotjar.com:* https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com https://*.doubleclick.net; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.googletagservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com 'self' https://*.tt.omtrdc.net https://*.doubleclick.net 'unsafe-eval' https://script.hotjar.com http://cdn.appdynamics.com https://adservice.google.com/adsid/integrator.js https://adservice.google.co.uk/adsid/integrator.js https://maps.googleapis.com https://adservice.google.co.in/adsid/integrator.js https://optimizely.s3.amazonaws.com https://static.hotjar.com http://eum-col.appdynamics.com 'unsafe-inline' https://*.google-analytics.com https://pagead2.googlesyndication.com/pagead/osd.js https://*.googletagservices.com https://adservice.google.ie/adsid/integrator.js 'sha256-t9lc8xsesklpj91j+7/+x+j30meiwizmdxibeefn4rg=' https://eum-col.appdynamics.com https://*.tesco.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>32</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-27 - 2018-10-11</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+doubleclick.net
+optimizely.com
+googleapis.com
+googletagservices.com
+googlesyndication.com
+google-analytics.com
+appdynamics.com
+google.co.in
+omtrdc.net
+adobedtm.com
+google.com
+google.ie
+google.co.uk"><pre>15</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://search.api.tesco.com/suggestion/
+script-src
+- https://optimizely.s3.amazonaws.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.googletagservices.com https://*.hotjar.com:* https://search.api.tesco.com/suggestion/ https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com https://*.doubleclick.net; <b>frame-src</b> https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.googletagservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com 'self' https://*.tt.omtrdc.net https://*.doubleclick.net 'unsafe-eval' https://script.hotjar.com http://cdn.appdynamics.com https://adservice.google.com/adsid/integrator.js https://adservice.google.co.uk/adsid/integrator.js https://maps.googleapis.com https://adservice.google.co.in/adsid/integrator.js https://static.hotjar.com http://eum-col.appdynamics.com 'unsafe-inline' https://*.google-analytics.com https://pagead2.googlesyndication.com/pagead/osd.js https://*.googletagservices.com https://adservice.google.ie/adsid/integrator.js 'sha256-t9lc8xsesklpj91j+7/+x+j30meiwizmdxibeefn4rg=' https://eum-col.appdynamics.com https://*.tesco.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>33</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-12 - 2018-11-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+doubleclick.net
+optimizely.com
+googleapis.com
+googletagservices.com
+googlesyndication.com
+google-analytics.com
+appdynamics.com
+google.co.in
+sociomantic.com
+omtrdc.net
+adobedtm.com
+google.com
+google.ie
+google.co.uk"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://*.sociomantic.com
+script-src
+- 'sha256-t9lc8xsesklpj91j+7/+x+j30meiwizmdxibeefn4rg='
++ https://*.sociomantic.com
++ 'sha256-/yump3abegtglxuz++lts+uaguamue8gl3b0anpwvcy='"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.googletagservices.com https://*.hotjar.com:* https://search.api.tesco.com/suggestion/ https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com https://*.doubleclick.net; <b>frame-src</b> https://*.sociomantic.com https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.googletagservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com 'self' https://*.tt.omtrdc.net https://*.doubleclick.net 'unsafe-eval' https://script.hotjar.com http://cdn.appdynamics.com https://adservice.google.com/adsid/integrator.js https://adservice.google.co.uk/adsid/integrator.js https://maps.googleapis.com https://adservice.google.co.in/adsid/integrator.js https://static.hotjar.com http://eum-col.appdynamics.com 'unsafe-inline' https://*.google-analytics.com https://*.sociomantic.com https://pagead2.googlesyndication.com/pagead/osd.js https://*.googletagservices.com 'sha256-/yump3abegtglxuz++lts+uaguamue8gl3b0anpwvcy=' https://adservice.google.ie/adsid/integrator.js https://eum-col.appdynamics.com https://*.tesco.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>34</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-29 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="akamaihd.net
+hotjar.com
+doubleclick.net
+optimizely.com
+googleapis.com
+googletagservices.com
+googlesyndication.com
+google-analytics.com
+appdynamics.com
+google.co.in
+sociomantic.com
+omtrdc.net
+adobedtm.com
+google.com
+google.ie
+google.co.uk"><pre>16</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- 'sha256-/yump3abegtglxuz++lts+uaguamue8gl3b0anpwvcy='"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://*.optimizely.com https://vars.hotjar.com https://5035317.fls.doubleclick.net 'self' https://*.doubleclick.net https://*.cdn.optimizely.com; <b>connect-src</b> https://*.google-analytics.com https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com wss://*.hotjar.com https://eum-col.appdynamics.com 'self' http://cdn.appdynamics.com https://*.tt.omtrdc.net https://*.tesco.com https://*.doubleclick.net http://eum-col.appdynamics.com https://*.googletagservices.com https://*.hotjar.com:* https://search.api.tesco.com/suggestion/ https://ds-aksb-a.akamaihd.net; <b>font-src</b> 'self' data: https://fonts.gstatic.com; <b>frame-ancestors</b> 'self' https://app.optimizely.com https://*.doubleclick.net; <b>frame-src</b> https://*.sociomantic.com https://*.optimizely.com https://vars.hotjar.com https://*.googlesyndication.com https://5035317.fls.doubleclick.net https://*.doubleclick.net https://*.googleadservices.com https://*.googletagservices.com https://*.cdn.optimizely.com; <b>img-src</b> 'self' data: https://*; <b>object-src</b> 'none'; <b>report-uri</b> report; <b>script-src</b> https://cdn.appdynamics.com https://*.adobedtm.com https://*.optimizely.com 'self' https://*.tt.omtrdc.net https://*.doubleclick.net 'unsafe-eval' https://script.hotjar.com http://cdn.appdynamics.com https://adservice.google.com/adsid/integrator.js https://adservice.google.co.uk/adsid/integrator.js https://maps.googleapis.com https://adservice.google.co.in/adsid/integrator.js https://static.hotjar.com http://eum-col.appdynamics.com 'unsafe-inline' https://*.google-analytics.com https://*.sociomantic.com https://pagead2.googlesyndication.com/pagead/osd.js https://*.googletagservices.com https://adservice.google.ie/adsid/integrator.js https://eum-col.appdynamics.com https://*.tesco.com https://ds-aksb-a.akamaihd.net; <b>style-src</b> 'self' https://fonts.googleapis.com 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

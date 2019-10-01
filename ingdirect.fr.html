@@ -1,0 +1,614 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for ingdirect.fr</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://ingdirect.fr" target="_blank">ingdirect.fr</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-02-17 - 2015-02-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com
+facebook.net
+google.com
+twitter.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> 'self'; <b>default-src</b> 'none'; <b>font-src</b> 'self'; <b>frame-src</b> https://www.google.com http://www.google.com http://r.turn.com https://*.youtube.com https://*.doubleclick.net https://r.turn.com http://*.youtube.com; <b>img-src</b> 'self' ssl.google-analytics.com www.google-analytics.com www.ingdirect.fr; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net www.ingdirect.fr 'self' www.google.com www.google-analytics.com apis.google.com platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-02-18 - 2015-04-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google-analytics.com
+facebook.net
+google.com
+twitter.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://accounts.google.com
++ http://www.facebook.com/plugins
++ https://apis.google.com/
++ http://platform.twitter.com/widgets
++ https://s-static.ak.facebook.com
+img-src
++ https://syndication.twitter.com"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> 'self'; <b>default-src</b> 'none'; <b>font-src</b> 'self'; <b>frame-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com; <b>img-src</b> www.ingdirect.fr 'self' https://syndication.twitter.com www.google-analytics.com ssl.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net www.ingdirect.fr 'self' www.google.com www.google-analytics.com apis.google.com platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-04-02 - 2015-05-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+twitter.com
+jquery.com
+linkeo.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="font-src
++ client.linkeo.com
+img-src
++ wcb.linkeo.com
+style-src
++ wcb.linkeo.com
++ client.linkeo.com
+script-src
++ wcb.linkeo.com
++ client.linkeo.com
++ code.jquery.com
++ 'unsafe-inline'"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> 'self'; <b>default-src</b> 'none'; <b>font-src</b> 'self' client.linkeo.com; <b>frame-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com; <b>img-src</b> www.ingdirect.fr 'self' https://syndication.twitter.com www.google-analytics.com wcb.linkeo.com ssl.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net wcb.linkeo.com code.jquery.com www.ingdirect.fr 'self' client.linkeo.com www.google.com www.google-analytics.com 'unsafe-inline' apis.google.com platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' client.linkeo.com 'unsafe-inline' wcb.linkeo.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-06-27 - 2015-10-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+twitter.com
+jquery.com
+linkeo.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> 'self'; <b>default-src</b> 'none'; <b>font-src</b> 'self' client.linkeo.com; <b>frame-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com; <b>img-src</b> www.ingdirect.fr 'self' https://syndication.twitter.com www.google-analytics.com wcb.linkeo.com ssl.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net wcb.linkeo.com code.jquery.com www.ingdirect.fr 'self' client.linkeo.com www.google.com www.google-analytics.com 'unsafe-inline' apis.google.com platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' client.linkeo.com 'unsafe-inline' wcb.linkeo.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-10-02 - 2015-12-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+twitter.com
+jquery.com
+linkeo.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ http://cse.google.com
+script-src
++ http://cse.google.com/cse"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> 'self'; <b>default-src</b> 'none'; <b>font-src</b> 'self' client.linkeo.com; <b>frame-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com; <b>img-src</b> www.ingdirect.fr 'self' https://syndication.twitter.com www.google-analytics.com wcb.linkeo.com ssl.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net wcb.linkeo.com code.jquery.com www.ingdirect.fr 'self' client.linkeo.com www.google.com www.google-analytics.com 'unsafe-inline' apis.google.com platform.twitter.com http://cse.google.com/cse ssl.google-analytics.com; <b>style-src</b> 'self' client.linkeo.com 'unsafe-inline' wcb.linkeo.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-12-26 - 2016-03-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="google.com
+twitter.com
+jquery.com
+linkeo.com
+facebook.net
+google-analytics.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ child-src https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse
+- frame-src https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com
+img-src
++ https://stats.g.doubleclick.net/r/collect/
+script-src
+- http://cse.google.com/cse
++ cse.google.com/cse/brand"><pre>31</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self'; <b>default-src</b> 'none'; <b>font-src</b> 'self' client.linkeo.com; <b>img-src</b> ssl.google-analytics.com www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ wcb.linkeo.com www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net wcb.linkeo.com code.jquery.com cse.google.com/cse/brand www.ingdirect.fr 'self' client.linkeo.com www.google.com www.google-analytics.com 'unsafe-inline' apis.google.com platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' client.linkeo.com 'unsafe-inline' wcb.linkeo.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-03-03 - 2016-03-16</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+mxpnl.net
+linkeo.com
+facebook.net
+google.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ frame-src https://www.youtube.com/embed/ http://www.youtube.com/embed/ http://www.google.com/cse https://cse.google.com/cse
+connect-src
++ http://www.ingdirect.fr/
++ https://cr-input.mxpnl.net/
+script-src
+- cse.google.com/cse/brand
+- www.ingdirect.fr
++ http://www.ingdirect.fr
++ https://www.google.com/jsapi
++ https://cse.google.com/cse/brand
++ http://trendtext.eu/
++ http://b.mxpnl.net/cs/
++ 'unsafe-eval'
++ http://trendtext.eu/metric/"><pre>15</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' http://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' client.linkeo.com; <b>frame-src</b> https://www.youtube.com/embed/ http://www.youtube.com/embed/ http://www.google.com/cse https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ wcb.linkeo.com www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> http://www.ingdirect.fr connect.facebook.net ssl.google-analytics.com https://www.google.com/jsapi wcb.linkeo.com https://cse.google.com/cse/brand 'self' http://b.mxpnl.net/cs/ http://trendtext.eu/ www.google.com client.linkeo.com 'unsafe-inline' 'unsafe-eval' http://trendtext.eu/metric/ platform.twitter.com apis.google.com www.google-analytics.com code.jquery.com; <b>style-src</b> 'self' client.linkeo.com 'unsafe-inline' wcb.linkeo.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-03-17 - 2016-11-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+mxpnl.net
+linkeo.com
+facebook.net
+google.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://*.fls.doubleclick.net/
++ https://fls.doubleclick.net/"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' http://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' client.linkeo.com; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ wcb.linkeo.com www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> http://www.ingdirect.fr connect.facebook.net ssl.google-analytics.com https://www.google.com/jsapi wcb.linkeo.com https://cse.google.com/cse/brand 'self' http://b.mxpnl.net/cs/ http://trendtext.eu/ www.google.com client.linkeo.com 'unsafe-inline' 'unsafe-eval' http://trendtext.eu/metric/ platform.twitter.com apis.google.com www.google-analytics.com code.jquery.com; <b>style-src</b> 'self' client.linkeo.com 'unsafe-inline' wcb.linkeo.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-18 - 2016-12-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+mxpnl.net
+linkeo.com
+facebook.net
+google.com"><pre>8</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://news.ing.be/newsingbeimages/assets/"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' http://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' client.linkeo.com; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com https://news.ing.be/newsingbeimages/assets/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ wcb.linkeo.com www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> http://www.ingdirect.fr connect.facebook.net ssl.google-analytics.com https://www.google.com/jsapi wcb.linkeo.com https://cse.google.com/cse/brand 'self' http://b.mxpnl.net/cs/ http://trendtext.eu/ www.google.com client.linkeo.com 'unsafe-inline' 'unsafe-eval' http://trendtext.eu/metric/ platform.twitter.com apis.google.com www.google-analytics.com code.jquery.com; <b>style-src</b> 'self' client.linkeo.com 'unsafe-inline' wcb.linkeo.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-12-13 - 2017-03-30</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="font-src
+- client.linkeo.com
++ https://fonts.gstatic.com/
+img-src
+- wcb.linkeo.com
++ data:
++ http://*.visualwebsiteoptimizer.com/
++ http://chart.googleapis.com/
+style-src
+- wcb.linkeo.com
+- client.linkeo.com
++ http://app.vwo.com/
++ https://fonts.googleapis.com/
+script-src
+- wcb.linkeo.com
+- client.linkeo.com
++ http://*.visualwebsiteoptimizer.com/
++ http://d5phz18u4wuww.cloudfront.net/"><pre>14</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' http://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://fonts.gstatic.com/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> http://www.ingdirect.fr connect.facebook.net ssl.google-analytics.com https://www.google.com/jsapi https://cse.google.com/cse/brand http://*.visualwebsiteoptimizer.com/ 'self' http://b.mxpnl.net/cs/ http://trendtext.eu/ www.google.com www.google-analytics.com 'unsafe-inline' 'unsafe-eval' http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com http://trendtext.eu/metric/ apis.google.com code.jquery.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-31 - 2017-04-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- http://www.ingdirect.fr/
++ https://www.ingdirect.fr/
+script-src
++ https://app.vwo.com/visitor-behavior-analysis/"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' https://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://fonts.gstatic.com/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.google.com/jsapi code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-07 - 2017-10-01</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="font-src
++ https://app.vwo.com/assets/fonts/
+frame-src
++ https://app.vwo.com/visitor-behavior-analysis/"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' https://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.google.com/jsapi code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-02 - 2017-10-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://services.opcvm360.com/api-v1/"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' https://services.opcvm360.com/api-v1/ https://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.google.com/jsapi code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-10-10 - 2018-01-24</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://www.google.com/ads/ga-audiences"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' https://services.opcvm360.com/api-v1/ https://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr https://www.google.com/ads/ga-audiences 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.google.com/jsapi code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-25 - 2018-01-31</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+youtube.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+ytimg.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
+- https://www.google.com/ads/ga-audiences
++ https://www.google.com/ads/
+script-src
++ https://s.ytimg.com/yts/jsbin/www-widgetapi-vflkvq6kw/www-widgetapi.js
++ https://www.youtube.com/iframe_api
++ http://www.youtube.com/iframe_api"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' https://services.opcvm360.com/api-v1/ https://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com https://www.google.com/ads/; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net 'self' apis.google.com 'unsafe-eval' https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com https://www.youtube.com/iframe_api 'unsafe-inline' https://www.google.com/jsapi http://www.youtube.com/iframe_api https://s.ytimg.com/yts/jsbin/www-widgetapi-vflkvq6kw/www-widgetapi.js code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-01 - 2018-02-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+twitter.com
+youtube.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+ytimg.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://s.ytimg.com/yts/jsbin/www-widgetapi-vflkvq6kw/www-widgetapi.js
++ https://s.ytimg.com/yts/jsbin/"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> 'self' https://services.opcvm360.com/api-v1/ https://www.ingdirect.fr/ https://cr-input.mxpnl.net/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com https://www.google.com/ads/; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net https://s.ytimg.com/yts/jsbin/ 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com https://www.youtube.com/iframe_api 'unsafe-inline' https://www.google.com/jsapi http://www.youtube.com/iframe_api code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-18 - 2018-03-03</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+ampproject.org
+twitter.com
+youtube.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+ytimg.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://www.google-analytics.com/r/collect
+font-src
++ https://www.ingdirect.fr/assets/fonts/
+script-src
++ https://cdn.ampproject.org/"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> https://www.google-analytics.com/r/collect https://cr-input.mxpnl.net/ 'self' https://www.ingdirect.fr/ https://services.opcvm360.com/api-v1/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/ https://www.ingdirect.fr/assets/fonts/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com https://www.google.com/ads/; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net https://s.ytimg.com/yts/jsbin/ 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.youtube.com/iframe_api https://www.google.com/jsapi http://www.youtube.com/iframe_api code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ https://cdn.ampproject.org/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-04 - 2018-04-03</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+ampproject.org
+twitter.com
+youtube.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+ytimg.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://amp-error-reporting.appspot.com/
++ https://www.google.com/ads
++ https://stats.g.doubleclick.net/r/
++ https://ampcid.google.com/v1/publisher:getclientid
++ https://www.google.fr/ads
++ https://ampcid.google.fr/"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> https://amp-error-reporting.appspot.com/ https://www.google-analytics.com/r/collect https://cr-input.mxpnl.net/ 'self' https://www.google.com/ads https://stats.g.doubleclick.net/r/ https://www.ingdirect.fr/ https://ampcid.google.com/v1/publisher:getclientid https://services.opcvm360.com/api-v1/ https://www.google.fr/ads https://ampcid.google.fr/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/ https://www.ingdirect.fr/assets/fonts/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com https://www.google.com/ads/; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net https://s.ytimg.com/yts/jsbin/ 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.youtube.com/iframe_api https://www.google.com/jsapi http://www.youtube.com/iframe_api code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ https://cdn.ampproject.org/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-04 - 2018-07-31</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+ampproject.org
+twitter.com
+youtube.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+ytimg.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://www.google.fr/ads/"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> https://amp-error-reporting.appspot.com/ https://www.google-analytics.com/r/collect https://cr-input.mxpnl.net/ 'self' https://www.google.com/ads https://stats.g.doubleclick.net/r/ https://www.ingdirect.fr/ https://ampcid.google.com/v1/publisher:getclientid https://services.opcvm360.com/api-v1/ https://www.google.fr/ads https://ampcid.google.fr/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/ https://www.ingdirect.fr/assets/fonts/; <b>frame-src</b> http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com https://www.google.fr/ads/ data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com https://www.google.com/ads/; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net https://s.ytimg.com/yts/jsbin/ 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.youtube.com/iframe_api https://www.google.com/jsapi http://www.youtube.com/iframe_api code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ https://cdn.ampproject.org/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>19</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-01 - 2018-11-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+ampproject.org
+twitter.com
+youtube.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+ytimg.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://dev.visualwebsiteoptimizer.com/analysis/
+frame-src
++ https://*.visualwebsiteoptimizer.com/"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> https://amp-error-reporting.appspot.com/ https://www.google-analytics.com/r/collect https://dev.visualwebsiteoptimizer.com/analysis/ https://www.google.com/ads 'self' https://cr-input.mxpnl.net/ https://stats.g.doubleclick.net/r/ https://www.ingdirect.fr/ https://ampcid.google.com/v1/publisher:getclientid https://services.opcvm360.com/api-v1/ https://www.google.fr/ads https://ampcid.google.fr/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/ https://www.ingdirect.fr/assets/fonts/; <b>frame-src</b> https://*.visualwebsiteoptimizer.com/ http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com https://www.google.fr/ads/ data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com https://www.google.com/ads/; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net https://s.ytimg.com/yts/jsbin/ 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.youtube.com/iframe_api https://www.google.com/jsapi http://www.youtube.com/iframe_api code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ https://cdn.ampproject.org/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> 'self' https://fonts.googleapis.com/ 'unsafe-inline' http://app.vwo.com/; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>20</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-16 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="trendtext.eu
+ampproject.org
+twitter.com
+youtube.com
+jquery.com
+google-analytics.com
+cloudfront.net
+mxpnl.net
+vwo.com
+ytimg.com
+facebook.net
+google.com
+visualwebsiteoptimizer.com"><pre>13</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="style-src
++ https://s3.amazonaws.com/vwo-surveys/theme/
++ https://dev.visualwebsiteoptimizer.com/static/0.5/styles/themes/"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> https://accounts.google.com https://www.google.com http://www.facebook.com/plugins http://www.google.com http://r.turn.com http://cse.google.com 'self' https://*.youtube.com https://apis.google.com/ http://platform.twitter.com/widgets https://*.doubleclick.net https://r.turn.com https://s-static.ak.facebook.com http://*.youtube.com https://cse.google.com/cse; <b>connect-src</b> https://amp-error-reporting.appspot.com/ https://www.google-analytics.com/r/collect https://dev.visualwebsiteoptimizer.com/analysis/ https://www.google.com/ads 'self' https://cr-input.mxpnl.net/ https://stats.g.doubleclick.net/r/ https://www.ingdirect.fr/ https://ampcid.google.com/v1/publisher:getclientid https://services.opcvm360.com/api-v1/ https://www.google.fr/ads https://ampcid.google.fr/; <b>default-src</b> 'none'; <b>font-src</b> 'self' https://app.vwo.com/assets/fonts/ https://fonts.gstatic.com/ https://www.ingdirect.fr/assets/fonts/; <b>frame-src</b> https://*.visualwebsiteoptimizer.com/ http://www.google.com/cse http://www.youtube.com/embed/ https://fls.doubleclick.net/ https://*.fls.doubleclick.net/ https://www.youtube.com/embed/ https://app.vwo.com/visitor-behavior-analysis/ https://cse.google.com/cse; <b>img-src</b> ssl.google-analytics.com https://www.google.fr/ads/ data: https://news.ing.be/newsingbeimages/assets/ http://*.visualwebsiteoptimizer.com/ http://chart.googleapis.com/ www.ingdirect.fr 'self' https://syndication.twitter.com https://stats.g.doubleclick.net/r/collect/ www.google-analytics.com https://www.google.com/ads/; <b>media-src</b> 'self'; <b>object-src</b> 'self'; <b>script-src</b> connect.facebook.net https://s.ytimg.com/yts/jsbin/ 'self' 'unsafe-eval' apis.google.com https://app.vwo.com/visitor-behavior-analysis/ http://www.ingdirect.fr http://*.visualwebsiteoptimizer.com/ http://trendtext.eu/ www.google.com 'unsafe-inline' https://www.youtube.com/iframe_api https://www.google.com/jsapi http://www.youtube.com/iframe_api code.jquery.com www.google-analytics.com https://cse.google.com/cse/brand http://b.mxpnl.net/cs/ https://cdn.ampproject.org/ http://trendtext.eu/metric/ http://d5phz18u4wuww.cloudfront.net/ platform.twitter.com ssl.google-analytics.com; <b>style-src</b> https://s3.amazonaws.com/vwo-surveys/theme/ https://fonts.googleapis.com/ 'self' http://app.vwo.com/ https://dev.visualwebsiteoptimizer.com/static/0.5/styles/themes/ 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

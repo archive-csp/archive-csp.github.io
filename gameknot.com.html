@@ -1,0 +1,480 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for gameknot.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://gameknot.com" target="_blank">gameknot.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-03-04 - 2014-03-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="godaddy.com
+authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com connect.facebook.net https://*.google.com gameknot.com 'self' seal.godaddy.com 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-09-09 - 2014-10-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- connect.facebook.net
+- seal.godaddy.com
++ *.facebook.com
++ *.facebook.net"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-10-22 - 2014-10-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-12-02 - 2014-12-07</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2014-12-18 - 2014-12-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-01-05 - 2015-01-07</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-01-13 - 2015-01-13</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-01-15 - 2015-01-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-06-18 - 2015-06-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-09-27 - 2015-09-27</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-10-02 - 2015-10-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="authorize.net
+ichess.com
+googleapis.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> http://*.googleapis.com *.facebook.com https://*.google.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com http://*.google.com *.gameknot.com verify.authorize.net *.google-analytics.com https://*.googleapis.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-10-20 - 2016-10-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+ichess.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://*.stripe.com
++ *.googlesyndication.com
+script-src
+- http://*.googleapis.com
+- https://*.google.com
+- http://*.google.com
+- verify.authorize.net
+- https://*.googleapis.com
++ *.gstatic.com
++ *.tribalfusion.com
++ *.googleapis.com
++ *.google.com
++ https://*.stripe.com
++ *.googlesyndication.com"><pre>13</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-12-26 - 2017-01-24</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+ichess.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-02-27 - 2017-03-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+ichess.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-06-30 - 2017-07-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+ichess.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> *.googleapis.com gameknot.com 'self' *.ichess.com ws://*.gameknot.com:* *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-08-15 - 2017-08-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+ichess.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ wss://*.gameknot.com:*"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.gameknot.com:* *.googleapis.com gameknot.com 'self' ws://*.gameknot.com:* *.ichess.com *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-01 - 2018-02-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+ichess.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ *.doubleclick.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.gameknot.com:* *.googleapis.com gameknot.com 'self' *.doubleclick.net ws://*.gameknot.com:* *.ichess.com *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.ichess.com *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' *.ichess.com 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-11 - 2018-03-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
+- *.ichess.com
+style-src
+- *.ichess.com
+script-src
+- *.ichess.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.gameknot.com:* *.googleapis.com gameknot.com 'self' *.doubleclick.net ws://*.gameknot.com:* *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-13 - 2018-04-13</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="tribalfusion.com
+gstatic.com
+googleapis.com
+googlesyndication.com
+google-analytics.com
+facebook.com
+facebook.net
+google.com
+stripe.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> wss://*.gameknot.com:* *.googleapis.com gameknot.com 'self' *.doubleclick.net ws://*.gameknot.com:* *.gameknot.com https://*.stripe.com *.googlesyndication.com; <b>default-src</b> *; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com *.googlesyndication.com *.tribalfusion.com *.facebook.com *.google.com *.googleapis.com *.facebook.net gameknot.com 'self' 'unsafe-inline' 'unsafe-eval' *.gameknot.com https://*.stripe.com *.google-analytics.com; <b>style-src</b> gameknot.com 'self' 'unsafe-eval' 'unsafe-inline' *.gameknot.com; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

@@ -1,0 +1,671 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for arduino.cc</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://arduino.cc" target="_blank">arduino.cc</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-24 - 2016-11-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> 'self' https://www.youtube.com https://js.stripe.com; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> 'self' https://www.youtube.com https://js.stripe.com; <b>img-src</b> https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com 'unsafe-inline' https://ajax.googleapis.com https://connect.facebook.net https://ssl.google-analytics.com; <b>style-src</b> 'self' https://arduino.cc 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-26 - 2016-11-29</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://checkout.stripe.com
+style-src
++ https://code.jquery.com
+script-src
++ https://arduino.cc
++ https://checkout.stripe.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> 'self' https://www.youtube.com https://js.stripe.com; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> 'self' https://www.youtube.com https://js.stripe.com; <b>img-src</b> https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://ajax.googleapis.com https://connect.facebook.net https://ssl.google-analytics.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-11-30 - 2016-12-02</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="child-src
++ https://checkout.stripe.com
+frame-src
++ https://checkout.stripe.com
+img-src
++ *.stripe.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> 'self' https://www.youtube.com https://checkout.stripe.com https://js.stripe.com; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> 'self' https://www.youtube.com https://checkout.stripe.com https://js.stripe.com; <b>img-src</b> https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://ajax.googleapis.com https://connect.facebook.net https://ssl.google-analytics.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-12-03 - 2016-12-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://api.arduino.cc
+img-src
++ https://assets.windowsphone.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> 'self' https://www.youtube.com https://checkout.stripe.com https://js.stripe.com; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> 'self' https://www.youtube.com https://checkout.stripe.com https://js.stripe.com; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://ajax.googleapis.com https://connect.facebook.net https://ssl.google-analytics.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-12-06 - 2016-12-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://downloads.arduino.cc"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> 'self' https://www.youtube.com https://checkout.stripe.com https://js.stripe.com; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://ajax.googleapis.com https://connect.facebook.net https://ssl.google-analytics.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-12-07 - 2017-01-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="child-src
++ https://downloads.arduino.cc
++ https://create.arduino.cc
+frame-src
++ https://create.arduino.cc"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://ajax.googleapis.com https://connect.facebook.net https://ssl.google-analytics.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-01-26 - 2017-03-30</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="child-src
++ https://www.hackster.io
+frame-src
++ https://www.hackster.io
+script-src
++ https://forum.arduino.cc
++ https://store.arduino.cc"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://forum.arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://ssl.google-analytics.com https://ajax.googleapis.com https://connect.facebook.net https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-31 - 2017-04-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
++ https://cdn-dev.arduino.cc
++ https://cdn.arduino.cc
++ https://cdn-stag.arduino.cc"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://id.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://forum.arduino.cc https://cdn-dev.arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://ajax.googleapis.com https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://id.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-06 - 2017-04-11</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ font-src 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc
+connect-src
++ https://cdn.arduino.cc
++ https://cdn-stag.arduino.cc
+frame-src
++ https://auth.arduino.cc
+img-src
++ https://cdn.arduino.cc
++ https://cdn-stag.arduino.cc
+style-src
++ https://cdn.arduino.cc
++ https://cdn-stag.arduino.cc"><pre>11</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://forum.arduino.cc https://cdn-dev.arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://ajax.googleapis.com https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-12 - 2017-04-18</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+google-analytics.ga
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://auth.arduino.cc
+frame-src
++ https://hydra.arduino.cc"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc https://ssl.google-analytics.com; <b>script-src</b> https://arduino.cc https://forum.arduino.cc https://cdn-dev.arduino.cc https://google-analytics.ga https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://ajax.googleapis.com https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-19 - 2017-04-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://www.google-analytics.com
++ https://store.arduino.cc
+script-src
+- https://google-analytics.ga
+- https://ssl.google-analytics.com
++ https://www.google-analytics.com"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://www.google-analytics.com https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://id.arduino.cc https://cdn.arduino.cc https://store.arduino.cc; <b>script-src</b> https://arduino.cc https://forum.arduino.cc https://cdn-dev.arduino.cc https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://www.google-analytics.com https://cdn-stag.arduino.cc https://ajax.googleapis.com https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-04-21 - 2017-05-11</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://store-cdn.arduino.cc
+script-src
++ https://store-cdn.arduino.cc"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://store-cdn.arduino.cc https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://www.google-analytics.com https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://id.arduino.cc https://cdn.arduino.cc https://store.arduino.cc; <b>script-src</b> https://arduino.cc https://store-cdn.arduino.cc https://forum.arduino.cc https://cdn-dev.arduino.cc https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://www.google-analytics.com https://cdn-stag.arduino.cc https://ajax.googleapis.com https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-05-12 - 2017-05-22</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="img-src
++ https://content.arduino.cc"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://store-cdn.arduino.cc https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://content.arduino.cc https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://www.google-analytics.com https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://id.arduino.cc https://cdn.arduino.cc https://store.arduino.cc; <b>script-src</b> https://arduino.cc https://store-cdn.arduino.cc https://forum.arduino.cc https://cdn-dev.arduino.cc https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://www.google-analytics.com https://cdn-stag.arduino.cc https://ajax.googleapis.com https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-05-23 - 2017-07-03</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="script-src
+- https://cdn-dev.arduino.cc
+- https://cdn-stag.arduino.cc
++ https://hydra.arduino.cc
++ https://auth.arduino.cc"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://store-cdn.arduino.cc https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://content.arduino.cc https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://www.google-analytics.com https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://id.arduino.cc https://cdn.arduino.cc https://store.arduino.cc; <b>script-src</b> https://arduino.cc https://store-cdn.arduino.cc https://forum.arduino.cc https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://checkout.stripe.com 'unsafe-inline' https://www.google-analytics.com https://auth.arduino.cc https://ajax.googleapis.com https://hydra.arduino.cc https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-07-04 - 2017-07-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="style-src
++ https://content.arduino.cc
+script-src
++ https://content.arduino.cc"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc; <b>img-src</b> https://assets.windowsphone.com https://store-cdn.arduino.cc https://www.facebook.com https://blog.arduino.cc https://stats.g.doubleclick.net 'self' *.stripe.com https://content.arduino.cc https://my.arduino.cc https://dcw9y8se13llu.cloudfront.net https://www.google-analytics.com https://cdn-stag.arduino.cc https://ssl.google-analytics.com https://id.arduino.cc https://cdn.arduino.cc https://store.arduino.cc; <b>script-src</b> https://arduino.cc https://store-cdn.arduino.cc https://forum.arduino.cc https://js.stripe.com https://stats.g.doubleclick.net 'self' https://code.jquery.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://www.google-analytics.com https://auth.arduino.cc https://ajax.googleapis.com https://hydra.arduino.cc https://connect.facebook.net https://cdn.arduino.cc https://store.arduino.cc; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-23 - 2018-01-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="+ frame-ancestors 'self'
+connect-src
++ https://api2.arduino.cc
+frame-src
++ https://docs.google.com
+img-src
++ https://images.contentful.com
++ data:
++ https://www.googletagmanager.com
+script-src
++ https://www.googletagmanager.com
++ data:"><pre>8</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://www.google-analytics.com https://images.contentful.com https://id.arduino.cc https://ssl.google-analytics.com https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://cdn.arduino.cc https://www.facebook.com https://my.arduino.cc; <b>script-src</b> data: https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-24 - 2018-03-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://blog.arduino.cc"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://www.google-analytics.com https://images.contentful.com https://id.arduino.cc https://ssl.google-analytics.com https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://cdn.arduino.cc https://www.facebook.com https://my.arduino.cc; <b>script-src</b> data: https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-07 - 2018-08-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+googleapis.com
+jquery.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>7</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="img-src
+- https://images.contentful.com
++ https://images.ctfassets.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://www.google-analytics.com https://id.arduino.cc https://ssl.google-analytics.com https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://images.ctfassets.net https://cdn.arduino.cc https://www.facebook.com https://my.arduino.cc; <b>script-src</b> data: https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-26 - 2018-09-30</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+cloudflare.com
+googleapis.com
+jquery.com
+supplyframe.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>9</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://www.google-analytics.com
+img-src
++ https://*.supplyframe.com
+script-src
++ https://ads.supplyframe.com
++ https://cdnjs.cloudflare.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://www.google-analytics.com https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://www.google-analytics.com https://id.arduino.cc https://ssl.google-analytics.com https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.supplyframe.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://images.ctfassets.net https://cdn.arduino.cc https://www.facebook.com https://my.arduino.cc; <b>script-src</b> data: https://cdnjs.cloudflare.com https://ads.supplyframe.com https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>19</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-01 - 2018-10-03</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+cloudflare.com
+googleapis.com
+jquery.com
+supplyframe.com
+trustarc.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://consent-pref.trustarc.com
+img-src
++ https://consent.trustarc.com
+script-src
++ https://consent.trustarc.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://www.google-analytics.com https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://consent-pref.trustarc.com https://checkout.stripe.com https://auth.arduino.cc https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://www.google-analytics.com https://id.arduino.cc https://store.arduino.cc https://ssl.google-analytics.com https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.supplyframe.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://images.ctfassets.net https://cdn.arduino.cc https://www.facebook.com https://my.arduino.cc; <b>script-src</b> data: https://cdnjs.cloudflare.com https://ads.supplyframe.com https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>20</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-04 - 2018-12-17</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+cloudflare.com
+googleapis.com
+jquery.com
+supplyframe.com
+trustarc.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>10</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="connect-src
++ https://trackerapi.trustarc.com
+frame-src
++ https://staticxx.facebook.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc https://trackerapi.trustarc.com 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://www.google-analytics.com https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://consent-pref.trustarc.com https://checkout.stripe.com https://auth.arduino.cc https://staticxx.facebook.com https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://www.google-analytics.com https://id.arduino.cc https://store.arduino.cc https://ssl.google-analytics.com https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.supplyframe.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://images.ctfassets.net https://cdn.arduino.cc https://www.facebook.com https://my.arduino.cc; <b>script-src</b> data: https://cdnjs.cloudflare.com https://ads.supplyframe.com https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>21</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-18 - 2018-12-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+cloudflare.com
+googleapis.com
+jquery.com
+googletagservices.com
+googlesyndication.com
+supplyframe.com
+trustarc.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="img-src
++ https://*.googlesyndication.com
++ https://*.doubleclick.net
+script-src
++ https://*.googlesyndication.com
++ https://*.googletagservices.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc https://trackerapi.trustarc.com 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://www.google-analytics.com https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://consent-pref.trustarc.com https://checkout.stripe.com https://auth.arduino.cc https://staticxx.facebook.com https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://*.doubleclick.net https://www.google-analytics.com https://id.arduino.cc https://store.arduino.cc https://ssl.google-analytics.com https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.googlesyndication.com https://*.supplyframe.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://images.ctfassets.net https://cdn.arduino.cc https://www.facebook.com https://my.arduino.cc; <b>script-src</b> data: https://cdnjs.cloudflare.com https://ads.supplyframe.com https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.googlesyndication.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://*.googletagservices.com https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>22</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-21 - 2018-12-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+cloudflare.com
+googleapis.com
+jquery.com
+googletagservices.com
+googlesyndication.com
+supplyframe.com
+trustarc.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="img-src
+- https://*.doubleclick.net
++ https://2mdn.net
++ https://ad.doubleclick.net
++ https://www.google.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc https://trackerapi.trustarc.com 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://www.google-analytics.com https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://consent-pref.trustarc.com https://checkout.stripe.com https://auth.arduino.cc https://staticxx.facebook.com https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> data: https://blog.arduino.cc 'self' https://2mdn.net https://www.google-analytics.com https://id.arduino.cc https://store.arduino.cc https://ssl.google-analytics.com https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.googlesyndication.com https://*.supplyframe.com https://content.arduino.cc https://assets.windowsphone.com https://stats.g.doubleclick.net *.stripe.com https://dcw9y8se13llu.cloudfront.net https://cdn-stag.arduino.cc https://images.ctfassets.net https://cdn.arduino.cc https://www.google.com https://www.facebook.com https://my.arduino.cc https://ad.doubleclick.net; <b>script-src</b> data: https://cdnjs.cloudflare.com https://ads.supplyframe.com https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.googlesyndication.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://*.googletagservices.com https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>23</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-22 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="doubleclick.net
+cloudflare.com
+googleapis.com
+jquery.com
+googletagservices.com
+googlesyndication.com
+supplyframe.com
+trustarc.com
+googletagmanager.com
+facebook.net
+google-analytics.com
+stripe.com"><pre>12</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="img-src
+- https://assets.windowsphone.com
+- https://blog.arduino.cc
+- https://stats.g.doubleclick.net
+- *.stripe.com
+- https://2mdn.net
+- https://dcw9y8se13llu.cloudfront.net
+- https://www.google-analytics.com
+- https://cdn-stag.arduino.cc
+- https://id.arduino.cc
+- https://images.ctfassets.net
+- https://cdn.arduino.cc
+- https://consent.trustarc.com
+- https://ssl.google-analytics.com
+- https://store.arduino.cc
+- https://store-cdn.arduino.cc
+- https://www.google.com
+- https://www.facebook.com
+- https://www.googletagmanager.com
+- https://*.googlesyndication.com
+- https://*.supplyframe.com
+- https://content.arduino.cc
+- https://my.arduino.cc
+- https://ad.doubleclick.net
++ https:"><pre>24</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre>block-all-mixed-content; <b>child-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://checkout.stripe.com https://www.hackster.io https://create.arduino.cc; <b>connect-src</b> https://api2.arduino.cc https://forum.arduino.cc https://blog.arduino.cc https://trackerapi.trustarc.com 'self' https://my.arduino.cc https://checkout.stripe.com https://api.arduino.cc https://auth.arduino.cc https://www.google-analytics.com https://cdn-stag.arduino.cc https://cdn.arduino.cc https://api.stripe.com https://store.arduino.cc; <b>default-src</b> 'self' https://arduino.cc; <b>font-src</b> 'self' https://content.arduino.cc https://cdn.arduino.cc https://cdn-stag.arduino.cc; <b>frame-ancestors</b> 'self'; <b>frame-src</b> https://www.youtube.com https://downloads.arduino.cc https://js.stripe.com 'self' https://consent-pref.trustarc.com https://checkout.stripe.com https://auth.arduino.cc https://staticxx.facebook.com https://www.hackster.io https://hydra.arduino.cc https://create.arduino.cc https://docs.google.com; <b>img-src</b> 'self' data: https:; <b>script-src</b> data: https://cdnjs.cloudflare.com https://ads.supplyframe.com https://js.stripe.com 'self' https://www.google-analytics.com https://ajax.googleapis.com https://hydra.arduino.cc https://store.arduino.cc https://consent.trustarc.com https://store-cdn.arduino.cc https://www.googletagmanager.com https://*.googlesyndication.com https://content.arduino.cc https://checkout.stripe.com 'unsafe-inline' https://auth.arduino.cc https://connect.facebook.net https://forum.arduino.cc https://stats.g.doubleclick.net https://*.googletagservices.com https://cdn.arduino.cc https://arduino.cc https://code.jquery.com; <b>style-src</b> https://arduino.cc 'self' https://code.jquery.com https://content.arduino.cc 'unsafe-inline' https://cdn-stag.arduino.cc https://id.arduino.cc https://cdn.arduino.cc; upgrade-insecure-requests; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

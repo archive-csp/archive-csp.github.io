@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for xlovecam.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://xlovecam.com" target="_blank">xlovecam.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2015-08-17 - 2016-01-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="acwebconnecting.com
+google-analytics.com
+gstatic.com
+wlresources.com"><pre>4</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.google-analytics.com *.wlresources.com music.wlresources.com:* http://*.google-analytics.com *.xlovecam.com 'self' *.acwebconnecting.com; <b>frame-src</b> 'self' *.allopass.com *.acwebconnecting.com *.xlovecam.com; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com *.xlovecam.com 'self' 'unsafe-inline' 'unsafe-eval' *.acwebconnecting.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-01-21 - 2016-08-10</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="wlresources.com
+gstatic.com
+google-analytics.com
+cloudfront.net
+acwebconnecting.com
+google.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
+- *.allopass.com
+- *.acwebconnecting.com
+- *.xlovecam.com
++ https://*.acwebconnecting.com
++ https://*.allopass.com
++ http://*.allopass.com
+connect-src
+- music.wlresources.com:*
+script-src
++ https://www.google.com
++ https://d31qbv1cthcecs.cloudfront.net
++ https://d5nxst8fruw4z.cloudfront.net"><pre>10</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com *.xlovecam.com 'self' *.acwebconnecting.com; <b>frame-src</b> 'self' https://*.acwebconnecting.com https://*.allopass.com http://*.allopass.com; <b>report-uri</b> report; <b>script-src</b> *.gstatic.com https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com https://www.google.com *.xlovecam.com https://d31qbv1cthcecs.cloudfront.net 'self' 'unsafe-inline' 'unsafe-eval' *.acwebconnecting.com https://d5nxst8fruw4z.cloudfront.net; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2016-08-11 - 2017-03-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="wlresources.com
+gstatic.com
+google-analytics.com
+cloudfront.net
+acwebconnecting.com
+google.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="frame-src
++ https://www.google.com
+script-src
+- *.gstatic.com
++ https://*.gstatic.com"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com *.xlovecam.com 'self' *.acwebconnecting.com; <b>frame-src</b> https://*.allopass.com https://www.google.com https://*.acwebconnecting.com 'self' http://*.allopass.com; <b>report-uri</b> report; <b>script-src</b> https://*.gstatic.com https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com https://www.google.com *.xlovecam.com https://d31qbv1cthcecs.cloudfront.net 'self' 'unsafe-inline' 'unsafe-eval' *.acwebconnecting.com https://d5nxst8fruw4z.cloudfront.net; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-03-10 - 2017-08-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="wlresources.com
+gstatic.com
+google-analytics.com
+cloudfront.net
+acwebconnecting.com
+google.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com *.xlovecam.com 'self' *.acwebconnecting.com; <b>frame-src</b> https://*.allopass.com https://www.google.com https://*.acwebconnecting.com 'self' http://*.allopass.com; <b>report-uri</b> report; <b>script-src</b> https://*.gstatic.com https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com https://www.google.com *.xlovecam.com https://d31qbv1cthcecs.cloudfront.net 'self' 'unsafe-inline' 'unsafe-eval' *.acwebconnecting.com https://d5nxst8fruw4z.cloudfront.net; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-08-26 - 2018-04-09</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="wlresources.com
+gstatic.com
+google-analytics.com
+cloudfront.net
+acwebconnecting.com
+google.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ worker-src 'self' blob:"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com *.xlovecam.com 'self' *.acwebconnecting.com; <b>frame-src</b> https://*.allopass.com https://www.google.com https://*.acwebconnecting.com 'self' http://*.allopass.com; <b>report-uri</b> report; <b>script-src</b> https://*.gstatic.com https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com https://www.google.com *.xlovecam.com https://d31qbv1cthcecs.cloudfront.net 'self' 'unsafe-inline' 'unsafe-eval' *.acwebconnecting.com https://d5nxst8fruw4z.cloudfront.net; <b>worker-src</b> 'self' blob:; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-10 - 2018-06-22</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="wlresources.com
+gstatic.com
+google-analytics.com
+cloudfront.net
+acwebconnecting.com
+google.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ ws://stt01.wlresources.com
++ wss://www.xlovecam.com
++ ws://www.xlovecam.com
++ wss://stt01.wlresources.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com *.xlovecam.com ws://www.xlovecam.com wss://stt01.wlresources.com 'self' ws://stt01.wlresources.com wss://www.xlovecam.com *.acwebconnecting.com; <b>frame-src</b> https://*.allopass.com https://www.google.com https://*.acwebconnecting.com 'self' http://*.allopass.com; <b>report-uri</b> report; <b>script-src</b> https://*.gstatic.com https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com https://www.google.com *.xlovecam.com https://d31qbv1cthcecs.cloudfront.net 'self' 'unsafe-inline' 'unsafe-eval' *.acwebconnecting.com https://d5nxst8fruw4z.cloudfront.net; <b>worker-src</b> 'self' blob:; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-06-23 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="wlresources.com
+gstatic.com
+google-analytics.com
+cloudfront.net
+acwebconnecting.com
+google.com"><pre>6</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="connect-src
++ www.xlovecam.com:9080
++ www.xlovecam.com:9443"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com *.xlovecam.com ws://www.xlovecam.com wss://stt01.wlresources.com 'self' www.xlovecam.com:9080 ws://stt01.wlresources.com wss://www.xlovecam.com www.xlovecam.com:9443 *.acwebconnecting.com; <b>frame-src</b> https://*.allopass.com https://www.google.com https://*.acwebconnecting.com 'self' http://*.allopass.com; <b>report-uri</b> report; <b>script-src</b> https://*.gstatic.com https://*.google-analytics.com *.wlresources.com http://*.google-analytics.com https://www.google.com *.xlovecam.com https://d31qbv1cthcecs.cloudfront.net 'self' 'unsafe-inline' 'unsafe-eval' *.acwebconnecting.com https://d5nxst8fruw4z.cloudfront.net; <b>worker-src</b> 'self' blob:; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

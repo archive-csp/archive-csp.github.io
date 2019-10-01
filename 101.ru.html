@@ -1,0 +1,945 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for 101.ru</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://101.ru" target="_blank">101.ru</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-19 - 2017-12-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+smi2.ru
+smi2.net
+google.com
+aticdn.net
+doubleclick.net
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>21</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> yastatic.net www.youtube.com www.instagram.com *.facebook.com vk.com *.googleapis.com 'self' *.doubleclick.net *.yandexadexchange.net facebook.com; <b>font-src</b> 'self' *.gstatic.com *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> vk.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.googlesyndication.com www.google-analytics.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.github.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-20 - 2017-12-25</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+smi2.ru
+smi2.net
+google.com
+aticdn.net
+doubleclick.net
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>21</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ *.yandex.ru
++ www.avtoradio.ru
++ blob:
+script-src
++ blob:
++ data:"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> yastatic.net www.youtube.com www.instagram.com *.facebook.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.yandexadexchange.net blob: facebook.com www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.googlesyndication.com www.google-analytics.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.github.io; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-26 - 2017-12-28</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+instagram.com
+smi2.ru
+criteo.net
+smi2.net
+marketgid.com
+google.com
+aticdn.net
+doubleclick.net
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>25</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ webvisor.com
+font-src
++ data:
+script-src
++ *.criteo.net
++ *.admonitor.ru
++ *.marketgid.com
++ *.instagram.com"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> yastatic.net webvisor.com www.youtube.com *.facebook.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.yandexadexchange.net blob: facebook.com www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.marketgid.com *.googlesyndication.com www.google-analytics.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-29 - 2018-01-08</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+instagram.com
+smi2.ru
+criteo.net
+smi2.net
+marketgid.com
+google.com
+aticdn.net
+doubleclick.net
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>25</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ *.apester.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.apester.com webvisor.com yastatic.net www.youtube.com *.facebook.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.yandexadexchange.net blob: facebook.com www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.marketgid.com *.googlesyndication.com www.google-analytics.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-09 - 2018-01-23</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+instagram.com
+smi2.ru
+criteo.net
+smi2.net
+marketgid.com
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>26</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="script-src
++ *.2mdn.net"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.apester.com webvisor.com yastatic.net www.youtube.com *.facebook.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.yandexadexchange.net blob: facebook.com www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-01-24 - 2018-02-13</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+instagram.com
+smi2.ru
+criteo.net
+smi2.net
+marketgid.com
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>26</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ youtube.com
++ *.soundcloud.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> *.apester.com *.soundcloud.com yastatic.net www.youtube.com www.instagram.com *.facebook.com webvisor.com youtube.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.yandexadexchange.net blob: facebook.com www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-02-14 - 2018-03-03</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+instagram.com
+smi2.ru
+criteo.net
+smi2.net
+marketgid.com
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>26</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ www.veseloeradio.ru"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru *.apester.com *.soundcloud.com yastatic.net www.youtube.com www.instagram.com *.facebook.com webvisor.com youtube.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.yandexadexchange.net blob: facebook.com www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>7</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-04 - 2018-03-12</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+marketgid.com
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>28</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="script-src
++ *.googleapis.com
++ www.gstatic.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru *.apester.com *.soundcloud.com yastatic.net www.youtube.com www.instagram.com *.facebook.com webvisor.com youtube.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.yandexadexchange.net blob: facebook.com www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>8</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-13 - 2018-03-15</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+marketgid.com
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>29</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ *.betweendigital.com
+script-src
++ *.betweendigital.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mail.ru *.mtdata.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>9</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-03-16 - 2018-04-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>32</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="script-src
++ *.prototypes.ru
++ *.digitalbox.ru
++ *.mradx.net"><pre>3</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>10</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-06 - 2018-04-20</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>32</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ ok.ru"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.facebook.com; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>11</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-04-21 - 2018-08-21</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+adfox.ru
+stat.media
+facebook.net"><pre>32</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="frame-ancestors
++ *.radioromantika.ru"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> 'self' vk.com *.radioromantika.ru *.facebook.com; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>12</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-08-22 - 2018-09-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+stat.media
+facebook.net"><pre>33</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="frame-ancestors
++ code.createjs.com
+script-src
++ code.createjs.com"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> *.facebook.com vk.com *.radioromantika.ru 'self' code.createjs.com; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>13</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-06 - 2018-09-26</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+stat.media
+facebook.net"><pre>33</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ premiaradiomania.ru"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com premiaradiomania.ru 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>frame-ancestors</b> *.facebook.com vk.com *.radioromantika.ru 'self' code.createjs.com; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>14</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-09-27 - 2018-10-03</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+stat.media
+facebook.net"><pre>33</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="- frame-ancestors *.facebook.com vk.com *.radioromantika.ru 'self' code.createjs.com"><pre>5</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com premiaradiomania.ru 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>15</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-04 - 2018-10-10</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+stat.media
+facebook.net"><pre>33</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ www.deti.fm"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com premiaradiomania.ru 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com www.deti.fm ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>16</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-11 - 2018-11-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+stat.media
+facebook.net
+userapi.com"><pre>34</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="script-src
++ userapi.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com premiaradiomania.ru 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com www.deti.fm ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io userapi.com *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>17</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-06 - 2018-11-22</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+googletagmanager.com
+stat.media
+facebook.net
+userapi.com"><pre>35</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="script-src
++ www.googletagmanager.com"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com premiaradiomania.ru 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com youtube.com www.deti.fm ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru www.googletagmanager.com 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io userapi.com *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>18</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-23 - 2018-11-27</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+googletagmanager.com
+stat.media
+facebook.net
+userapi.com"><pre>35</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ www.gpmradio.ru"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com premiaradiomania.ru 'self' *.yandex.ru *.doubleclick.net *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com www.gpmradio.ru youtube.com www.deti.fm ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru www.googletagmanager.com 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io userapi.com *.instagram.com; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>19</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-28 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="vk.com
+google.ru
+googlesyndication.com
+admonitor.ru
+facebook.com
+google-analytics.com
+mail.ru
+github.io
+yastatic.net
+tns-counter.ru
+betweendigital.com
+instagram.com
+smi2.ru
+googleapis.com
+criteo.net
+smi2.net
+digitalbox.ru
+marketgid.com
+mradx.net
+google.com
+aticdn.net
+2mdn.net
+doubleclick.net
+gstatic.com
+prototypes.ru
+yandex.ru
+mtdata.ru
+mirtesen.ru
+googletagservices.com
+createjs.com
+adfox.ru
+googletagmanager.com
+stat.media
+facebook.net
+userapi.com"><pre>35</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>True</pre></abbr></td>
+       <td><abbr title="child-src
++ www.radioromantika.ru"><pre>1</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>child-src</b> www.veseloeradio.ru webvisor.com www.youtube.com www.instagram.com vk.com *.googleapis.com premiaradiomania.ru 'self' *.yandex.ru *.doubleclick.net www.radioromantika.ru *.apester.com blob: facebook.com *.soundcloud.com yastatic.net *.facebook.com www.gpmradio.ru youtube.com www.deti.fm ok.ru *.betweendigital.com *.yandexadexchange.net www.avtoradio.ru; <b>font-src</b> 'self' *.gstatic.com data: *.101.ru; <b>script-src</b> data: vk.com *.googleapis.com 'self' *.yandex.ru *.doubleclick.net 'unsafe-eval' www.gstatic.com blob: *.vk.com *.google.ru yastatic.net www.tns-counter.ru www.googletagservices.com *.facebook.com smi2.ru *.aticdn.net smi2.net *.digitalbox.ru www.googletagmanager.com 'unsafe-inline' *.google.com *.google-analytics.com *.criteo.net *.mradx.net *.prototypes.ru *.marketgid.com *.googlesyndication.com www.google-analytics.com *.2mdn.net *.betweendigital.com *.smi2.net *.mirtesen.ru *.facebook.net *.101.ru *.mtdata.ru *.mail.ru stat.media *.adfox.ru *.admonitor.ru code.createjs.com *.github.io userapi.com *.instagram.com; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>

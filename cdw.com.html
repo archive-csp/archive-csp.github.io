@@ -1,0 +1,698 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>CSP Data for cdw.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
+      <style>
+      
+            .table td, .table th {
+                padding: .75rem;
+                vertical-align: top;
+                border-top: 1px solid #dee2e6;
+                text-align: inherit;
+            }
+            
+            pre {
+                margin: 0px;
+                white-space: pre-wrap;       /* css-3 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            }
+            abbr[title] {
+                border-bottom: none !important;
+                cursor: inherit !important;
+                text-decoration: none !important;
+            }
+
+      </style>
+   </head>
+   <body>
+      <h1 style="margin: 12px;">CSP Data for: <a href="http://cdw.com" target="_blank">cdw.com</a></h1>
+      <table class="table table-hover">
+          <thead>
+             <tr>
+                <th scope="col" style="min-width: 1em; max-width: 1em;">#</th>
+                <th scope="col" style="min-width: 8em; max-width: 8em;">Time Frame</th>
+                <th scope="col" style="min-width: 5em; max-width: 5em;">Framing Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">TLS Enforce</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Content Control</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">Third JS Parties</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">'unsafe-inline'</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">http / https / *</th>
+                <th scope="col" style="min-width: 6em; max-width: 6em;">data:</th>
+                <th scope="col" style="min-width: 4em; max-width: 4em;">Diffs</th>
+                <th scope="col" style="min-width: 95em; max-width: 95em;">Normalized Policy</th>
+             </tr>
+          </thead>
+      <tbody>
+    <tr>
+       <td><pre>0</pre></td>
+       <td><abbr title="Time Frame"><pre>2017-12-08 - 2018-05-04</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> *; <b>img-src</b> data: *; <b>script-src</b> * 'unsafe-eval' 'unsafe-inline'; <b>style-src</b> * 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>1</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-05-05 - 2018-10-05</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ frame-ancestors 'self' https://*.cdw.ca https://*.cdw.com https://*.cdwg.com"><pre>4</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> *; <b>frame-ancestors</b> 'self' https://*.cdw.ca https://*.cdw.com https://*.cdwg.com; <b>img-src</b> data: *; <b>script-src</b> * 'unsafe-eval' 'unsafe-inline'; <b>style-src</b> * 'unsafe-inline'; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>2</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-06 - 2018-10-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ media-src blob:
++ worker-src blob:"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> *; <b>frame-ancestors</b> 'self' https://*.cdw.ca https://*.cdw.com https://*.cdwg.com; <b>img-src</b> data: *; <b>media-src</b> blob:; <b>script-src</b> * 'unsafe-eval' 'unsafe-inline'; <b>style-src</b> * 'unsafe-inline'; <b>worker-src</b> blob:; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>3</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-10-20 - 2018-11-19</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="media-src
++ www.youtube.com
++ 'self'
++ https://*.cnetcontent.com
++ https://*.cdw.com
++ media.flixfacts.com
++ smedia.webcollage.net"><pre>6</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> *; <b>frame-ancestors</b> 'self' https://*.cdw.ca https://*.cdw.com https://*.cdwg.com; <b>img-src</b> data: *; <b>media-src</b> www.youtube.com 'self' https://*.cnetcontent.com https://*.cdw.com media.flixfacts.com blob: smedia.webcollage.net; <b>script-src</b> * 'unsafe-eval' 'unsafe-inline'; <b>style-src</b> * 'unsafe-inline'; <b>worker-src</b> blob:; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>4</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-11-20 - 2018-12-06</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="media-src
+- smedia.webcollage.net
++ https://*.webcollage.net"><pre>2</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> *; <b>frame-ancestors</b> 'self' https://*.cdw.ca https://*.cdw.com https://*.cdwg.com; <b>img-src</b> data: *; <b>media-src</b> www.youtube.com 'self' https://*.cnetcontent.com https://*.cdw.com https://*.webcollage.net media.flixfacts.com blob:; <b>script-src</b> * 'unsafe-eval' 'unsafe-inline'; <b>style-src</b> * 'unsafe-inline'; <b>worker-src</b> blob:; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>5</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-07 - 2018-12-07</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title="justuno.com
+tiekinetix.net
+bazaarvoice.com
+easy2.com
+netapp.com
+bluecore.com
+liveclicker.net
+bizographics.com
+cdwg.com
+rlcdn.com
+ads-twitter.com
+linkedin.com
+googlesyndication.com
+agkn.com
+dialogtech.com
+twimg.com
+qualtrics.com
+etilize.com
+demandbase.com
+flix360.com
+spiceworks.com
+google-analytics.com
+akamaihd.net
+cxense.com
+demdex.net
+en25.com
+googleapis.com
+jquery.com
+jsdelivr.net
+nr-data.net
+stackadapt.com
+webcollage.net
+sellpoint.net
+levexis.com
+cloudfront.net
+cdnwidget.com
+google.com
+cnetcontent.com
+bugherd.com
+amazonaws.com
+doubleclick.net
+hotjar.com
+mathtag.com
+youtube.com
+twitter.com
+cloudflare.com
+gstatic.com
+simpli.fi
+acquia.com
+sellpoints.com
+symantec.com
+cdw.ca
+pactsafe.io
+ensighten.com
+d41.co
+appspot.com
+flixfacts.com
+liadm.com
+ziftsolutions.com
+licdn.com
+bing.com
+optimizely.com
+flixcar.com
+richrelevance.com
+bounceexchange.com
+googletagservices.com
+needle.com
+googletagmanager.com
+pbbl.co
+po.st
+googleadservices.com
+ytimg.com
+facebook.net
+pippio.com
+basis.net"><pre>75</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>False</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="+ connect-src nexus.ensighten.com https://*.optimizely.com https://*.cdnbasket.net p.po.st https://*.d41.co 'self' stats.g.doubleclick.net px.spiceworks.com t.sellpoints.com www.facebook.com https://*.bazaarvoice.com ds-aksb-a.akamaihd.net www.googleadservices.com api.bluecore.com storage.googleapis.com https://*.cdw.com www.google.com www.netapp.com https://*.cdw.ca https://*.qualtrics.com events.bouncex.net tag.bounceexchange.com https://*.cdnwidget.com api.company-target.com triggeredmail.appspot.com vault.pactsafe.io cdw.needle.com https://*.justuno.com https://*.hotjar.com a.sellpoint.net bat.bing.com https://*.richrelevance.com pactsafe.io https://*.cdwg.com cdn.pbbl.co wss://*.hotjar.com nsg.symantec.com https://*.cnetcontent.com platform.twitter.com scripts.demandbase.com cdn.justuno.com https://*.liadm.com d31y97ze264gaa.cloudfront.net
++ font-src cdn.joinhoney.com cdn.cnetcontent.com data: 'self' i.icomoon.io s3.amazonaws.com maxcdn.bootstrapcdn.com fonts.googleapis.com https://*.easy2.com https://*.cdw.com 'unsafe-inline' https://*.cdw.ca media.flixsyndication.net https://*.webcollage.net media.flixfacts.com a.sellpoint.net https://*.cdwg.com static.ziftsolutions.com media.flixcar.com
++ report-uri report
++ frame-src cyberpower.advizia.com www.youtube.com pixel.mathtag.com powerquality.eaton.com total-micro.com player.liveclicker.com assets.bounceexchange.com 'self' sites.ziftsolutions.com vars.hotjar.com selector.3m.net https://*.doubleclick.net i.liadm.com www.zebra.com www.ec.kingston.com selectors.easy2.com www.facebook.com cc.cnetcontent.com selectors.cnetcontentsolutions.com https://*.bazaarvoice.com connect.c2g.com pages.cdwemail.com scdn.cxense.com b2b.orderingmemory.com www.tripplite.com https://*.cdw.com cdw.co1.qualtrics.com https://*.cdw.ca www.axiomupgrades.com wcs-cdw.swcontentsyndication.com expertswhogetit.ca siteintercept.qualtrics.com www.securworldsource.com www.emjcd.com www.edgememory.com a.sellpoint.net www.cdwfinder.com pct1.sandisk.com cdw.mountfinder.com https://*.ergotron.com privacyscreens.info https://*.cdwg.com https://*.dotomi.com/ googletagservices.com media.flixcar.com nsg.symantec.com rs.gwallet.com googletagmanager.com content.etilize.com id.rlcdn.com https://*.twitter.com
++ object-src 'self' a.sellpoint.net
+default-src
+- *
++ 'self'
+worker-src
++ 'self'
+img-src
+- *
++ ads.stickyadstv.com
++ nexus.ensighten.com
++ cdn.cnetcontent.com
++ https://*.mathtag.co
++ https://*.advertising.com
++ 'self'
++ i.liadm.com
++ https://*.reson8.com
++ px.spiceworks.com
++ https://*.bounceexchange.com
++ www.facebook.com
++ cc.cnetcontent.com
++ https://*.bazaarvoice.com
++ ds-aksb-a.akamaihd.net
++ clickserv.sitescout.com
++ geo-um.btrll.com
++ s3.amazonaws.com
++ us-gmtdmp.mookie1.com
++ https://*.casalemedia.com
++ um.simpli.fi
++ ads.yahoo.com
++ cdn.optimizely.com
++ https://*.cdw.com
++ www.netapp.com
++ k.intellitxt.com
++ https://*.cdw.ca
++ assets-jpcust.jwpsrv.com
++ e.nexac.com
++ events.bouncex.net
++ sync.fastclick.net
++ t.co
++ b.scorecardresearch.com
++ https://*.cdnwidget.com
++ magnetic.t.domdex.com
++ px0.pbbl.co
++ https://*.prod.bidr.io
++ sync.tidaltv.com
++ p.adsymptotic.com
++ d.company-target.com
++ clickserv.basis.net
++ image2.pubmatic.com
++ https://*.dotomi.com
++ media.flixfacts.com
++ scomcluster.cxense.com
++ crossmetrix.com
++ segments.company-target.com
++ a.sellpoint.net
++ https://*.twimg.com
++ www.google-analytics.com
++ pactsafe.io
++ https://*.cloudfront.net
++ rt.flix360.com
++ https://*.cdwg.com
++ https://*.linksynergy.com
++ nsg.symantec.com
++ st2.dialogtech.com
++ ads.undertone.com
++ pixel.everesttech.net
++ x.bidswitch.net
++ sync.search.spotxchange.com
++ www.bluecore.com
++ http://cdn.cnetcontent.com
++ platform.twitter.com
++ https://*.adnxs.com
++ www.google.co.in
++ pippio.com
++ px.gumgum.com
++ https://google.comci6thbirciciarderrogotgxnja1nwi1yzfhnzk2ndq1zwmznjazyjhlnzrknzgqaboocnwrnoafegyiosieeabcaeoa/
++ partners.tremorhub.com
++ https://*.mathtag.com
++ www.siliconanalytics.com
++ contextual.media.net
++ adfarm.mediaplex.com
++ p.univide.com
++ https://*.doubleclick.net
++ pixel.rubiconproject.com
++ t.sellpoints.com
++ selectors.cnetcontentsolutions.com
++ secure.insightexpressai.com
++ us-u.openx.net
++ https://*.easy2.com
++ https://*.rfihub.com
++ https://*.amgdgt.com
++ insight.adsrvr.org
++ https://*.qualtrics.com
++ zdbb.net
++ https://*.googletagmanager.com
++ vault.pactsafe.io
++ https://*.turn.com
++ https://*.linkedin.com
++ aa.agkn.com
++ syndication.twitter.com
++ https://*.webcollage.net
++ loadm.exelator.com
++ bat.bing.com
++ https://*.tribalfusion.com
++ ad.afy11.net
++ i6a339b00-ds-aksb-a.akamaihd.net
++ c.liadm.com
++ match.prod.bidr.io
++ static.ziftsolutions.com
++ https://*.rlcdn.com
++ https://*.bluekai.com
++ dpm.demdex.net
++ bh.contextweb.com
++ https://*.addthis.com
++ https://*.google.com
++ media.flixcar.com
++ sync-tm.everesttech.net
++ r.casalemedia.com
++ graphics.justuno.com
++ cdw-prod.adobecqms.net
+style-src
+- *
++ cdn.cnetcontent.com
++ cdw.needle.com
++ platform.twitter.com
++ 'self'
++ https://*.webcollage.net
++ a.sellpoint.net
++ ton.twimg.com
++ t.sellpoints.com
++ https://*.bazaarvoice.com
++ s3.amazonaws.com
++ https://*.cdwg.com
++ maxcdn.bootstrapcdn.com
++ static.ziftsolutions.com
++ media.flixcar.com
++ https://*.easy2.com
++ https://*.cdw.com
++ https://*.cdw.ca
++ cdn.justuno.com
+script-src
+- *
++ connect.facebook.net
++ nexus.ensighten.com
++ analytics.po.st
++ https://*.optimizely.com
++ pixel.mathtag.com
++ www.youtube.com
++ https://*.d41.co
++ 'self'
++ s.ytimg.com
++ px.spiceworks.com
++ st1.dialogtech.com
++ https://*.bounceexchange.com
++ https://*.bazaarvoice.com
++ ds-aksb-a.akamaihd.net
++ dnjs.cloudflare.com
++ s3.amazonaws.com
++ api.bluecore.com
++ pagead2.googlesyndication.com
++ storage.googleapis.com
++ https://*.cdw.com
++ pubads.g.doubleclick.net
++ securepubads.g.doubleclick.net
++ www.netapp.com
++ https://*.cdw.ca
++ bugherd.com
++ sc.liveclicker.net
++ triggeredmail.appspot.com
++ https://*.syndication.tiekinetix.net
++ cdnjs.cloudflare.com
++ media.flixfacts.com
++ a.sellpoint.net
++ pactsafe.io
++ code.jquery.com
++ img03.en25.com
++ https://*.cdwg.com
++ https://*.cxense.com
++ sec.levexis.com
++ googletagservices.com
++ nsg.symantec.com
++ googletagmanager.com
++ so.rlcdn.com
++ pippio.com
++ d31y97ze264gaa.cloudfront.net
++ bam.nr-data.net
++ bluecore.com
++ cdn.syndication.twimg.com
++ ecdn.liveclicker.net
++ b-code.liadm.com
++ t.sellpoints.com
++ www.googleadservices.com
++ ajax.googleapis.com
++ https://*.ziftsolutions.com
++ https://*.easy2.com
++ www.googletagmanager.com
++ www.google.com
++ https://*.qualtrics.com
++ https://*.google-analytics.com
++ pixel.cdnwidget.com
++ vault.pactsafe.io
++ t.flix360.com
++ cdw.needle.com
++ tags.srv.stackadapt.com
++ gstatic.com
++ static.ads-twitter.com
++ aa.agkn.com
++ googleads.g.doubleclick.net
++ cdn.jsdelivr.net
++ https://*.justuno.com
++ https://*.hotjar.com
++ https://*.webcollage.net
++ https://*.acquia.com
++ snap.licdn.com
++ bat.bing.com
++ https://*.richrelevance.com
++ https://*.simpli.fi
++ dpm.demdex.net
++ cdn.pbbl.co
++ sjs.bizographics.com
++ media.flixcar.com
++ https://*.cnetcontent.com
++ 4558453.fls.doubleclick.net
++ https://*.basis.net
++ po.st
++ content.etilize.com
++ scripts.demandbase.com
++ https://*.twitter.com
++ px.ads.linkedin.com"><pre>339</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>connect-src</b> nexus.ensighten.com https://*.optimizely.com https://*.cdnbasket.net p.po.st https://*.d41.co 'self' stats.g.doubleclick.net px.spiceworks.com t.sellpoints.com www.facebook.com https://*.bazaarvoice.com ds-aksb-a.akamaihd.net www.googleadservices.com api.bluecore.com storage.googleapis.com https://*.cdw.com www.google.com www.netapp.com https://*.cdw.ca https://*.qualtrics.com events.bouncex.net tag.bounceexchange.com https://*.cdnwidget.com api.company-target.com triggeredmail.appspot.com vault.pactsafe.io cdw.needle.com https://*.justuno.com https://*.hotjar.com a.sellpoint.net bat.bing.com https://*.richrelevance.com pactsafe.io https://*.cdwg.com cdn.pbbl.co wss://*.hotjar.com nsg.symantec.com https://*.cnetcontent.com platform.twitter.com scripts.demandbase.com cdn.justuno.com https://*.liadm.com d31y97ze264gaa.cloudfront.net; <b>default-src</b> 'self'; <b>font-src</b> cdn.joinhoney.com cdn.cnetcontent.com data: 'self' i.icomoon.io s3.amazonaws.com maxcdn.bootstrapcdn.com fonts.googleapis.com https://*.easy2.com https://*.cdw.com 'unsafe-inline' https://*.cdw.ca media.flixsyndication.net https://*.webcollage.net media.flixfacts.com a.sellpoint.net https://*.cdwg.com static.ziftsolutions.com media.flixcar.com; <b>frame-ancestors</b> 'self' https://*.cdw.ca https://*.cdw.com https://*.cdwg.com; <b>frame-src</b> cyberpower.advizia.com www.youtube.com pixel.mathtag.com powerquality.eaton.com total-micro.com player.liveclicker.com assets.bounceexchange.com 'self' sites.ziftsolutions.com vars.hotjar.com selector.3m.net https://*.doubleclick.net i.liadm.com www.zebra.com www.ec.kingston.com selectors.easy2.com www.facebook.com cc.cnetcontent.com selectors.cnetcontentsolutions.com https://*.bazaarvoice.com connect.c2g.com pages.cdwemail.com scdn.cxense.com b2b.orderingmemory.com www.tripplite.com https://*.cdw.com cdw.co1.qualtrics.com https://*.cdw.ca www.axiomupgrades.com wcs-cdw.swcontentsyndication.com expertswhogetit.ca siteintercept.qualtrics.com www.securworldsource.com www.emjcd.com www.edgememory.com a.sellpoint.net www.cdwfinder.com pct1.sandisk.com cdw.mountfinder.com https://*.ergotron.com privacyscreens.info https://*.cdwg.com https://*.dotomi.com/ googletagservices.com media.flixcar.com nsg.symantec.com rs.gwallet.com googletagmanager.com content.etilize.com id.rlcdn.com https://*.twitter.com; <b>img-src</b> ads.stickyadstv.com nexus.ensighten.com cdn.cnetcontent.com cc.cnetcontent.com https://*.bazaarvoice.com ds-aksb-a.akamaihd.net clickserv.sitescout.com geo-um.btrll.com s3.amazonaws.com https://*.cdw.com k.intellitxt.com assets-jpcust.jwpsrv.com t.co https://*.prod.bidr.io sync.tidaltv.com image2.pubmatic.com https://*.dotomi.com scomcluster.cxense.com crossmetrix.com www.google-analytics.com nsg.symantec.com st2.dialogtech.com ads.undertone.com pixel.everesttech.net x.bidswitch.net sync.search.spotxchange.com www.bluecore.com http://cdn.cnetcontent.com platform.twitter.com https://google.comci6thbirciciarderrogotgxnja1nwi1yzfhnzk2ndq1zwmznjazyjhlnzrknzgqaboocnwrnoafegyiosieeabcaeoa/ data: https://*.mathtag.com contextual.media.net adfarm.mediaplex.com p.univide.com selectors.cnetcontentsolutions.com us-u.openx.net https://*.easy2.com https://*.rfihub.com https://*.amgdgt.com https://*.qualtrics.com zdbb.net https://*.googletagmanager.com vault.pactsafe.io https://*.turn.com https://*.webcollage.net loadm.exelator.com ad.afy11.net match.prod.bidr.io static.ziftsolutions.com https://*.rlcdn.com https://*.bluekai.com dpm.demdex.net media.flixcar.com sync-tm.everesttech.net https://*.mathtag.co https://*.advertising.com 'self' i.liadm.com https://*.reson8.com px.spiceworks.com https://*.bounceexchange.com www.facebook.com us-gmtdmp.mookie1.com https://*.casalemedia.com um.simpli.fi ads.yahoo.com cdn.optimizely.com www.netapp.com https://*.cdw.ca e.nexac.com events.bouncex.net sync.fastclick.net b.scorecardresearch.com https://*.cdnwidget.com magnetic.t.domdex.com px0.pbbl.co p.adsymptotic.com d.company-target.com clickserv.basis.net media.flixfacts.com segments.company-target.com a.sellpoint.net https://*.twimg.com pactsafe.io https://*.cloudfront.net rt.flix360.com https://*.cdwg.com https://*.linksynergy.com https://*.adnxs.com www.google.co.in pippio.com px.gumgum.com partners.tremorhub.com www.siliconanalytics.com https://*.doubleclick.net pixel.rubiconproject.com t.sellpoints.com secure.insightexpressai.com insight.adsrvr.org https://*.linkedin.com aa.agkn.com syndication.twitter.com bat.bing.com https://*.tribalfusion.com i6a339b00-ds-aksb-a.akamaihd.net c.liadm.com bh.contextweb.com https://*.addthis.com https://*.google.com r.casalemedia.com graphics.justuno.com cdw-prod.adobecqms.net; <b>media-src</b> www.youtube.com 'self' https://*.cnetcontent.com https://*.cdw.com https://*.webcollage.net media.flixfacts.com blob:; <b>object-src</b> 'self' a.sellpoint.net; <b>report-uri</b> report; <b>script-src</b> nexus.ensighten.com https://*.optimizely.com st1.dialogtech.com https://*.bazaarvoice.com ds-aksb-a.akamaihd.net s3.amazonaws.com pagead2.googlesyndication.com storage.googleapis.com https://*.cdw.com pubads.g.doubleclick.net securepubads.g.doubleclick.net bugherd.com triggeredmail.appspot.com img03.en25.com sec.levexis.com nsg.symantec.com googletagmanager.com bam.nr-data.net bluecore.com ecdn.liveclicker.net https://*.ziftsolutions.com https://*.easy2.com www.googletagmanager.com 'unsafe-inline' https://*.qualtrics.com pixel.cdnwidget.com vault.pactsafe.io tags.srv.stackadapt.com googleads.g.doubleclick.net https://*.hotjar.com https://*.webcollage.net https://*.acquia.com snap.licdn.com dpm.demdex.net sjs.bizographics.com media.flixcar.com 4558453.fls.doubleclick.net https://*.basis.net po.st content.etilize.com scripts.demandbase.com connect.facebook.net analytics.po.st pixel.mathtag.com www.youtube.com https://*.d41.co 'self' s.ytimg.com px.spiceworks.com https://*.bounceexchange.com dnjs.cloudflare.com api.bluecore.com www.netapp.com https://*.cdw.ca sc.liveclicker.net https://*.syndication.tiekinetix.net cdnjs.cloudflare.com media.flixfacts.com a.sellpoint.net pactsafe.io code.jquery.com https://*.cdwg.com https://*.cxense.com googletagservices.com so.rlcdn.com pippio.com d31y97ze264gaa.cloudfront.net cdn.syndication.twimg.com 'unsafe-eval' b-code.liadm.com t.sellpoints.com www.googleadservices.com ajax.googleapis.com www.google.com https://*.google-analytics.com t.flix360.com cdw.needle.com gstatic.com static.ads-twitter.com aa.agkn.com cdn.jsdelivr.net https://*.justuno.com bat.bing.com https://*.richrelevance.com https://*.simpli.fi cdn.pbbl.co https://*.cnetcontent.com https://*.twitter.com px.ads.linkedin.com; <b>style-src</b> cdn.cnetcontent.com 'self' ton.twimg.com t.sellpoints.com https://*.bazaarvoice.com s3.amazonaws.com maxcdn.bootstrapcdn.com https://*.easy2.com https://*.cdw.com 'unsafe-inline' https://*.cdw.ca cdw.needle.com https://*.webcollage.net a.sellpoint.net https://*.cdwg.com static.ziftsolutions.com media.flixcar.com platform.twitter.com cdn.justuno.com; <b>worker-src</b> 'self' blob:; </pre></abbr></td>
+    </tr>
+
+    <tr>
+       <td><pre>6</pre></td>
+       <td><abbr title="Time Frame"><pre>2018-12-08 - END</pre></abbr></td>
+       <td><abbr title="Is Framing Control?"><pre>True</pre></abbr></td>
+       <td><abbr title="Is TLS Enforcement?"><pre>False</pre></abbr></td>
+       <td><abbr title="Is Content Restriction?"><pre>True</pre></abbr></td>
+       <td><abbr title=""><pre>0</pre></abbr></td>
+       <td><abbr title="Has 'unsafe-inline' without hashes/nonces"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted whole schemata"><pre>True</pre></abbr></td>
+       <td><abbr title="Has whitelisted data URIs"><pre>False</pre></abbr></td>
+       <td><abbr title="- connect-src nexus.ensighten.com https://*.optimizely.com https://*.cdnbasket.net p.po.st https://*.d41.co 'self' stats.g.doubleclick.net px.spiceworks.com t.sellpoints.com www.facebook.com https://*.bazaarvoice.com ds-aksb-a.akamaihd.net www.googleadservices.com api.bluecore.com storage.googleapis.com https://*.cdw.com www.google.com www.netapp.com https://*.cdw.ca https://*.qualtrics.com events.bouncex.net tag.bounceexchange.com https://*.cdnwidget.com api.company-target.com triggeredmail.appspot.com vault.pactsafe.io cdw.needle.com https://*.justuno.com https://*.hotjar.com a.sellpoint.net bat.bing.com https://*.richrelevance.com pactsafe.io https://*.cdwg.com cdn.pbbl.co wss://*.hotjar.com nsg.symantec.com https://*.cnetcontent.com platform.twitter.com scripts.demandbase.com cdn.justuno.com https://*.liadm.com d31y97ze264gaa.cloudfront.net
+- font-src cdn.joinhoney.com cdn.cnetcontent.com data: 'self' i.icomoon.io s3.amazonaws.com maxcdn.bootstrapcdn.com fonts.googleapis.com https://*.easy2.com https://*.cdw.com 'unsafe-inline' https://*.cdw.ca media.flixsyndication.net https://*.webcollage.net media.flixfacts.com a.sellpoint.net https://*.cdwg.com static.ziftsolutions.com media.flixcar.com
+- report-uri report
+- frame-src cyberpower.advizia.com www.youtube.com pixel.mathtag.com powerquality.eaton.com total-micro.com player.liveclicker.com assets.bounceexchange.com 'self' sites.ziftsolutions.com vars.hotjar.com selector.3m.net https://*.doubleclick.net i.liadm.com www.zebra.com www.ec.kingston.com selectors.easy2.com www.facebook.com cc.cnetcontent.com selectors.cnetcontentsolutions.com https://*.bazaarvoice.com connect.c2g.com pages.cdwemail.com scdn.cxense.com b2b.orderingmemory.com www.tripplite.com https://*.cdw.com cdw.co1.qualtrics.com https://*.cdw.ca www.axiomupgrades.com wcs-cdw.swcontentsyndication.com expertswhogetit.ca siteintercept.qualtrics.com www.securworldsource.com www.emjcd.com www.edgememory.com a.sellpoint.net www.cdwfinder.com pct1.sandisk.com cdw.mountfinder.com https://*.ergotron.com privacyscreens.info https://*.cdwg.com https://*.dotomi.com/ googletagservices.com media.flixcar.com nsg.symantec.com rs.gwallet.com googletagmanager.com content.etilize.com id.rlcdn.com https://*.twitter.com
+- object-src 'self' a.sellpoint.net
+default-src
+- 'self'
++ *
+worker-src
+- 'self'
+img-src
+- ads.stickyadstv.com
+- nexus.ensighten.com
+- cdn.cnetcontent.com
+- https://*.mathtag.co
+- https://*.advertising.com
+- 'self'
+- i.liadm.com
+- https://*.reson8.com
+- px.spiceworks.com
+- https://*.bounceexchange.com
+- www.facebook.com
+- cc.cnetcontent.com
+- https://*.bazaarvoice.com
+- ds-aksb-a.akamaihd.net
+- clickserv.sitescout.com
+- geo-um.btrll.com
+- s3.amazonaws.com
+- us-gmtdmp.mookie1.com
+- https://*.casalemedia.com
+- um.simpli.fi
+- ads.yahoo.com
+- cdn.optimizely.com
+- https://*.cdw.com
+- www.netapp.com
+- k.intellitxt.com
+- https://*.cdw.ca
+- assets-jpcust.jwpsrv.com
+- e.nexac.com
+- events.bouncex.net
+- sync.fastclick.net
+- t.co
+- b.scorecardresearch.com
+- https://*.cdnwidget.com
+- magnetic.t.domdex.com
+- px0.pbbl.co
+- https://*.prod.bidr.io
+- sync.tidaltv.com
+- p.adsymptotic.com
+- d.company-target.com
+- clickserv.basis.net
+- image2.pubmatic.com
+- https://*.dotomi.com
+- media.flixfacts.com
+- scomcluster.cxense.com
+- crossmetrix.com
+- segments.company-target.com
+- a.sellpoint.net
+- https://*.twimg.com
+- www.google-analytics.com
+- pactsafe.io
+- https://*.cloudfront.net
+- rt.flix360.com
+- https://*.cdwg.com
+- https://*.linksynergy.com
+- nsg.symantec.com
+- st2.dialogtech.com
+- ads.undertone.com
+- pixel.everesttech.net
+- x.bidswitch.net
+- sync.search.spotxchange.com
+- www.bluecore.com
+- http://cdn.cnetcontent.com
+- platform.twitter.com
+- https://*.adnxs.com
+- www.google.co.in
+- pippio.com
+- px.gumgum.com
+- https://google.comci6thbirciciarderrogotgxnja1nwi1yzfhnzk2ndq1zwmznjazyjhlnzrknzgqaboocnwrnoafegyiosieeabcaeoa/
+- partners.tremorhub.com
+- https://*.mathtag.com
+- www.siliconanalytics.com
+- contextual.media.net
+- adfarm.mediaplex.com
+- p.univide.com
+- https://*.doubleclick.net
+- pixel.rubiconproject.com
+- t.sellpoints.com
+- selectors.cnetcontentsolutions.com
+- secure.insightexpressai.com
+- us-u.openx.net
+- https://*.easy2.com
+- https://*.rfihub.com
+- https://*.amgdgt.com
+- insight.adsrvr.org
+- https://*.qualtrics.com
+- zdbb.net
+- https://*.googletagmanager.com
+- vault.pactsafe.io
+- https://*.turn.com
+- https://*.linkedin.com
+- aa.agkn.com
+- syndication.twitter.com
+- https://*.webcollage.net
+- loadm.exelator.com
+- bat.bing.com
+- https://*.tribalfusion.com
+- ad.afy11.net
+- i6a339b00-ds-aksb-a.akamaihd.net
+- c.liadm.com
+- match.prod.bidr.io
+- static.ziftsolutions.com
+- https://*.rlcdn.com
+- https://*.bluekai.com
+- dpm.demdex.net
+- bh.contextweb.com
+- https://*.addthis.com
+- https://*.google.com
+- media.flixcar.com
+- sync-tm.everesttech.net
+- r.casalemedia.com
+- graphics.justuno.com
+- cdw-prod.adobecqms.net
++ *
+style-src
+- cdn.cnetcontent.com
+- cdw.needle.com
+- platform.twitter.com
+- 'self'
+- https://*.webcollage.net
+- a.sellpoint.net
+- ton.twimg.com
+- t.sellpoints.com
+- https://*.bazaarvoice.com
+- s3.amazonaws.com
+- https://*.cdwg.com
+- maxcdn.bootstrapcdn.com
+- static.ziftsolutions.com
+- media.flixcar.com
+- https://*.easy2.com
+- https://*.cdw.com
+- https://*.cdw.ca
+- cdn.justuno.com
++ *
+script-src
+- connect.facebook.net
+- nexus.ensighten.com
+- analytics.po.st
+- https://*.optimizely.com
+- pixel.mathtag.com
+- www.youtube.com
+- https://*.d41.co
+- 'self'
+- s.ytimg.com
+- px.spiceworks.com
+- st1.dialogtech.com
+- https://*.bounceexchange.com
+- https://*.bazaarvoice.com
+- ds-aksb-a.akamaihd.net
+- dnjs.cloudflare.com
+- s3.amazonaws.com
+- api.bluecore.com
+- pagead2.googlesyndication.com
+- storage.googleapis.com
+- https://*.cdw.com
+- pubads.g.doubleclick.net
+- securepubads.g.doubleclick.net
+- www.netapp.com
+- https://*.cdw.ca
+- bugherd.com
+- sc.liveclicker.net
+- triggeredmail.appspot.com
+- https://*.syndication.tiekinetix.net
+- cdnjs.cloudflare.com
+- media.flixfacts.com
+- a.sellpoint.net
+- pactsafe.io
+- code.jquery.com
+- img03.en25.com
+- https://*.cdwg.com
+- https://*.cxense.com
+- sec.levexis.com
+- googletagservices.com
+- nsg.symantec.com
+- googletagmanager.com
+- so.rlcdn.com
+- pippio.com
+- d31y97ze264gaa.cloudfront.net
+- bam.nr-data.net
+- bluecore.com
+- cdn.syndication.twimg.com
+- ecdn.liveclicker.net
+- b-code.liadm.com
+- t.sellpoints.com
+- www.googleadservices.com
+- ajax.googleapis.com
+- https://*.ziftsolutions.com
+- https://*.easy2.com
+- www.googletagmanager.com
+- www.google.com
+- https://*.qualtrics.com
+- https://*.google-analytics.com
+- pixel.cdnwidget.com
+- vault.pactsafe.io
+- t.flix360.com
+- cdw.needle.com
+- tags.srv.stackadapt.com
+- gstatic.com
+- static.ads-twitter.com
+- aa.agkn.com
+- googleads.g.doubleclick.net
+- cdn.jsdelivr.net
+- https://*.justuno.com
+- https://*.hotjar.com
+- https://*.webcollage.net
+- https://*.acquia.com
+- snap.licdn.com
+- bat.bing.com
+- https://*.richrelevance.com
+- https://*.simpli.fi
+- dpm.demdex.net
+- cdn.pbbl.co
+- sjs.bizographics.com
+- media.flixcar.com
+- https://*.cnetcontent.com
+- 4558453.fls.doubleclick.net
+- https://*.basis.net
+- po.st
+- content.etilize.com
+- scripts.demandbase.com
+- https://*.twitter.com
+- px.ads.linkedin.com
++ *"><pre>339</pre></abbr></td>
+       <td style="min-width: 20em; max-width: 20em;"><abbr title="Normalized CSP"><pre><b>default-src</b> *; <b>frame-ancestors</b> 'self' https://*.cdw.ca https://*.cdw.com https://*.cdwg.com; <b>img-src</b> data: *; <b>media-src</b> www.youtube.com 'self' https://*.cnetcontent.com https://*.cdw.com https://*.webcollage.net media.flixfacts.com blob:; <b>script-src</b> * 'unsafe-eval' 'unsafe-inline'; <b>style-src</b> * 'unsafe-inline'; <b>worker-src</b> blob:; </pre></abbr></td>
+    </tr>
+</tbody></table></body></html>
